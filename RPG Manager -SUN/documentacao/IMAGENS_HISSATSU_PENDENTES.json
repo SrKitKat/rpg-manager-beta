@@ -1,0 +1,1867 @@
+[
+  {
+    "id": "suisei-shoot",
+    "nome": "Suisei Shoot",
+    "estadoCuradoria": "revisar",
+    "paginaWiki": "Suisei Shoot",
+    "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Suisei_Shoot",
+    "motivo": "Nenhuma nova candidata atingiu os critérios mínimos.",
+    "candidatas": [
+      {
+        "tituloArquivo": "File:(2013) Suisei Shoot preview.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/2/2f/%282013%29_Suisei_Shoot_preview.png/revision/latest?cb=20240915114001",
+        "largura": 164,
+        "altura": 92,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Suisei Shoot",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(VR) Suisei Shoot.mp4",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/4/4b/%28VR%29_Suisei_Shoot.mp4/revision/latest?cb=20260329100406",
+        "largura": 1280,
+        "altura": 720,
+        "mime": "video/mp4",
+        "pontos": 4,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Suisei Shoot",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "formato não é imagem (video/mp4)",
+          "pontuação 4 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:-Inazuma Eleven SD- Suisei Shoot - Kisaragi Mako",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/5/5a/-Inazuma_Eleven_SD-_Suisei_Shoot_-_Kisaragi_Mako/revision/latest?cb=20220701132225",
+        "largura": 480,
+        "altura": 360,
+        "mime": "video/youtube",
+        "pontos": 0,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Suisei Shoot",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "formato não é imagem (video/youtube)",
+          "pontuação 0 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE2) Versions logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/cd/%28IE2%29_Versions_logo.png/revision/latest?cb=20250115194023",
+        "largura": 597,
+        "altura": 370,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE3) Versions logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/e2/%28IE3%29_Versions_logo.png/revision/latest?cb=20250115193533",
+        "largura": 512,
+        "altura": 300,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(2013) Logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/8/8a/%282013%29_Logo.png/revision/latest?cb=20230723141817",
+        "largura": 480,
+        "altura": 328,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(2012) Logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/e8/%282012%29_Logo.png/revision/latest?cb=20211025194231",
+        "largura": 480,
+        "altura": 328,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(VR) Logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/ea/%28VR%29_Logo.png/revision/latest?cb=20220721124845",
+        "largura": 571,
+        "altura": 416,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "noroi",
+    "nome": "Noroi",
+    "estadoCuradoria": "revisar",
+    "paginaWiki": "Noroi",
+    "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Noroi",
+    "motivo": "Nenhuma nova candidata atingiu os critérios mínimos.",
+    "candidatas": [
+      {
+        "tituloArquivo": "File:Noroi 1.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/b/b4/Noroi_1.png/revision/latest?cb=20130425152308",
+        "largura": 256,
+        "altura": 190,
+        "mime": "image/png",
+        "pontos": 62,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Noroi",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Noroi 2.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/e8/Noroi_2.png/revision/latest?cb=20130425152320",
+        "largura": 254,
+        "altura": 191,
+        "mime": "image/png",
+        "pontos": 62,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Noroi",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Noroi 3.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/ec/Noroi_3.png/revision/latest?cb=20130425152353",
+        "largura": 254,
+        "altura": 190,
+        "mime": "image/png",
+        "pontos": 62,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Noroi",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Noroi 4.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/8/83/Noroi_4.png/revision/latest?cb=20130425152406",
+        "largura": 255,
+        "altura": 190,
+        "mime": "image/png",
+        "pontos": 62,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Noroi",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Noroi 5.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/1/15/Noroi_5.png/revision/latest?cb=20130425152419",
+        "largura": 255,
+        "altura": 190,
+        "mime": "image/png",
+        "pontos": 62,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Noroi",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Noroi 6.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/4/4d/Noroi_6.png/revision/latest?cb=20130425152430",
+        "largura": 255,
+        "altura": 191,
+        "mime": "image/png",
+        "pontos": 62,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Noroi",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Noroi 7.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/f/f4/Noroi_7.png/revision/latest?cb=20130425152439",
+        "largura": 255,
+        "altura": 189,
+        "mime": "image/png",
+        "pontos": 62,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Noroi",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Noroi 8.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/0/0e/Noroi_8.png/revision/latest?cb=20130425152457",
+        "largura": 254,
+        "altura": 190,
+        "mime": "image/png",
+        "pontos": 62,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Noroi",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "magic",
+    "nome": "Magic",
+    "estadoCuradoria": "revisar",
+    "paginaWiki": "Magic",
+    "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Magic",
+    "motivo": "Nenhuma nova candidata atingiu os critérios mínimos.",
+    "candidatas": [
+      {
+        "tituloArquivo": "File:(VR) Magic.mp4",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/0/05/%28VR%29_Magic.mp4/revision/latest?cb=20260329095040",
+        "largura": 1280,
+        "altura": 720,
+        "mime": "video/mp4",
+        "pontos": -8,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Magic",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "formato não é imagem (video/mp4)",
+          "pontuação -8 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:-Inazuma Eleven SD- Magic - Unvoiced",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/2/2d/-Inazuma_Eleven_SD-_Magic_-_Unvoiced/revision/latest?cb=20220701131416",
+        "largura": 480,
+        "altura": 360,
+        "mime": "video/youtube",
+        "pontos": -12,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Magic",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "formato não é imagem (video/youtube)",
+          "pontuação -12 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE2) Versions logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/cd/%28IE2%29_Versions_logo.png/revision/latest?cb=20250115194023",
+        "largura": 597,
+        "altura": 370,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE3) Versions logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/e2/%28IE3%29_Versions_logo.png/revision/latest?cb=20250115193533",
+        "largura": 512,
+        "altura": 300,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Ei.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/3/38/Ei.png/revision/latest?cb=20240215092607",
+        "largura": 64,
+        "altura": 64,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "relação fraca com o nome da Hissatsu",
+          "formato não horizontal",
+          "resolução abaixo do mínimo",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Aroma Rhineford.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/9/97/Aroma_Rhineford.png/revision/latest?cb=20231231133605",
+        "largura": 64,
+        "altura": 64,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "relação fraca com o nome da Hissatsu",
+          "formato não horizontal",
+          "resolução abaixo do mínimo",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Anthony Feruzen.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/4/4a/Anthony_Feruzen.png/revision/latest?cb=20231231133824",
+        "largura": 64,
+        "altura": 64,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "relação fraca com o nome da Hissatsu",
+          "formato não horizontal",
+          "resolução abaixo do mínimo",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(VR) Logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/ea/%28VR%29_Logo.png/revision/latest?cb=20220721124845",
+        "largura": 571,
+        "altura": 416,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "super-scan",
+    "nome": "Super Scan",
+    "estadoCuradoria": "revisar",
+    "paginaWiki": "Super Scan (OF)",
+    "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Super_Scan_(OF)",
+    "motivo": "Nenhuma nova candidata atingiu os critérios mínimos.",
+    "candidatas": [
+      {
+        "tituloArquivo": "File:(SD) Super Scan (OF (SD version)).jpg",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/ed/%28SD%29_Super_Scan_%28OF_%28SD_version%29%29.jpg/revision/latest?cb=20200123110506",
+        "largura": 1536,
+        "altura": 2048,
+        "mime": "image/jpeg",
+        "pontos": 64,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Super Scan",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "formato não horizontal"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(VR) Super Scan (OF).mp4",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/1/18/%28VR%29_Super_Scan_%28OF%29.mp4/revision/latest?cb=20260329100432",
+        "largura": 1280,
+        "altura": 720,
+        "mime": "video/mp4",
+        "pontos": 4,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Super Scan",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "formato não é imagem (video/mp4)",
+          "pontuação 4 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:-Inazuma Eleven SD- Super Scan (OF) OG - Unvoiced",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/b/b5/-Inazuma_Eleven_SD-_Super_Scan_%28OF%29_OG_-_Unvoiced/revision/latest?cb=20220630193801",
+        "largura": 480,
+        "altura": 360,
+        "mime": "video/youtube",
+        "pontos": 0,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Super Scan",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "formato não é imagem (video/youtube)",
+          "pontuação 0 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:-Inazuma Eleven SD- Super Scan (OF) AO - Unvoiced",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/e4/-Inazuma_Eleven_SD-_Super_Scan_%28OF%29_AO_-_Unvoiced/revision/latest?cb=20220725134826",
+        "largura": 480,
+        "altura": 360,
+        "mime": "video/youtube",
+        "pontos": 0,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Super Scan",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "formato não é imagem (video/youtube)",
+          "pontuação 0 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE2) Versions logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/cd/%28IE2%29_Versions_logo.png/revision/latest?cb=20250115194023",
+        "largura": 597,
+        "altura": 370,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE3) Versions logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/e2/%28IE3%29_Versions_logo.png/revision/latest?cb=20250115193533",
+        "largura": 512,
+        "altura": 300,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Chelmey Bronson.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/0/0a/Chelmey_Bronson.png/revision/latest?cb=20231231133742",
+        "largura": 64,
+        "altura": 64,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "relação fraca com o nome da Hissatsu",
+          "formato não horizontal",
+          "resolução abaixo do mínimo",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(VR) Logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/ea/%28VR%29_Logo.png/revision/latest?cb=20220721124845",
+        "largura": 571,
+        "altura": 416,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tornado-catch",
+    "nome": "Tornado Catch",
+    "estadoCuradoria": "revisar",
+    "paginaWiki": "Tornado Catch",
+    "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Tornado_Catch",
+    "motivo": "Nenhuma nova candidata atingiu os critérios mínimos.",
+    "candidatas": [
+      {
+        "tituloArquivo": "File:Tornado Catch 1.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/0/09/Tornado_Catch_1.png/revision/latest?cb=20130428105439",
+        "largura": 256,
+        "altura": 187,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Tornado Catch",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Tornado Catch 2.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/f/fc/Tornado_Catch_2.png/revision/latest?cb=20130428105449",
+        "largura": 256,
+        "altura": 191,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Tornado Catch",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Tornado Catch 3.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/6/66/Tornado_Catch_3.png/revision/latest?cb=20130428105458",
+        "largura": 256,
+        "altura": 190,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Tornado Catch",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Tornado Catch 4.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/a/ae/Tornado_Catch_4.png/revision/latest?cb=20130428105505",
+        "largura": 254,
+        "altura": 190,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Tornado Catch",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Tornado Catch 5.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/2/2b/Tornado_Catch_5.png/revision/latest?cb=20130428105513",
+        "largura": 254,
+        "altura": 191,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Tornado Catch",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Tornado Catch 6.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/0/06/Tornado_Catch_6.png/revision/latest?cb=20130428105525",
+        "largura": 255,
+        "altura": 192,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Tornado Catch",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Tornado Catch 7.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/5/58/Tornado_Catch_7.png/revision/latest?cb=20130428105536",
+        "largura": 255,
+        "altura": 191,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Tornado Catch",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Tornado Catch 8.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/a/a9/Tornado_Catch_8.png/revision/latest?cb=20191007173017",
+        "largura": 255,
+        "altura": 192,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Tornado Catch",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pressure-punch",
+    "nome": "Pressure Punch",
+    "estadoCuradoria": "revisar",
+    "paginaWiki": "Pressure Punch",
+    "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Pressure_Punch",
+    "motivo": "Nenhuma nova candidata atingiu os critérios mínimos.",
+    "candidatas": [
+      {
+        "tituloArquivo": "File:Pressure Punch TCG.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/a/ad/Pressure_Punch_TCG.png/revision/latest?cb=20210903091752",
+        "largura": 221,
+        "altura": 178,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Pressure Punch",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(VR) Pressure Punch.mp4",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/b/b2/%28VR%29_Pressure_Punch.mp4/revision/latest?cb=20260329095627",
+        "largura": 1280,
+        "altura": 720,
+        "mime": "video/mp4",
+        "pontos": 4,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Pressure Punch",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "formato não é imagem (video/mp4)",
+          "pontuação 4 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:-Inazuma Eleven SD- Pressure Punch - Unvoiced",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/5/5d/-Inazuma_Eleven_SD-_Pressure_Punch_-_Unvoiced/revision/latest?cb=20220701131911",
+        "largura": 480,
+        "altura": 360,
+        "mime": "video/youtube",
+        "pontos": 0,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Pressure Punch",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "formato não é imagem (video/youtube)",
+          "pontuação 0 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Pressure Punch",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/4/46/Pressure_Punch/revision/latest?cb=20240917204943",
+        "largura": 480,
+        "altura": 360,
+        "mime": "video/youtube",
+        "pontos": 0,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Pressure Punch",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "formato não é imagem (video/youtube)",
+          "pontuação 0 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:1-1-098.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/2/29/1-1-098.png/revision/latest?cb=20250207015829",
+        "largura": 633,
+        "altura": 878,
+        "mime": "image/png",
+        "pontos": -18,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "relação fraca com o nome da Hissatsu",
+          "formato não horizontal",
+          "pontuação -18 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:FF-098.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/6/66/FF-098.png/revision/latest?cb=20250210225923",
+        "largura": 776,
+        "altura": 1052,
+        "mime": "image/png",
+        "pontos": -18,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "relação fraca com o nome da Hissatsu",
+          "formato não horizontal",
+          "pontuação -18 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE2) Versions logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/cd/%28IE2%29_Versions_logo.png/revision/latest?cb=20250115194023",
+        "largura": 597,
+        "altura": 370,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE3) Versions logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/e2/%28IE3%29_Versions_logo.png/revision/latest?cb=20250115193533",
+        "largura": 512,
+        "altura": 300,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nekketsu-head",
+    "nome": "Nekketsu Head",
+    "estadoCuradoria": "revisar",
+    "paginaWiki": "Nekketsu Head",
+    "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Nekketsu_Head",
+    "motivo": "Nenhuma nova candidata atingiu os critérios mínimos.",
+    "candidatas": [
+      {
+        "tituloArquivo": "File:Nekketsu Head.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/e6/Nekketsu_Head.png/revision/latest?cb=20191007175111",
+        "largura": 245,
+        "altura": 178,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Nekketsu Head",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(VR) Nekketsu Head.mp4",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/e1/%28VR%29_Nekketsu_Head.mp4/revision/latest?cb=20260329095342",
+        "largura": 1280,
+        "altura": 720,
+        "mime": "video/mp4",
+        "pontos": 4,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Nekketsu Head",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "formato não é imagem (video/mp4)",
+          "pontuação 4 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:IE2 Game - Nekketsu Head",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/5/52/IE2_Game_-_Nekketsu_Head/revision/latest?cb=20241021110923",
+        "largura": 480,
+        "altura": 360,
+        "mime": "video/youtube",
+        "pontos": 0,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Nekketsu Head",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "formato não é imagem (video/youtube)",
+          "pontuação 0 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE2) Versions logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/cd/%28IE2%29_Versions_logo.png/revision/latest?cb=20250115194023",
+        "largura": 597,
+        "altura": 370,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE3) Versions logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/e2/%28IE3%29_Versions_logo.png/revision/latest?cb=20250115193533",
+        "largura": 512,
+        "altura": 300,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:P.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/3/36/P.png/revision/latest?cb=20181020050200",
+        "largura": 6,
+        "altura": 7,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "relação fraca com o nome da Hissatsu",
+          "formato não horizontal",
+          "resolução abaixo do mínimo",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(VR) Logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/ea/%28VR%29_Logo.png/revision/latest?cb=20220721124845",
+        "largura": 571,
+        "altura": 416,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Chairman.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/b/b1/Chairman.png/revision/latest?cb=20260412225930",
+        "largura": 256,
+        "altura": 256,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "relação fraca com o nome da Hissatsu",
+          "formato não horizontal",
+          "resolução abaixo do mínimo",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "counterstrike",
+    "nome": "Counterstrike",
+    "estadoCuradoria": "revisar",
+    "paginaWiki": "Counterstrike",
+    "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Counterstrike",
+    "motivo": "Nenhuma nova candidata atingiu os critérios mínimos.",
+    "candidatas": [
+      {
+        "tituloArquivo": "File:(IE) Counterstrike 1.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/9/94/%28IE%29_Counterstrike_1.png/revision/latest?cb=20130221143208",
+        "largura": 255,
+        "altura": 190,
+        "mime": "image/png",
+        "pontos": 62,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Counterstrike",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE) Counterstrike 2.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/7/74/%28IE%29_Counterstrike_2.png/revision/latest?cb=20130221143350",
+        "largura": 256,
+        "altura": 190,
+        "mime": "image/png",
+        "pontos": 62,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Counterstrike",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE) Counterstrike 3.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/d/d7/%28IE%29_Counterstrike_3.png/revision/latest?cb=20130221143421",
+        "largura": 255,
+        "altura": 189,
+        "mime": "image/png",
+        "pontos": 62,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Counterstrike",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE) Counterstrike 4.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/a/ac/%28IE%29_Counterstrike_4.png/revision/latest?cb=20130221143523",
+        "largura": 254,
+        "altura": 191,
+        "mime": "image/png",
+        "pontos": 62,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Counterstrike",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE) Counterstrike 5.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/1/10/%28IE%29_Counterstrike_5.png/revision/latest?cb=20130221143534",
+        "largura": 255,
+        "altura": 191,
+        "mime": "image/png",
+        "pontos": 62,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Counterstrike",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(VR) Counterstrike.mp4",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/8/8d/%28VR%29_Counterstrike.mp4/revision/latest?cb=20260329093107",
+        "largura": 1280,
+        "altura": 720,
+        "mime": "video/mp4",
+        "pontos": -8,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Counterstrike",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 1,
+          "palavrasEncontradas": 1
+        },
+        "motivosRejeicao": [
+          "formato não é imagem (video/mp4)",
+          "pontuação -8 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE2) Versions logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/cd/%28IE2%29_Versions_logo.png/revision/latest?cb=20250115194023",
+        "largura": 597,
+        "altura": 370,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE3) Versions logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/e2/%28IE3%29_Versions_logo.png/revision/latest?cb=20250115193533",
+        "largura": 512,
+        "altura": 300,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bunshin-block",
+    "nome": "Bunshin Block",
+    "estadoCuradoria": "revisar",
+    "paginaWiki": "Bunshin Block",
+    "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Bunshin_Block",
+    "motivo": "Nenhuma nova candidata atingiu os critérios mínimos.",
+    "candidatas": [
+      {
+        "tituloArquivo": "File:Bunshin Block.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/a/a2/Bunshin_Block.png/revision/latest?cb=20191007180044",
+        "largura": 256,
+        "altura": 192,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Bunshin Block",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(VR) Bunshin Block.mp4",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/5/5b/%28VR%29_Bunshin_Block.mp4/revision/latest?cb=20260329092836",
+        "largura": 1280,
+        "altura": 720,
+        "mime": "video/mp4",
+        "pontos": 4,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Bunshin Block",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "formato não é imagem (video/mp4)",
+          "pontuação 4 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:IE2 Game - Bunshin Block",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/f/fa/IE2_Game_-_Bunshin_Block/revision/latest?cb=20241021112059",
+        "largura": 480,
+        "altura": 360,
+        "mime": "video/youtube",
+        "pontos": 0,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "Bunshin Block",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 2,
+          "palavrasEncontradas": 2
+        },
+        "motivosRejeicao": [
+          "formato não é imagem (video/youtube)",
+          "pontuação 0 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE2) Versions logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/cd/%28IE2%29_Versions_logo.png/revision/latest?cb=20250115194023",
+        "largura": 597,
+        "altura": 370,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(IE3) Versions logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/e2/%28IE3%29_Versions_logo.png/revision/latest?cb=20250115193533",
+        "largura": 512,
+        "altura": 300,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:(VR) Logo.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/ea/%28VR%29_Logo.png/revision/latest?cb=20220721124845",
+        "largura": 571,
+        "altura": 416,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "termo negativo: logo",
+          "relação fraca com o nome da Hissatsu",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Sunao.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/c5/Sunao.png/revision/latest?cb=20260413140625",
+        "largura": 256,
+        "altura": 256,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "relação fraca com o nome da Hissatsu",
+          "formato não horizontal",
+          "resolução abaixo do mínimo",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      },
+      {
+        "tituloArquivo": "File:Saori.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/4/46/Saori.png/revision/latest?cb=20260420131753",
+        "largura": 256,
+        "altura": 256,
+        "mime": "image/png",
+        "pontos": -46,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "",
+          "fraseCompleta": false,
+          "cobertura": 0,
+          "totalPalavras": 0,
+          "palavrasEncontradas": 0
+        },
+        "motivosRejeicao": [
+          "relação fraca com o nome da Hissatsu",
+          "formato não horizontal",
+          "resolução abaixo do mínimo",
+          "pontuação -46 abaixo do mínimo 52"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "god-hand-triple",
+    "nome": "God Hand Triple",
+    "estadoCuradoria": "revisar",
+    "paginaWiki": "God Hand Triple",
+    "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/God_Hand_Triple",
+    "motivo": "Nenhuma nova candidata atingiu os critérios mínimos.",
+    "candidatas": [
+      {
+        "tituloArquivo": "File:God Hand Triple 1.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/4/48/God_Hand_Triple_1.png/revision/latest?cb=20121006114310",
+        "largura": 255,
+        "altura": 189,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "God Hand Triple",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 3,
+          "palavrasEncontradas": 3
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:God Hand Triple 2.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/4/44/God_Hand_Triple_2.png/revision/latest?cb=20121006114334",
+        "largura": 255,
+        "altura": 191,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "God Hand Triple",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 3,
+          "palavrasEncontradas": 3
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:God Hand Triple 3.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/d/df/God_Hand_Triple_3.png/revision/latest?cb=20121006114401",
+        "largura": 254,
+        "altura": 188,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "God Hand Triple",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 3,
+          "palavrasEncontradas": 3
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:God Hand Triple 4.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/6/61/God_Hand_Triple_4.png/revision/latest?cb=20121006114537",
+        "largura": 255,
+        "altura": 187,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "God Hand Triple",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 3,
+          "palavrasEncontradas": 3
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:God Hand Triple 5.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/c7/God_Hand_Triple_5.png/revision/latest?cb=20121006114547",
+        "largura": 256,
+        "altura": 191,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "God Hand Triple",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 3,
+          "palavrasEncontradas": 3
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:God Hand Triple 6.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/1/19/God_Hand_Triple_6.png/revision/latest?cb=20121006114635",
+        "largura": 250,
+        "altura": 189,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "God Hand Triple",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 3,
+          "palavrasEncontradas": 3
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:God Hand Triple 7.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/c2/God_Hand_Triple_7.png/revision/latest?cb=20121006114701",
+        "largura": 256,
+        "altura": 188,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "God Hand Triple",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 3,
+          "palavrasEncontradas": 3
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      },
+      {
+        "tituloArquivo": "File:God Hand Triple 8.png",
+        "url": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/cb/God_Hand_Triple_8.png/revision/latest?cb=20121006114714",
+        "largura": 254,
+        "altura": 190,
+        "mime": "image/png",
+        "pontos": 74,
+        "aprovada": false,
+        "positivoAnime": false,
+        "bloqueadaCuradoria": false,
+        "relacao": {
+          "nome": "God Hand Triple",
+          "fraseCompleta": true,
+          "cobertura": 1,
+          "totalPalavras": 3,
+          "palavrasEncontradas": 3
+        },
+        "motivosRejeicao": [
+          "resolução abaixo do mínimo"
+        ]
+      }
+    ]
+  }
+]

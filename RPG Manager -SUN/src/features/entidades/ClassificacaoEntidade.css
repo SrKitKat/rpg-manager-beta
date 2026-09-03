@@ -1,0 +1,534 @@
+.classificacao-entidade {
+  position: relative;
+
+  display: inline-block;
+
+  min-width: 0;
+}
+
+
+.classificacao-entidade > summary {
+  list-style: none;
+}
+
+
+/* ========================================
+   SELO
+======================================== */
+
+.classificacao-entidade-selo {
+  width: max-content;
+  max-width: 100%;
+
+  padding: 5px 8px;
+
+  display: inline-flex;
+  align-items: center;
+
+  gap: 5px;
+
+  border:
+    1px solid rgba(
+      255,
+      208,
+      0,
+      0.2
+    );
+
+  border-radius: 7px;
+
+  background:
+    rgba(
+      255,
+      208,
+      0,
+      0.055
+    );
+
+  color: #ffd000;
+
+  font-size: 8px;
+  font-weight: 900;
+
+  line-height: 1;
+
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+
+  white-space: nowrap;
+}
+
+
+.classificacao-entidade-resumo {
+  cursor: pointer;
+}
+
+
+.classificacao-entidade-resumo:hover {
+  border-color:
+    rgba(
+      255,
+      208,
+      0,
+      0.38
+    );
+
+  background:
+    rgba(
+      255,
+      208,
+      0,
+      0.09
+    );
+}
+
+
+.classificacao-entidade[open]
+.classificacao-entidade-selo {
+  border-color:
+    rgba(
+      255,
+      208,
+      0,
+      0.55
+    );
+
+  box-shadow:
+    0 0 0 2px
+    rgba(
+      255,
+      208,
+      0,
+      0.05
+    );
+}
+
+
+.classificacao-entidade-selo-estatico {
+  color: #a9afba;
+
+  border-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.08
+    );
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.025
+    );
+}
+
+
+.classificacao-entidade-seta {
+  margin-left: 2px;
+
+  color: #d8ad00;
+
+  font-size: 8px;
+}
+
+
+/* ========================================
+   MENU DE CLASSIFICAÇÃO
+======================================== */
+
+.classificacao-entidade-menu {
+  position: absolute;
+
+  top: calc(100% + 7px);
+  left: 0;
+
+  z-index: 500;
+
+  width: 190px;
+
+  padding: 7px;
+
+  display: grid;
+
+  gap: 3px;
+
+  border:
+    1px solid rgba(
+      255,
+      255,
+      255,
+      0.1
+    );
+
+  border-radius: 11px;
+
+  background: #151922;
+
+  box-shadow:
+    0 16px 36px
+    rgba(
+      0,
+      0,
+      0,
+      0.45
+    );
+}
+
+
+.classificacao-entidade-menu-titulo {
+  margin: 3px 7px 5px;
+
+  color: #696f7d;
+
+  font-size: 7px;
+  font-weight: 900;
+
+  letter-spacing: 0.12em;
+}
+
+
+.classificacao-entidade-opcao {
+  width: 100%;
+
+  padding: 8px 9px;
+
+  display: grid;
+
+  grid-template-columns:
+    20px
+    minmax(0, 1fr)
+    18px;
+
+  align-items: center;
+
+  gap: 7px;
+
+  border: 0;
+
+  border-radius: 7px;
+
+  background: transparent;
+
+  color: #b8bdc7;
+
+  text-align: left;
+
+  font: inherit;
+
+  cursor: pointer;
+}
+
+
+.classificacao-entidade-opcao:hover {
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.055
+    );
+
+  color: #fff;
+}
+
+
+.classificacao-entidade-opcao-ativa {
+  background:
+    rgba(
+      255,
+      208,
+      0,
+      0.07
+    );
+
+  color: #ffd000;
+}
+
+
+.classificacao-entidade-opcao-icone {
+  display: grid;
+
+  place-items: center;
+
+  font-size: 13px;
+}
+
+
+.classificacao-entidade-opcao-nome {
+  min-width: 0;
+
+  font-size: 10px;
+  font-weight: 700;
+}
+
+
+.classificacao-entidade-check {
+  color: #ffd000;
+
+  font-size: 10px;
+  font-weight: 900;
+
+  text-align: right;
+}
+
+
+/* ========================================
+   A CLASSIFICAÇÃO JÁ EXISTE NO SELO.
+
+   Portanto escondemos a segunda versão que
+   vinha aparecendo dentro de "AÇÕES".
+======================================== */
+
+.classificacao-entidade-acao {
+  display: none;
+}
+
+
+/* ========================================
+   CORREÇÃO DOS MENUS DE AÇÕES
+
+   Agora eles flutuam.
+   Não aumentam mais o tamanho dos cards.
+======================================== */
+
+.dashboard-acoes,
+.area-entidades-acoes {
+  position: relative;
+
+  z-index: 20;
+}
+
+
+.dashboard-acoes[open],
+.area-entidades-acoes[open] {
+  z-index: 400;
+}
+
+
+.dashboard-acoes-menu,
+.area-entidades-acoes-menu {
+  position: absolute !important;
+
+  top: calc(100% + 7px);
+  right: 0;
+
+  z-index: 450;
+
+  width: 230px;
+
+  padding: 8px !important;
+
+  display: grid !important;
+
+  gap: 5px;
+
+  border:
+    1px solid rgba(
+      255,
+      255,
+      255,
+      0.09
+    ) !important;
+
+  border-radius: 11px;
+
+  background: #151922 !important;
+
+  box-shadow:
+    0 16px 36px
+    rgba(
+      0,
+      0,
+      0,
+      0.45
+    );
+}
+
+
+/* Os cards precisam permitir que
+   o menu apareça para fora deles. */
+
+.dashboard-personagem-card,
+.area-entidades-card {
+  overflow: visible !important;
+}
+
+
+/* ========================================
+   VISIBILIDADE
+======================================== */
+
+.dashboard-controle-menu,
+.area-entidades-visibilidade {
+  display: grid;
+
+  gap: 6px;
+
+  padding: 5px;
+}
+
+
+.dashboard-controle-menu > span,
+.area-entidades-visibilidade > span {
+  color: #727986;
+
+  font-size: 7px !important;
+  font-weight: 900;
+
+  letter-spacing: 0.1em;
+}
+
+
+.dashboard-controle-menu select,
+.area-entidades-visibilidade select {
+  width: 100%;
+
+  min-height: 36px;
+
+  padding:
+    8px
+    10px;
+
+  border:
+    1px solid rgba(
+      255,
+      255,
+      255,
+      0.08
+    ) !important;
+
+  border-radius: 8px !important;
+
+  outline: 0;
+
+  background: #10141c !important;
+
+  color: #e5e7eb !important;
+
+  font: inherit;
+
+  font-size: 9px !important;
+
+  cursor: pointer;
+}
+
+
+.dashboard-controle-menu select:hover,
+.area-entidades-visibilidade select:hover {
+  border-color:
+    rgba(
+      255,
+      208,
+      0,
+      0.2
+    ) !important;
+}
+
+
+/* ========================================
+   BOTÕES DENTRO DOS MENUS
+======================================== */
+
+.dashboard-acoes-menu button,
+.area-entidades-acoes-menu button {
+  width: 100%;
+
+  min-height: 36px;
+
+  border-radius: 8px !important;
+
+  font-size: 9px !important;
+}
+
+
+.dashboard-acao-perigosa,
+.area-entidades-perigo {
+  border-color:
+    rgba(
+      219,
+      78,
+      92,
+      0.2
+    ) !important;
+
+  background:
+    rgba(
+      219,
+      78,
+      92,
+      0.07
+    ) !important;
+
+  color: #e998a0 !important;
+}
+
+
+/* ========================================
+   ARQUIVOS
+======================================== */
+
+.dashboard-arquivo-menu {
+  position: relative;
+}
+
+
+.dashboard-arquivo-menu[open] {
+  z-index: 500;
+}
+
+
+.dashboard-arquivo-menu-caixa {
+  position: absolute !important;
+
+  top: calc(100% + 7px);
+  right: 0;
+
+  z-index: 520;
+
+  width: 190px;
+
+  padding: 7px !important;
+
+  border:
+    1px solid rgba(
+      255,
+      255,
+      255,
+      0.09
+    ) !important;
+
+  border-radius: 10px;
+
+  background: #151922 !important;
+
+  box-shadow:
+    0 15px 34px
+    rgba(
+      0,
+      0,
+      0,
+      0.44
+    );
+}
+
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (
+  max-width: 700px
+) {
+  .classificacao-entidade-menu {
+    width: 180px;
+  }
+
+
+  .dashboard-acoes-menu,
+  .area-entidades-acoes-menu {
+    width: 210px;
+  }
+}

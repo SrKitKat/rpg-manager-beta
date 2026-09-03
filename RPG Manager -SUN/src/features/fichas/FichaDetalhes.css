@@ -1,0 +1,4482 @@
+.ficha-nova {
+  min-height: 100vh;
+  width: 100%;
+
+  background:
+    radial-gradient(
+      circle at 15% 0%,
+      rgba(255, 208, 0, 0.035),
+      transparent 28%
+    ),
+    #0c0f16;
+
+  color: #edf0f5;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+
+.ficha-nova *,
+.ficha-nova *::before,
+.ficha-nova *::after {
+  box-sizing: border-box;
+}
+
+
+/* ========================================
+   TOPO
+======================================== */
+
+.ficha-nova-topo {
+  width: min(
+    1400px,
+    calc(100% - 36px)
+  );
+
+  min-height: 96px;
+
+  margin: 0 auto;
+  padding: 20px 0;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  border-bottom:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+}
+
+
+.ficha-nova-voltar {
+  width: 43px;
+  height: 43px;
+
+  flex: 0 0 auto;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.09);
+
+  border-radius: 12px;
+
+  background:
+    rgba(255, 255, 255, 0.035);
+
+  color: #e9ebef;
+
+  font-size: 20px;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-voltar:hover {
+  background:
+    rgba(255, 255, 255, 0.07);
+}
+
+
+.ficha-nova-topo-avatar {
+  width: 57px;
+  height: 57px;
+
+  flex: 0 0 auto;
+
+  overflow: hidden;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.08);
+
+  border-radius: 13px;
+
+  background: #171c26;
+
+  font-size: 25px;
+}
+
+
+.ficha-nova-topo-avatar img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+
+.ficha-nova-topo-info {
+  min-width: 0;
+  flex: 1;
+}
+
+
+.ficha-nova-topo-titulo {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  flex-wrap: wrap;
+}
+
+
+.ficha-nova-topo h1 {
+  margin: 0;
+
+  font-size:
+    clamp(
+      25px,
+      3vw,
+      34px
+    );
+}
+
+
+.ficha-nova-topo-info > p {
+  margin: 6px 0 0;
+
+  color: #969daa;
+
+  font-size: 12px;
+}
+
+
+.ficha-nova-tipo,
+.ficha-nova-arquivada {
+  padding: 5px 8px;
+
+  border-radius: 7px;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.07em;
+
+  text-transform: uppercase;
+}
+
+
+.ficha-nova-tipo {
+  border:
+    1px solid
+    rgba(255, 208, 0, 0.17);
+
+  background:
+    rgba(255, 208, 0, 0.05);
+
+  color: #ffd000;
+}
+
+
+.ficha-nova-arquivada {
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.08);
+
+  background:
+    rgba(255, 255, 255, 0.035);
+
+  color: #9ba1ad;
+}
+
+
+/* ========================================
+   LAYOUT
+======================================== */
+
+.ficha-nova-layout {
+  width: min(
+    1400px,
+    calc(100% - 36px)
+  );
+
+  margin: 0 auto;
+
+  padding: 22px 0 60px;
+
+  display: grid;
+
+  grid-template-columns:
+    210px
+    minmax(0, 1fr);
+
+  gap: 18px;
+}
+
+
+/* ========================================
+   MENU
+======================================== */
+
+.ficha-nova-menu {
+  align-self: start;
+
+  position: sticky;
+
+  top: 15px;
+
+  padding: 12px;
+
+  display: grid;
+
+  gap: 6px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065);
+
+  border-radius: 16px;
+
+  background:
+    rgba(255, 255, 255, 0.018);
+}
+
+
+.ficha-nova-menu-titulo {
+  margin: 4px 9px 7px;
+
+  color: #737a87;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.13em;
+}
+
+
+.ficha-nova-menu nav {
+  display: grid;
+
+  gap: 4px;
+}
+
+
+.ficha-nova-menu-item {
+  width: 100%;
+
+  min-height: 40px;
+
+  padding: 8px 10px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 9px;
+
+  border: 1px solid transparent;
+
+  border-radius: 8px;
+
+  background: transparent;
+
+  color: #969daa;
+
+  text-align: left;
+
+  font: inherit;
+
+  font-size: 11px;
+  font-weight: 800;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-menu-item > span {
+  width: 20px;
+
+  display: grid;
+  place-items: center;
+}
+
+
+.ficha-nova-menu-item:hover {
+  background:
+    rgba(255, 255, 255, 0.035);
+
+  color: #d9dce2;
+}
+
+
+.ficha-nova-menu-item-ativo {
+  border-color:
+    rgba(255, 208, 0, 0.16);
+
+  background:
+    rgba(255, 208, 0, 0.055);
+
+  color: #ffd000;
+}
+
+
+.ficha-nova-menu-separador {
+  height: 1px;
+
+  margin: 5px 2px;
+
+  background:
+    rgba(255, 255, 255, 0.06);
+}
+
+
+/* ========================================
+   BASE
+======================================== */
+
+.ficha-nova-conteudo {
+  min-width: 0;
+}
+
+
+.ficha-nova-painel {
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  border-radius: 15px;
+
+  background:
+    rgba(255, 255, 255, 0.022);
+}
+
+
+.ficha-nova-etiqueta {
+  margin: 0;
+
+  color: #ffd000;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.13em;
+}
+
+
+.ficha-nova-modulo {
+  min-height: 560px;
+
+  padding: 21px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065);
+
+  border-radius: 17px;
+
+  background:
+    rgba(255, 255, 255, 0.018);
+}
+
+
+.ficha-nova-modulo-topo {
+  margin-bottom: 18px;
+
+  padding-bottom: 16px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 15px;
+
+  border-bottom:
+    1px solid
+    rgba(255, 255, 255, 0.06);
+}
+
+
+.ficha-nova-modulo-topo h2 {
+  margin: 4px 0;
+
+  font-size:
+    clamp(
+      25px,
+      4vw,
+      35px
+    );
+}
+
+
+.ficha-nova-modulo-topo p:last-child {
+  margin: 0;
+
+  color: #979eaa;
+
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+
+/* ========================================
+   SUBNAVEGAÇÃO INTERNA
+======================================== */
+
+.ficha-nova-subnavegacao {
+  margin-bottom: 18px;
+
+  padding: 4px;
+
+  display: inline-flex;
+
+  gap: 4px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065);
+
+  border-radius: 10px;
+
+  background:
+    rgba(0, 0, 0, 0.11);
+}
+
+
+.ficha-nova-subnavegacao-botao {
+  min-height: 36px;
+
+  padding: 8px 12px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 7px;
+
+  border: 1px solid transparent;
+
+  border-radius: 7px;
+
+  background: transparent;
+
+  color: #858c98;
+
+  font: inherit;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-subnavegacao-botao:hover {
+  background:
+    rgba(255, 255, 255, 0.025);
+
+  color: #c2c7cf;
+}
+
+
+.ficha-nova-subnavegacao-botao > span {
+  min-width: 20px;
+  height: 20px;
+
+  padding: 0 5px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 255, 255, 0.05);
+
+  color: #949ba6;
+
+  font-size: 8px;
+}
+
+
+.ficha-nova-subnavegacao-botao-ativo {
+  border-color:
+    rgba(255, 208, 0, 0.16);
+
+  background:
+    rgba(255, 208, 0, 0.055);
+
+  color: #ffd000;
+}
+
+
+.ficha-nova-subnavegacao-botao-ativo
+> span {
+  background:
+    rgba(255, 208, 0, 0.11);
+
+  color: #ffd000;
+}
+
+
+/* ========================================
+   RESUMO
+======================================== */
+
+.ficha-nova-resumo-grade {
+  display: grid;
+
+  grid-template-columns:
+    minmax(250px, 0.9fr)
+    minmax(210px, 0.75fr)
+    minmax(330px, 1.05fr);
+
+  gap: 13px;
+
+  align-items: stretch;
+}
+
+
+.ficha-nova-perfil,
+.ficha-nova-recursos-resumo {
+  padding: 19px;
+}
+
+
+.ficha-nova-perfil h2 {
+  margin: 6px 0 15px;
+
+  font-size: 27px;
+}
+
+
+.ficha-nova-info-lista {
+  display: grid;
+}
+
+
+.ficha-nova-info-lista > div {
+  min-height: 39px;
+
+  padding: 8px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 12px;
+
+  border-bottom:
+    1px solid
+    rgba(255, 255, 255, 0.055);
+}
+
+
+.ficha-nova-info-lista span {
+  color: #8c939f;
+
+  font-size: 10px;
+
+  text-transform: uppercase;
+}
+
+
+.ficha-nova-info-lista strong {
+  color: #edf0f4;
+
+  font-size: 12px;
+
+  text-align: right;
+}
+
+
+.ficha-nova-retrato {
+  min-height: 430px;
+
+  overflow: hidden;
+
+  display: grid;
+  place-items: center;
+}
+
+
+.ficha-nova-retrato > img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+
+.ficha-nova-retrato-vazio {
+  display: grid;
+
+  place-items: center;
+
+  gap: 8px;
+
+  color: #777e89;
+}
+
+
+.ficha-nova-retrato-vazio span {
+  font-size: 52px;
+}
+
+
+.ficha-nova-retrato-vazio small {
+  font-size: 11px;
+}
+
+
+.ficha-nova-bloco-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 10px;
+}
+
+
+.ficha-nova-bloco-titulo h3 {
+  margin: 5px 0 0;
+
+  font-size: 16px;
+}
+
+
+.ficha-nova-bloco-titulo button {
+  border: 0;
+
+  background: transparent;
+
+  color: #ffd000;
+
+  font: inherit;
+
+  font-size: 10px;
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-recursos-resumo-lista {
+  margin-top: 16px;
+
+  display: grid;
+
+  gap: 13px;
+}
+
+
+.ficha-nova-recurso-resumo {
+  display: grid;
+
+  gap: 6px;
+}
+
+
+.ficha-nova-recurso-resumo > div:first-child {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 12px;
+}
+
+
+.ficha-nova-recurso-resumo span {
+  color: #b2b7c0;
+
+  font-size: 11px;
+  font-weight: 800;
+}
+
+
+.ficha-nova-recurso-resumo strong {
+  font-size: 11px;
+}
+
+
+.ficha-nova-barra {
+  height: 7px;
+
+  overflow: hidden;
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 255, 255, 0.065);
+}
+
+
+.ficha-nova-barra-preenchimento {
+  height: 100%;
+
+  border-radius: inherit;
+
+  background:
+    linear-gradient(
+      90deg,
+      #ffd000,
+      #86d8ff
+    );
+
+  transition:
+    width
+    0.2s ease;
+}
+
+
+.ficha-nova-resumo-divisor {
+  margin-top: 15px;
+
+  padding-top: 13px;
+
+  border-top:
+    1px solid
+    rgba(255, 255, 255, 0.06);
+}
+
+
+.ficha-nova-resumo-divisor-topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 10px;
+}
+
+
+.ficha-nova-resumo-divisor-topo > span {
+  color: #7f8692;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.11em;
+}
+
+
+.ficha-nova-resumo-divisor-topo button {
+  padding: 0;
+
+  border: 0;
+
+  background: transparent;
+
+  color: #ffd000;
+
+  font: inherit;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-resumo-fluxo {
+  margin-top: 9px;
+
+  display: grid;
+
+  gap: 5px;
+}
+
+
+.ficha-nova-resumo-fluxo > div {
+  min-height: 30px;
+
+  padding: 5px 7px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 10px;
+
+  border-radius: 7px;
+}
+
+
+.ficha-nova-resumo-fluxo span {
+  color: #a4abb5;
+
+  font-size: 10px;
+}
+
+
+.ficha-nova-resumo-fluxo strong {
+  color: #e8ebef;
+
+  font-size: 11px;
+}
+
+
+.ficha-nova-resumo-momentum {
+  border:
+    1px solid
+    rgba(255, 130, 67, 0.11);
+
+  background:
+    rgba(255, 130, 67, 0.035);
+}
+
+
+.ficha-nova-resumo-momentum strong {
+  color: #ffb07e;
+}
+
+
+.ficha-nova-resumo-condicoes {
+  margin-top: 9px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  gap: 7px;
+}
+
+
+.ficha-nova-condicao-resumo {
+  min-width: 0;
+
+  padding: 8px;
+
+  display: grid;
+
+  gap: 5px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.055);
+
+  border-radius: 8px;
+
+  background:
+    rgba(255, 255, 255, 0.015);
+}
+
+
+.ficha-nova-condicao-resumo span {
+  color: #858c98;
+
+  font-size: 9px;
+}
+
+
+.ficha-nova-condicao-resumo strong {
+  overflow: hidden;
+
+  color: #d9dde3;
+
+  font-size: 10px;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.ficha-nova-condicao-resumo-alerta {
+  border-color:
+    rgba(255, 154, 67, 0.22);
+
+  background:
+    rgba(255, 154, 67, 0.06);
+}
+
+
+.ficha-nova-condicao-resumo-alerta strong {
+  color: #ffc088;
+}
+
+
+.ficha-nova-faixa-campanha {
+  margin-top: 13px;
+
+  padding: 13px 16px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 28px;
+
+  flex-wrap: wrap;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065);
+
+  border-radius: 12px;
+
+  background:
+    rgba(255, 255, 255, 0.018);
+}
+
+
+.ficha-nova-faixa-campanha > div {
+  display: grid;
+
+  gap: 4px;
+}
+
+
+.ficha-nova-faixa-campanha span {
+  color: #777e8a;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.09em;
+}
+
+
+.ficha-nova-faixa-campanha strong {
+  color: #e6e9ed;
+
+  font-size: 12px;
+}
+
+
+.ficha-nova-passiva-propria {
+  margin-top: 13px;
+
+  padding: 16px;
+
+  display: grid;
+
+  grid-template-columns:
+    48px
+    minmax(0, 1fr);
+
+  gap: 13px;
+
+  align-items: start;
+}
+
+
+.ficha-nova-passiva-propria-icone {
+  width: 48px;
+  height: 48px;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid
+    rgba(121, 216, 255, 0.15);
+
+  border-radius: 10px;
+
+  background:
+    rgba(121, 216, 255, 0.04);
+
+  color: #79d8ff;
+
+  font-size: 22px;
+}
+
+
+.ficha-nova-passiva-propria h3 {
+  margin: 5px 0;
+
+  font-size: 16px;
+}
+
+
+.ficha-nova-passiva-propria p:last-child {
+  margin: 0;
+
+  color: #9ba2ae;
+
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+
+.ficha-nova-resumo-secundario {
+  margin-top: 13px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  gap: 13px;
+}
+
+
+.ficha-nova-resumo-secundario > article {
+  padding: 17px;
+}
+
+
+.ficha-nova-texto-secundario {
+  margin: 11px 0 0;
+
+  color: #969daa;
+
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+
+.ficha-nova-atributos-rapidos {
+  margin-top: 13px;
+
+  padding: 17px;
+}
+
+
+.ficha-nova-atributos-rapidos-nota {
+  margin: 8px 0 13px;
+
+  color: #7f8692;
+
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+
+.ficha-nova-atributos-rapidos-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      6,
+      minmax(0, 1fr)
+    );
+
+  gap: 7px;
+}
+
+
+.ficha-nova-atributo-rapido {
+  min-width: 0;
+
+  padding: 9px 10px;
+
+  display: grid;
+
+  gap: 5px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.055);
+
+  border-radius: 8px;
+
+  background:
+    rgba(255, 255, 255, 0.014);
+}
+
+
+.ficha-nova-atributo-rapido span {
+  overflow: hidden;
+
+  color: #858c98;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.ficha-nova-atributo-rapido strong {
+  color: #eceff3;
+
+  font-size: 17px;
+}
+
+
+/* ========================================
+   BOTÕES
+======================================== */
+
+.ficha-nova-botao-principal,
+.ficha-nova-botao-secundario {
+  min-height: 40px;
+
+  padding: 10px 14px;
+
+  border-radius: 9px;
+
+  font: inherit;
+
+  font-size: 10px;
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-botao-principal {
+  border:
+    1px solid
+    rgba(255, 208, 0, 0.25);
+
+  background: #ffd000;
+
+  color: #11151c;
+}
+
+
+.ficha-nova-botao-secundario {
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.08);
+
+  background:
+    rgba(255, 255, 255, 0.03);
+
+  color: #d0d4da;
+}
+
+
+.ficha-nova-botao-largo {
+  width: 100%;
+
+  margin-top: 18px;
+}
+
+
+/* ========================================
+   HABILIDADES
+======================================== */
+
+.ficha-nova-habilidades-lista {
+  display: grid;
+
+  gap: 10px;
+}
+
+
+.ficha-nova-habilidade {
+  padding: 14px;
+
+  display: grid;
+
+  grid-template-columns:
+    82px
+    minmax(0, 1fr);
+
+  gap: 15px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  border-radius: 13px;
+
+  background:
+    rgba(255, 255, 255, 0.02);
+}
+
+
+.ficha-nova-habilidade-imagem {
+  width: 82px;
+  height: 82px;
+
+  overflow: hidden;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  border-radius: 10px;
+
+  background: #151a23;
+
+  font-size: 27px;
+}
+
+
+.ficha-nova-habilidade-imagem img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+
+.ficha-nova-habilidade-info {
+  min-width: 0;
+}
+
+
+.ficha-nova-habilidade-titulo {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 15px;
+}
+
+
+.ficha-nova-habilidade-titulo h3 {
+  margin: 0;
+
+  font-size: 18px;
+}
+
+
+.ficha-nova-habilidade-titulo p {
+  margin: 5px 0 0;
+
+  color: #8b929e;
+
+  font-size: 11px;
+}
+
+
+.ficha-nova-habilidade-meta {
+  flex: 0 0 auto;
+
+  display: grid;
+
+  gap: 5px;
+
+  text-align: right;
+}
+
+
+.ficha-nova-habilidade-meta span {
+  color: #8b929d;
+
+  font-size: 10px;
+}
+
+
+.ficha-nova-habilidade-meta strong {
+  color: #ffd000;
+
+  font-size: 11px;
+}
+
+
+.ficha-nova-habilidade-descricao {
+  margin: 12px 0;
+
+  color: #a7adb7;
+
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+
+.ficha-nova-habilidade-detalhes {
+  margin: 10px 0;
+
+  padding: 12px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  gap: 12px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.05);
+
+  border-radius: 9px;
+
+  background:
+    rgba(0, 0, 0, 0.1);
+}
+
+
+.ficha-nova-habilidade-detalhes span {
+  color: #ffd000;
+
+  font-size: 9px;
+  font-weight: 900;
+}
+
+
+.ficha-nova-habilidade-detalhes p {
+  margin: 6px 0 0;
+
+  color: #979eaa;
+
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+
+.ficha-nova-habilidade-acoes {
+  margin-top: 10px;
+
+  display: flex;
+
+  gap: 7px;
+
+  flex-wrap: wrap;
+}
+
+
+.ficha-nova-habilidade-acoes button {
+  min-height: 33px;
+
+  padding: 7px 11px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  border-radius: 7px;
+
+  background:
+    rgba(255, 255, 255, 0.025);
+
+  color: #c1c6cf;
+
+  font: inherit;
+
+  font-size: 10px;
+  font-weight: 800;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-habilidade-acoes
+.ficha-nova-perigo {
+  border-color:
+    rgba(220, 79, 92, 0.18);
+
+  background:
+    rgba(220, 79, 92, 0.06);
+
+  color: #e5969e;
+}
+
+
+/* ========================================
+   ATRIBUTOS
+======================================== */
+
+.ficha-nova-atributos-topo {
+  align-items: center;
+}
+
+
+.ficha-nova-atributos-legenda {
+  margin-bottom: 16px;
+
+  padding: 10px 12px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.055);
+
+  border-radius: 9px;
+
+  background:
+    rgba(255, 255, 255, 0.015);
+}
+
+
+.ficha-nova-atributos-legenda > span {
+  flex: 0 0 auto;
+
+  color: #ffd000;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.11em;
+}
+
+
+.ficha-nova-atributos-legenda p {
+  margin: 0;
+
+  color: #858c98;
+
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+
+.ficha-nova-atributos-secoes {
+  display: grid;
+
+  gap: 16px;
+}
+
+
+.ficha-nova-atributos-grupo {
+  display: grid;
+
+  gap: 8px;
+}
+
+
+.ficha-nova-atributos-grupo-topo {
+  padding: 0 2px 7px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 15px;
+
+  border-bottom:
+    1px solid
+    rgba(255, 255, 255, 0.055);
+}
+
+
+.ficha-nova-atributos-grupo-topo
+> div
+> span {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #838a96;
+
+  font-size: 10px;
+}
+
+
+.ficha-nova-atributos-grupo-topo
+> small {
+  flex: 0 0 auto;
+
+  color: #747b87;
+
+  font-size: 9px;
+}
+
+
+.ficha-nova-atributos-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      4,
+      minmax(0, 1fr)
+    );
+
+  gap: 8px;
+}
+
+
+.ficha-nova-atributo {
+  min-height: 78px;
+
+  padding: 11px 13px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  gap: 7px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065);
+
+  border-radius: 10px;
+
+  background:
+    rgba(255, 255, 255, 0.018);
+}
+
+
+.ficha-nova-atributo:hover {
+  border-color:
+    rgba(255, 255, 255, 0.1);
+
+  background:
+    rgba(255, 255, 255, 0.026);
+}
+
+
+.ficha-nova-atributo-editando {
+  border-color:
+    rgba(255, 208, 0, 0.11);
+
+  background:
+    rgba(255, 208, 0, 0.018);
+}
+
+
+.ficha-nova-atributo-nome {
+  color: #a2a8b2;
+
+  font-size: 12px;
+  font-weight: 800;
+}
+
+
+.ficha-nova-atributo-valor {
+  color: #f1f2f5;
+
+  font-size: 28px;
+  font-weight: 900;
+
+  line-height: 1;
+}
+
+
+.ficha-nova-atributo-controle {
+  display: grid;
+
+  grid-template-columns:
+    35px
+    minmax(0, 1fr)
+    35px;
+
+  gap: 6px;
+}
+
+
+.ficha-nova-atributo-controle button,
+.ficha-nova-atributo-controle input {
+  min-height: 37px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  border-radius: 7px;
+
+  background: #11151d;
+
+  color: #eef0f4;
+
+  font: inherit;
+
+  text-align: center;
+}
+
+
+.ficha-nova-atributo-controle input {
+  min-width: 0;
+
+  font-size: 13px;
+  font-weight: 800;
+
+  outline: 0;
+}
+
+
+.ficha-nova-atributo-controle input:focus {
+  border-color:
+    rgba(255, 208, 0, 0.24);
+}
+
+
+.ficha-nova-atributo-controle button {
+  color: #b5bac3;
+
+  font-size: 15px;
+
+  cursor: pointer;
+}
+
+
+/* ========================================
+   RECURSOS
+======================================== */
+
+.ficha-nova-recursos-modulo {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  gap: 12px;
+}
+
+
+.ficha-nova-recurso-card {
+  min-width: 0;
+
+  padding: 18px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  border-radius: 14px;
+
+  background:
+    rgba(255, 255, 255, 0.02);
+}
+
+
+.ficha-nova-recurso-card > header {
+  min-height: 92px;
+
+  display: grid;
+
+  grid-template-columns:
+    48px
+    minmax(0, 1fr);
+
+  gap: 12px;
+}
+
+
+.ficha-nova-recurso-icone {
+  width: 48px;
+  height: 48px;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid
+    rgba(255, 208, 0, 0.12);
+
+  border-radius: 10px;
+
+  background:
+    rgba(255, 208, 0, 0.04);
+
+  color: #ffd000;
+
+  font-size: 22px;
+}
+
+
+.ficha-nova-recurso-card h3 {
+  margin: 4px 0;
+
+  font-size: 18px;
+}
+
+
+.ficha-nova-recurso-card
+header p:last-child {
+  margin: 0;
+
+  color: #868d99;
+
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+
+.ficha-nova-recurso-valor {
+  margin-top: 15px;
+
+  display: flex;
+  align-items: baseline;
+
+  gap: 5px;
+}
+
+
+.ficha-nova-recurso-valor strong {
+  font-size: 35px;
+}
+
+
+.ficha-nova-recurso-valor span {
+  color: #9198a4;
+
+  font-size: 15px;
+}
+
+
+.ficha-nova-barra-grande {
+  height: 9px;
+
+  margin-top: 8px;
+}
+
+
+.ficha-nova-recurso-botoes {
+  margin-top: 14px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      4,
+      1fr
+    );
+
+  gap: 6px;
+}
+
+
+.ficha-nova-recurso-botoes button {
+  min-height: 36px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  border-radius: 7px;
+
+  background:
+    rgba(255, 255, 255, 0.025);
+
+  color: #bcc1ca;
+
+  font: inherit;
+
+  font-size: 11px;
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-recurso-botoes button:hover {
+  border-color:
+    rgba(255, 208, 0, 0.17);
+
+  color: #ffd000;
+}
+
+
+.ficha-nova-recurso-limite {
+  margin-top: 14px;
+
+  padding-top: 13px;
+
+  border-top:
+    1px solid
+    rgba(255, 255, 255, 0.06);
+}
+
+
+.ficha-nova-recurso-limite label {
+  display: grid;
+
+  gap: 6px;
+}
+
+
+.ficha-nova-recurso-limite label span {
+  color: #838a96;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.09em;
+}
+
+
+.ficha-nova-recurso-limite input {
+  min-height: 39px;
+
+  padding: 8px 10px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.08);
+
+  border-radius: 7px;
+
+  outline: 0;
+
+  background: #10141c;
+
+  color: #edf0f5;
+
+  font: inherit;
+
+  font-size: 12px;
+}
+
+
+.ficha-nova-recurso-limite input:focus {
+  border-color:
+    rgba(255, 208, 0, 0.22);
+}
+
+
+.ficha-nova-recurso-limite p {
+  margin: 7px 0 0;
+
+  color: #6e7581;
+
+  font-size: 9px;
+  line-height: 1.45;
+}
+
+
+/* ========================================
+   RESUMO COMPACTO DA BIBLIOTECA
+======================================== */
+
+.ficha-nova-biblioteca-adquiridos-resumo {
+  margin-bottom: 14px;
+
+  padding: 11px 12px;
+
+  display: grid;
+
+  gap: 9px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.055);
+
+  border-radius: 9px;
+
+  background:
+    rgba(255, 255, 255, 0.014);
+}
+
+
+.ficha-nova-biblioteca-adquiridos-cabecalho
+span {
+  color: #8e95a0;
+
+  font-size: 8px;
+  font-weight: 900;
+
+  letter-spacing: 0.09em;
+}
+
+
+.ficha-nova-biblioteca-adquiridos-cabecalho
+p {
+  margin: 4px 0 0;
+
+  color: #6f7682;
+
+  font-size: 9px;
+}
+
+
+.ficha-nova-biblioteca-adquiridos-chips {
+  display: flex;
+
+  gap: 6px;
+
+  flex-wrap: wrap;
+}
+
+
+.ficha-nova-biblioteca-chip {
+  min-height: 27px;
+
+  padding: 5px 8px;
+
+  display: inline-flex;
+  align-items: center;
+
+  border:
+    1px solid
+    rgba(121, 216, 255, 0.09);
+
+  border-radius: 999px;
+
+  background:
+    rgba(121, 216, 255, 0.018);
+
+  color: #9bcfe4;
+
+  font-size: 8px;
+  font-weight: 800;
+}
+
+
+.ficha-nova-biblioteca-chip-destaque {
+  border-color:
+    rgba(255, 208, 0, 0.15);
+
+  background:
+    rgba(255, 208, 0, 0.035);
+
+  color: #ffd000;
+}
+
+
+.ficha-nova-biblioteca-chip-restante {
+  border-color:
+    rgba(255, 255, 255, 0.06);
+
+  background:
+    rgba(255, 255, 255, 0.025);
+
+  color: #8b929e;
+}
+
+
+.ficha-nova-biblioteca-adquiridos-vazio {
+  margin: 0;
+
+  color: #727986;
+
+  font-size: 9px;
+}
+
+
+/* ========================================
+   ARQUÉTIPOS
+======================================== */
+
+.ficha-nova-arquetipos-area-topo {
+  margin-bottom: 12px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 15px;
+}
+
+
+.ficha-nova-subtitulo-area {
+  margin: 20px 0 10px;
+
+  color: #8a919d;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.12em;
+}
+
+
+.ficha-nova-subtitulo-sem-margem {
+  margin: 0 0 5px;
+}
+
+
+.ficha-nova-arquetipos-area-topo
+> div:first-child
+> span {
+  color: #858c98;
+
+  font-size: 10px;
+}
+
+
+.ficha-nova-arquetipos-destaque-info {
+  padding: 9px 12px;
+
+  display: grid;
+
+  gap: 4px;
+
+  border:
+    1px solid
+    rgba(255, 208, 0, 0.13);
+
+  border-radius: 9px;
+
+  background:
+    rgba(255, 208, 0, 0.03);
+}
+
+
+.ficha-nova-arquetipos-destaque-info
+span {
+  color: #7e8591;
+
+  font-size: 8px;
+  font-weight: 900;
+
+  letter-spacing: 0.09em;
+}
+
+
+.ficha-nova-arquetipos-destaque-info
+strong {
+  color: #ffd000;
+
+  font-size: 11px;
+}
+
+
+.ficha-nova-arquetipos-adquiridos-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  gap: 10px;
+}
+
+
+.ficha-nova-arquetipo-adquirido {
+  min-width: 0;
+
+  padding: 17px;
+
+  display: flex;
+  flex-direction: column;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  border-radius: 13px;
+
+  background:
+    rgba(255, 255, 255, 0.018);
+}
+
+
+.ficha-nova-arquetipo-adquirido-destaque {
+  border-color:
+    rgba(255, 208, 0, 0.22);
+
+  background:
+    rgba(255, 208, 0, 0.035);
+}
+
+
+.ficha-nova-arquetipo-adquirido
+> header {
+  display: grid;
+
+  grid-template-columns:
+    48px
+    minmax(0, 1fr);
+
+  gap: 11px;
+
+  align-items: start;
+}
+
+
+.ficha-nova-arquetipo-adquirido-icone {
+  width: 48px;
+  height: 48px;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid
+    rgba(255, 208, 0, 0.12);
+
+  border-radius: 10px;
+
+  background:
+    rgba(255, 208, 0, 0.04);
+
+  font-size: 22px;
+}
+
+
+.ficha-nova-arquetipo-adquirido-selos {
+  display: flex;
+  align-items: center;
+
+  gap: 5px;
+
+  flex-wrap: wrap;
+}
+
+
+.ficha-nova-arquetipo-adquirido-selos
+span,
+.ficha-nova-arquetipo-adquirido-selos
+strong,
+.ficha-nova-arquetipo-adquirido-selos
+em {
+  padding: 3px 5px;
+
+  border-radius: 5px;
+
+  font-size: 7px;
+  font-weight: 900;
+
+  letter-spacing: 0.06em;
+
+  font-style: normal;
+}
+
+
+.ficha-nova-arquetipo-adquirido-selos
+span {
+  background:
+    rgba(121, 216, 255, 0.055);
+
+  color: #79d8ff;
+}
+
+
+.ficha-nova-arquetipo-adquirido-selos
+strong {
+  background:
+    rgba(255, 208, 0, 0.09);
+
+  color: #ffd000;
+}
+
+
+.ficha-nova-arquetipo-adquirido-selos
+em {
+  background:
+    rgba(255, 255, 255, 0.045);
+
+  color: #8c939e;
+}
+
+
+.ficha-nova-arquetipo-adquirido h3 {
+  margin: 6px 0 0;
+
+  font-size: 18px;
+}
+
+
+.ficha-nova-arquetipo-adquirido
+blockquote {
+  margin: 13px 0;
+
+  padding: 9px 11px;
+
+  border-left:
+    2px solid
+    #ffd000;
+
+  background:
+    rgba(255, 255, 255, 0.018);
+
+  color: #aab0ba;
+
+  font-size: 10px;
+  line-height: 1.5;
+
+  font-style: italic;
+}
+
+
+.ficha-nova-passiva {
+  display: grid;
+
+  gap: 5px;
+}
+
+
+.ficha-nova-passiva > span {
+  color: #7a818d;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.1em;
+}
+
+
+.ficha-nova-passiva strong {
+  color: #ffd000;
+
+  font-size: 12px;
+}
+
+
+.ficha-nova-passiva p {
+  margin: 0;
+
+  color: #9da4af;
+
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+
+.ficha-nova-arquetipo-em-desenvolvimento {
+  padding: 11px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.055);
+
+  border-radius: 8px;
+
+  background:
+    rgba(255, 255, 255, 0.015);
+}
+
+
+.ficha-nova-arquetipo-em-desenvolvimento
+strong {
+  color: #c4c8cf;
+
+  font-size: 10px;
+}
+
+
+.ficha-nova-arquetipo-em-desenvolvimento
+p {
+  margin: 5px 0 0;
+
+  color: #818894;
+
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+
+.ficha-nova-arquetipo-aquisicao {
+  margin-top: 13px;
+
+  color: #747b87;
+
+  font-size: 9px;
+}
+
+
+.ficha-nova-arquetipo-acoes {
+  margin-top: auto;
+
+  padding-top: 14px;
+
+  display: flex;
+
+  gap: 7px;
+
+  flex-wrap: wrap;
+}
+
+
+.ficha-nova-arquetipo-acoes
+button {
+  min-height: 33px;
+
+  padding: 7px 10px;
+
+  border:
+    1px solid
+    rgba(255, 208, 0, 0.12);
+
+  border-radius: 7px;
+
+  background:
+    rgba(255, 208, 0, 0.035);
+
+  color: #ffd000;
+
+  font: inherit;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-arquetipo-acoes
+.ficha-nova-arquetipo-remover {
+  border-color:
+    rgba(220, 79, 92, 0.13);
+
+  background:
+    rgba(220, 79, 92, 0.035);
+
+  color: #df8b94;
+}
+
+
+.ficha-nova-arquetipo-biblioteca {
+  padding: 17px;
+
+  border:
+    1px solid
+    rgba(255, 208, 0, 0.09);
+
+  border-radius: 13px;
+
+  background:
+    rgba(255, 208, 0, 0.012);
+}
+
+
+.ficha-nova-arquetipo-biblioteca-topo {
+  padding-bottom: 13px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 15px;
+
+  border-bottom:
+    1px solid
+    rgba(255, 255, 255, 0.055);
+}
+
+
+.ficha-nova-arquetipo-biblioteca-topo
+h3 {
+  margin: 5px 0;
+
+  font-size: 20px;
+}
+
+
+.ficha-nova-arquetipo-biblioteca-topo
+p:last-child {
+  max-width: 720px;
+
+  margin: 0;
+
+  color: #888f9b;
+
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+
+.ficha-nova-biblioteca-contagem {
+  flex: 0 0 auto;
+
+  padding: 9px 12px;
+
+  display: grid;
+
+  gap: 4px;
+
+  border:
+    1px solid
+    rgba(121, 216, 255, 0.1);
+
+  border-radius: 9px;
+
+  background:
+    rgba(121, 216, 255, 0.025);
+}
+
+
+.ficha-nova-biblioteca-contagem span {
+  color: #7d8591;
+
+  font-size: 8px;
+  font-weight: 900;
+
+  letter-spacing: 0.09em;
+}
+
+
+.ficha-nova-biblioteca-contagem strong {
+  color: #79d8ff;
+
+  font-size: 11px;
+}
+
+
+.ficha-nova-arquetipo-filtros {
+  margin: 13px 0;
+
+  display: flex;
+
+  gap: 6px;
+
+  flex-wrap: wrap;
+}
+
+
+.ficha-nova-arquetipo-filtro {
+  min-height: 34px;
+
+  padding: 7px 10px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065);
+
+  border-radius: 7px;
+
+  background:
+    rgba(255, 255, 255, 0.02);
+
+  color: #949ba7;
+
+  font: inherit;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-arquetipo-filtro-ativo {
+  border-color:
+    rgba(255, 208, 0, 0.18);
+
+  background:
+    rgba(255, 208, 0, 0.05);
+
+  color: #ffd000;
+}
+
+
+.ficha-nova-arquetipo-biblioteca-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  gap: 9px;
+}
+
+
+.ficha-nova-arquetipo-biblioteca-card {
+  min-width: 0;
+
+  padding: 13px;
+
+  display: flex;
+  flex-direction: column;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065);
+
+  border-radius: 10px;
+
+  background:
+    rgba(255, 255, 255, 0.018);
+}
+
+
+.ficha-nova-arquetipo-biblioteca-card-adquirido {
+  border-color:
+    rgba(121, 216, 255, 0.12);
+
+  background:
+    rgba(121, 216, 255, 0.018);
+}
+
+
+.ficha-nova-arquetipo-biblioteca-card
+> header {
+  display: grid;
+
+  grid-template-columns:
+    39px
+    minmax(0, 1fr);
+
+  gap: 9px;
+
+  align-items: center;
+}
+
+
+.ficha-nova-arquetipo-biblioteca-card
+> header
+> span {
+  width: 39px;
+  height: 39px;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.06);
+
+  border-radius: 8px;
+
+  background:
+    rgba(255, 255, 255, 0.02);
+
+  font-size: 18px;
+}
+
+
+.ficha-nova-arquetipo-biblioteca-card
+small {
+  color: #79d8ff;
+
+  font-size: 8px;
+  font-weight: 900;
+
+  text-transform: uppercase;
+}
+
+
+.ficha-nova-arquetipo-biblioteca-card
+h3 {
+  margin: 3px 0 0;
+
+  font-size: 14px;
+}
+
+
+.ficha-nova-arquetipo-desenvolvimento-selo {
+  align-self: flex-start;
+
+  margin-top: 9px;
+
+  padding: 4px 6px;
+
+  border-radius: 5px;
+
+  background:
+    rgba(255, 255, 255, 0.05);
+
+  color: #9299a4;
+
+  font-size: 7px;
+  font-weight: 900;
+
+  letter-spacing: 0.07em;
+}
+
+
+.ficha-nova-arquetipo-biblioteca-card
+blockquote {
+  margin: 10px 0;
+
+  color: #979eaa;
+
+  font-size: 9px;
+  line-height: 1.45;
+
+  font-style: italic;
+}
+
+
+.ficha-nova-arquetipo-biblioteca-passiva {
+  display: grid;
+
+  gap: 4px;
+}
+
+
+.ficha-nova-arquetipo-biblioteca-passiva
+span {
+  color: #ffd000;
+
+  font-size: 9px;
+  font-weight: 900;
+}
+
+
+.ficha-nova-arquetipo-biblioteca-passiva
+p,
+.ficha-nova-arquetipo-biblioteca-pendente {
+  margin: 0;
+
+  color: #858c98;
+
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+
+.ficha-nova-arquetipo-biblioteca-card
+footer {
+  margin-top: auto;
+
+  padding-top: 12px;
+}
+
+
+.ficha-nova-arquetipo-biblioteca-card
+footer
+button {
+  width: 100%;
+
+  min-height: 34px;
+
+  border:
+    1px solid
+    rgba(255, 208, 0, 0.14);
+
+  border-radius: 7px;
+
+  background:
+    rgba(255, 208, 0, 0.045);
+
+  color: #ffd000;
+
+  font: inherit;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-arquetipo-ja-adquirido {
+  min-height: 34px;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid
+    rgba(121, 216, 255, 0.1);
+
+  border-radius: 7px;
+
+  color: #79d8ff;
+
+  font-size: 8px;
+  font-weight: 900;
+}
+
+
+/* ========================================
+   TALENTOS
+======================================== */
+
+.ficha-nova-talentos-area-topo {
+  margin-bottom: 12px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 15px;
+}
+
+
+.ficha-nova-talentos-area-topo
+span {
+  color: #858c98;
+
+  font-size: 10px;
+}
+
+
+.ficha-nova-talentos-adquiridos-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  gap: 10px;
+}
+
+
+.ficha-nova-talento-adquirido {
+  min-width: 0;
+
+  padding: 17px;
+
+  display: flex;
+  flex-direction: column;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  border-radius: 13px;
+
+  background:
+    rgba(255, 255, 255, 0.018);
+}
+
+
+.ficha-nova-talento-adquirido
+> header {
+  display: grid;
+
+  grid-template-columns:
+    48px
+    minmax(0, 1fr);
+
+  gap: 11px;
+
+  align-items: start;
+}
+
+
+.ficha-nova-talento-adquirido-icone {
+  width: 48px;
+  height: 48px;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid
+    rgba(255, 208, 0, 0.12);
+
+  border-radius: 10px;
+
+  background:
+    rgba(255, 208, 0, 0.04);
+
+  font-size: 22px;
+}
+
+
+.ficha-nova-talento-adquirido-selos {
+  display: flex;
+  align-items: center;
+
+  gap: 5px;
+
+  flex-wrap: wrap;
+}
+
+
+.ficha-nova-talento-adquirido-selos
+span,
+.ficha-nova-talento-adquirido-selos
+strong {
+  padding: 3px 5px;
+
+  border-radius: 5px;
+
+  font-size: 7px;
+  font-weight: 900;
+
+  letter-spacing: 0.06em;
+}
+
+
+.ficha-nova-talento-adquirido-selos
+span {
+  background:
+    rgba(121, 216, 255, 0.055);
+
+  color: #79d8ff;
+}
+
+
+.ficha-nova-talento-adquirido-selos
+strong {
+  background:
+    rgba(255, 208, 0, 0.09);
+
+  color: #ffd000;
+}
+
+
+.ficha-nova-talento-adquirido h3 {
+  margin: 6px 0 0;
+
+  font-size: 18px;
+}
+
+
+.ficha-nova-talento-descricao {
+  margin: 13px 0 0;
+
+  color: #a2a8b2;
+
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+
+.ficha-nova-talento-evolucao-registrada {
+  margin-top: 13px;
+
+  padding: 11px;
+
+  border:
+    1px solid
+    rgba(121, 216, 255, 0.085);
+
+  border-radius: 8px;
+
+  background:
+    rgba(121, 216, 255, 0.018);
+}
+
+
+.ficha-nova-talento-evolucao-registrada
+span {
+  color: #79d8ff;
+
+  font-size: 8px;
+  font-weight: 900;
+
+  letter-spacing: 0.09em;
+}
+
+
+.ficha-nova-talento-evolucao-registrada
+p {
+  margin: 6px 0 0;
+
+  color: #9da5b0;
+
+  font-size: 10px;
+  line-height: 1.55;
+}
+
+
+.ficha-nova-talento-aquisicao {
+  margin-top: 13px;
+
+  color: #747b87;
+
+  font-size: 9px;
+}
+
+
+.ficha-nova-talento-acoes {
+  margin-top: auto;
+
+  padding-top: 14px;
+
+  display: flex;
+
+  gap: 7px;
+
+  flex-wrap: wrap;
+}
+
+
+.ficha-nova-talento-acoes
+button {
+  min-height: 33px;
+
+  padding: 7px 10px;
+
+  border:
+    1px solid
+    rgba(255, 208, 0, 0.12);
+
+  border-radius: 7px;
+
+  background:
+    rgba(255, 208, 0, 0.035);
+
+  color: #ffd000;
+
+  font: inherit;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-talento-acoes
+.ficha-nova-talento-remover {
+  border-color:
+    rgba(220, 79, 92, 0.13);
+
+  background:
+    rgba(220, 79, 92, 0.035);
+
+  color: #df8b94;
+}
+
+
+.ficha-nova-talento-edicao {
+  margin-top: 14px;
+
+  padding: 13px;
+
+  display: grid;
+
+  gap: 11px;
+
+  border:
+    1px solid
+    rgba(255, 208, 0, 0.11);
+
+  border-radius: 9px;
+
+  background:
+    rgba(255, 208, 0, 0.018);
+}
+
+
+.ficha-nova-talento-edicao
+label {
+  display: grid;
+
+  gap: 6px;
+}
+
+
+.ficha-nova-talento-edicao
+label
+span {
+  color: #8b929e;
+
+  font-size: 8px;
+  font-weight: 900;
+
+  letter-spacing: 0.08em;
+}
+
+
+.ficha-nova-talento-edicao
+input,
+.ficha-nova-talento-edicao
+textarea {
+  width: 100%;
+
+  padding: 9px 10px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.08);
+
+  border-radius: 7px;
+
+  outline: 0;
+
+  background: #10141c;
+
+  color: #eef0f4;
+
+  font: inherit;
+
+  font-size: 11px;
+}
+
+
+.ficha-nova-talento-edicao
+textarea {
+  resize: vertical;
+
+  line-height: 1.5;
+}
+
+
+.ficha-nova-talento-edicao
+input:focus,
+.ficha-nova-talento-edicao
+textarea:focus {
+  border-color:
+    rgba(255, 208, 0, 0.22);
+}
+
+
+.ficha-nova-talento-edicao
+> p {
+  margin: 0;
+
+  color: #767d89;
+
+  font-size: 9px;
+  line-height: 1.45;
+}
+
+
+.ficha-nova-talento-edicao-acoes {
+  display: flex;
+  justify-content: flex-end;
+
+  gap: 7px;
+}
+
+
+.ficha-nova-talento-edicao-acoes
+button {
+  min-height: 32px;
+
+  padding: 7px 10px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  border-radius: 7px;
+
+  background:
+    rgba(255, 255, 255, 0.025);
+
+  color: #abb1ba;
+
+  font: inherit;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-talento-edicao-acoes
+.ficha-nova-talento-salvar {
+  border-color:
+    rgba(255, 208, 0, 0.14);
+
+  background:
+    rgba(255, 208, 0, 0.05);
+
+  color: #ffd000;
+}
+
+
+.ficha-nova-vazio-talentos {
+  min-height: 260px;
+}
+
+
+.ficha-nova-talento-biblioteca {
+  padding: 17px;
+
+  border:
+    1px solid
+    rgba(255, 208, 0, 0.09);
+
+  border-radius: 13px;
+
+  background:
+    rgba(255, 208, 0, 0.012);
+}
+
+
+.ficha-nova-talento-biblioteca-topo {
+  padding-bottom: 13px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 15px;
+
+  border-bottom:
+    1px solid
+    rgba(255, 255, 255, 0.055);
+}
+
+
+.ficha-nova-talento-biblioteca-topo
+h3 {
+  margin: 5px 0;
+
+  font-size: 20px;
+}
+
+
+.ficha-nova-talento-biblioteca-topo
+p:last-child {
+  max-width: 720px;
+
+  margin: 0;
+
+  color: #888f9b;
+
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+
+.ficha-nova-talento-filtros {
+  margin: 13px 0;
+
+  display: flex;
+
+  gap: 6px;
+
+  flex-wrap: wrap;
+}
+
+
+.ficha-nova-talento-filtro {
+  min-height: 34px;
+
+  padding: 7px 10px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065);
+
+  border-radius: 7px;
+
+  background:
+    rgba(255, 255, 255, 0.02);
+
+  color: #949ba7;
+
+  font: inherit;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-talento-filtro-ativo {
+  border-color:
+    rgba(255, 208, 0, 0.18);
+
+  background:
+    rgba(255, 208, 0, 0.05);
+
+  color: #ffd000;
+}
+
+
+.ficha-nova-talento-biblioteca-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  gap: 9px;
+}
+
+
+.ficha-nova-talento-biblioteca-card {
+  min-width: 0;
+
+  min-height: 190px;
+
+  padding: 13px;
+
+  display: flex;
+  flex-direction: column;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065);
+
+  border-radius: 10px;
+
+  background:
+    rgba(255, 255, 255, 0.018);
+}
+
+
+.ficha-nova-talento-biblioteca-card-adquirido {
+  border-color:
+    rgba(121, 216, 255, 0.12);
+
+  background:
+    rgba(121, 216, 255, 0.018);
+}
+
+
+.ficha-nova-talento-biblioteca-card
+> header {
+  display: grid;
+
+  grid-template-columns:
+    39px
+    minmax(0, 1fr);
+
+  gap: 9px;
+
+  align-items: center;
+}
+
+
+.ficha-nova-talento-biblioteca-card
+> header
+> span {
+  width: 39px;
+  height: 39px;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.06);
+
+  border-radius: 8px;
+
+  background:
+    rgba(255, 255, 255, 0.02);
+
+  font-size: 18px;
+}
+
+
+.ficha-nova-talento-biblioteca-selos {
+  display: flex;
+  align-items: center;
+
+  gap: 5px;
+
+  flex-wrap: wrap;
+}
+
+
+.ficha-nova-talento-biblioteca-selos
+small {
+  color: #79d8ff;
+
+  font-size: 8px;
+  font-weight: 900;
+
+  text-transform: uppercase;
+}
+
+
+.ficha-nova-talento-biblioteca-selos
+em {
+  padding: 3px 5px;
+
+  border-radius: 5px;
+
+  background:
+    rgba(255, 208, 0, 0.08);
+
+  color: #ffd000;
+
+  font-size: 7px;
+  font-weight: 900;
+
+  font-style: normal;
+
+  letter-spacing: 0.06em;
+}
+
+
+.ficha-nova-talento-biblioteca-card
+h3 {
+  margin: 3px 0 0;
+
+  font-size: 14px;
+}
+
+
+.ficha-nova-talento-biblioteca-card
+> p {
+  margin: 11px 0 0;
+
+  color: #8d949f;
+
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+
+.ficha-nova-talento-biblioteca-card
+footer {
+  margin-top: auto;
+
+  padding-top: 12px;
+}
+
+
+.ficha-nova-talento-biblioteca-card
+footer
+button {
+  width: 100%;
+
+  min-height: 34px;
+
+  border:
+    1px solid
+    rgba(255, 208, 0, 0.14);
+
+  border-radius: 7px;
+
+  background:
+    rgba(255, 208, 0, 0.045);
+
+  color: #ffd000;
+
+  font: inherit;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-talento-ja-adquirido {
+  min-height: 34px;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid
+    rgba(121, 216, 255, 0.1);
+
+  border-radius: 7px;
+
+  color: #79d8ff;
+
+  font-size: 8px;
+  font-weight: 900;
+}
+
+
+/* ========================================
+   RITMO
+======================================== */
+
+.ficha-nova-ritmo-secao {
+  padding: 18px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065);
+
+  border-radius: 14px;
+
+  background:
+    rgba(255, 255, 255, 0.015);
+}
+
+
+.ficha-nova-ritmo-secao-topo {
+  margin-bottom: 14px;
+
+  padding-bottom: 12px;
+
+  border-bottom:
+    1px solid
+    rgba(255, 255, 255, 0.055);
+}
+
+
+.ficha-nova-ritmo-secao-topo h3 {
+  margin: 4px 0;
+
+  font-size: 19px;
+}
+
+
+.ficha-nova-ritmo-secao-topo p:last-child {
+  margin: 0;
+
+  color: #858c98;
+
+  font-size: 11px;
+}
+
+
+.ficha-nova-ritmo-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  gap: 12px;
+}
+
+
+.ficha-nova-ritmo-card {
+  padding: 19px;
+
+  display: grid;
+
+  gap: 10px;
+}
+
+
+.ficha-nova-ritmo-card > span {
+  color: #979eaa;
+
+  font-size: 10px;
+  font-weight: 900;
+}
+
+
+.ficha-nova-ritmo-card > strong {
+  font-size: 26px;
+}
+
+
+.ficha-nova-ritmo-card > p {
+  margin: 0;
+
+  color: #7f8692;
+
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+
+.ficha-nova-ritmo-controles {
+  margin-top: 4px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      4,
+      1fr
+    );
+
+  gap: 6px;
+}
+
+
+.ficha-nova-ritmo-controles button {
+  min-height: 34px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  border-radius: 7px;
+
+  background:
+    rgba(255, 255, 255, 0.025);
+
+  color: #c2c7cf;
+
+  font: inherit;
+
+  font-size: 10px;
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-ritmo-controles button:hover {
+  border-color:
+    rgba(121, 216, 255, 0.18);
+
+  color: #79d8ff;
+}
+
+
+/* ========================================
+   MOMENTUM
+======================================== */
+
+.ficha-nova-momentum-secao {
+  margin-top: 15px;
+
+  padding: 22px;
+
+  display: grid;
+
+  grid-template-columns:
+    72px
+    minmax(0, 1fr);
+
+  gap: 18px;
+
+  border:
+    1px solid
+    rgba(255, 130, 67, 0.18);
+
+  border-radius: 15px;
+
+  background:
+    rgba(255, 130, 67, 0.03);
+}
+
+
+.ficha-nova-momentum-icone {
+  width: 72px;
+  height: 72px;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid
+    rgba(255, 130, 67, 0.15);
+
+  border-radius: 14px;
+
+  background:
+    rgba(255, 130, 67, 0.055);
+
+  font-size: 31px;
+}
+
+
+.ficha-nova-momentum-conteudo h3 {
+  margin: 5px 0 7px;
+
+  font-size: 21px;
+}
+
+
+.ficha-nova-momentum-conteudo > p:last-of-type {
+  max-width: 700px;
+
+  margin: 0;
+
+  color: #9198a4;
+
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+
+.ficha-nova-momentum-valor {
+  margin-top: 18px;
+
+  display: flex;
+  align-items: baseline;
+
+  gap: 6px;
+}
+
+
+.ficha-nova-momentum-valor strong {
+  color: #ffb27f;
+
+  font-size: 37px;
+}
+
+
+.ficha-nova-momentum-valor span {
+  color: #a08e82;
+
+  font-size: 15px;
+}
+
+
+.ficha-nova-barra-momentum {
+  background:
+    linear-gradient(
+      90deg,
+      #ff8a4d,
+      #ffd000
+    );
+}
+
+
+.ficha-nova-momentum-controles {
+  margin-top: 15px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      4,
+      52px
+    )
+    minmax(
+      120px,
+      180px
+    );
+
+  gap: 7px;
+
+  align-items: end;
+}
+
+
+.ficha-nova-momentum-controles > button {
+  min-height: 38px;
+
+  border:
+    1px solid
+    rgba(255, 130, 67, 0.13);
+
+  border-radius: 8px;
+
+  background:
+    rgba(255, 130, 67, 0.035);
+
+  color: #ffc09a;
+
+  font: inherit;
+
+  font-size: 11px;
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-momentum-controles label {
+  display: grid;
+
+  gap: 5px;
+}
+
+
+.ficha-nova-momentum-controles label span {
+  color: #8c827c;
+
+  font-size: 8px;
+  font-weight: 900;
+
+  letter-spacing: 0.09em;
+}
+
+
+.ficha-nova-momentum-controles input {
+  width: 100%;
+
+  min-height: 38px;
+
+  padding: 7px 9px;
+
+  border:
+    1px solid
+    rgba(255, 130, 67, 0.15);
+
+  border-radius: 8px;
+
+  outline: 0;
+
+  background: #11151d;
+
+  color: #f2f2f4;
+
+  font: inherit;
+
+  font-size: 12px;
+  font-weight: 800;
+}
+
+
+/* ========================================
+   CONDIÇÕES
+======================================== */
+
+.ficha-nova-condicoes-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  gap: 12px;
+}
+
+
+.ficha-nova-condicao-card {
+  min-height: 220px;
+
+  padding: 21px;
+
+  display: grid;
+
+  grid-template-columns:
+    58px
+    minmax(0, 1fr);
+
+  gap: 15px;
+
+  align-items: start;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  border-radius: 14px;
+
+  background:
+    rgba(255, 255, 255, 0.018);
+}
+
+
+.ficha-nova-condicao-card-alerta {
+  border-color:
+    rgba(255, 154, 67, 0.22);
+
+  background:
+    rgba(255, 154, 67, 0.035);
+}
+
+
+.ficha-nova-condicao-icone {
+  width: 58px;
+  height: 58px;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  border-radius: 11px;
+
+  background:
+    rgba(255, 255, 255, 0.025);
+
+  font-size: 25px;
+}
+
+
+.ficha-nova-condicao-card h3 {
+  margin: 6px 0 12px;
+
+  font-size: 25px;
+}
+
+
+.ficha-nova-condicao-card > div:last-child > p:last-child {
+  margin: 12px 0 0;
+
+  color: #858c98;
+
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+
+.ficha-nova-condicao-card input {
+  width: 100%;
+
+  min-height: 43px;
+
+  margin-top: 8px;
+
+  padding: 9px 11px;
+
+  border:
+    1px solid
+    rgba(255, 208, 0, 0.13);
+
+  border-radius: 8px;
+
+  outline: 0;
+
+  background: #10141c;
+
+  color: #edf0f5;
+
+  font: inherit;
+
+  font-size: 14px;
+  font-weight: 800;
+}
+
+
+.ficha-nova-condicao-card input:focus {
+  border-color:
+    rgba(255, 208, 0, 0.3);
+}
+
+
+/* ========================================
+   ADMINISTRAÇÃO
+======================================== */
+
+.ficha-nova-admin-grid {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1.15fr)
+    minmax(260px, 0.85fr);
+
+  gap: 12px;
+}
+
+
+.ficha-nova-admin-grid > article {
+  padding: 20px;
+}
+
+
+.ficha-nova-admin-identidade {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+}
+
+
+.ficha-nova-admin-identidade > span {
+  width: 48px;
+  height: 48px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 10px;
+
+  background:
+    rgba(255, 208, 0, 0.05);
+
+  font-size: 21px;
+}
+
+
+.ficha-nova-admin-identidade small {
+  color: #838a96;
+
+  font-size: 9px;
+  font-weight: 900;
+}
+
+
+.ficha-nova-admin-identidade h3 {
+  margin: 4px 0 0;
+
+  font-size: 18px;
+}
+
+
+.ficha-nova-admin-dados {
+  margin-top: 18px;
+
+  display: grid;
+}
+
+
+.ficha-nova-admin-dados > div {
+  min-height: 43px;
+
+  padding: 9px 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  gap: 12px;
+
+  border-bottom:
+    1px solid
+    rgba(255, 255, 255, 0.055);
+}
+
+
+.ficha-nova-admin-dados span {
+  color: #898f9b;
+
+  font-size: 11px;
+}
+
+
+.ficha-nova-admin-dados strong {
+  font-size: 11px;
+
+  text-align: right;
+}
+
+
+.ficha-nova-admin-organizacao h3 {
+  margin: 5px 0 0;
+
+  font-size: 18px;
+}
+
+
+.ficha-nova-admin-atalhos {
+  margin-top: 17px;
+
+  display: grid;
+
+  gap: 7px;
+}
+
+
+.ficha-nova-admin-atalhos button {
+  min-height: 41px;
+
+  padding: 9px 11px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065);
+
+  border-radius: 8px;
+
+  background:
+    rgba(255, 255, 255, 0.02);
+
+  color: #b7bcc5;
+
+  font: inherit;
+
+  font-size: 11px;
+  font-weight: 800;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-admin-atalhos
+button:hover {
+  border-color:
+    rgba(255, 208, 0, 0.13);
+
+  color: #ffd000;
+}
+
+
+/* ========================================
+   VAZIOS / AVISOS
+======================================== */
+
+.ficha-nova-vazio {
+  min-height: 220px;
+
+  display: grid;
+
+  place-items: center;
+  align-content: center;
+
+  gap: 8px;
+
+  text-align: center;
+
+  color: #858c98;
+}
+
+
+.ficha-nova-vazio-grande {
+  min-height: 360px;
+}
+
+
+.ficha-nova-vazio > span {
+  font-size: 30px;
+}
+
+
+.ficha-nova-vazio h3 {
+  margin: 0;
+
+  color: #d8dbe1;
+
+  font-size: 16px;
+}
+
+
+.ficha-nova-vazio p {
+  max-width: 440px;
+
+  margin: 0;
+
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+
+.ficha-nova-aviso {
+  margin-top: 16px;
+
+  padding: 13px;
+
+  display: flex;
+  align-items: flex-start;
+
+  gap: 10px;
+
+  border:
+    1px solid
+    rgba(255, 208, 0, 0.09);
+
+  border-radius: 9px;
+
+  background:
+    rgba(255, 208, 0, 0.02);
+}
+
+
+.ficha-nova-aviso p {
+  margin: 0;
+
+  color: #949ba6;
+
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+
+/* ========================================
+   MODAL HABILIDADE
+======================================== */
+
+.ficha-nova-modal-fundo {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 900;
+
+  padding: 25px;
+
+  display: grid;
+  place-items: center;
+
+  overflow-y: auto;
+
+  background:
+    rgba(4, 6, 10, 0.82);
+}
+
+
+.ficha-nova-modal {
+  width:
+    min(
+      760px,
+      100%
+    );
+
+  max-height:
+    calc(100vh - 50px);
+
+  overflow-y: auto;
+
+  padding: 22px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.09);
+
+  border-radius: 16px;
+
+  background: #121720;
+
+  box-shadow:
+    0
+    20px
+    55px
+    rgba(0, 0, 0, 0.48);
+}
+
+
+.ficha-nova-modal-topo {
+  margin-bottom: 18px;
+
+  padding-bottom: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom:
+    1px solid
+    rgba(255, 255, 255, 0.06);
+}
+
+
+.ficha-nova-modal-topo h2 {
+  margin: 4px 0 0;
+
+  font-size: 24px;
+}
+
+
+.ficha-nova-modal-topo > button {
+  width: 36px;
+  height: 36px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  border-radius: 8px;
+
+  background:
+    rgba(255, 255, 255, 0.025);
+
+  color: #c1c6cf;
+
+  cursor: pointer;
+}
+
+
+.ficha-nova-form-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  gap: 11px;
+}
+
+
+.ficha-nova-campo {
+  display: grid;
+
+  gap: 6px;
+}
+
+
+.ficha-nova-campo-largo {
+  grid-column:
+    1 / -1;
+}
+
+
+.ficha-nova-campo > span {
+  color: #898f9a;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.09em;
+}
+
+
+.ficha-nova-campo input,
+.ficha-nova-campo textarea {
+  width: 100%;
+
+  padding: 10px 11px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  border-radius: 8px;
+
+  outline: 0;
+
+  background: #0d1118;
+
+  color: #eef0f4;
+
+  font: inherit;
+
+  font-size: 11px;
+}
+
+
+.ficha-nova-campo textarea {
+  resize: vertical;
+
+  line-height: 1.5;
+}
+
+
+.ficha-nova-campo input:focus,
+.ficha-nova-campo textarea:focus {
+  border-color:
+    rgba(255, 208, 0, 0.2);
+}
+
+
+.ficha-nova-modal-acoes {
+  margin-top: 17px;
+
+  padding-top: 15px;
+
+  display: flex;
+  justify-content: flex-end;
+
+  gap: 8px;
+
+  border-top:
+    1px solid
+    rgba(255, 255, 255, 0.06);
+}
+
+
+/* ========================================
+   RESPONSIVO
+======================================== */
+
+@media (
+  max-width: 1250px
+) {
+  .ficha-nova-atributos-rapidos-grid {
+    grid-template-columns:
+      repeat(
+        4,
+        minmax(0, 1fr)
+      );
+  }
+}
+
+
+@media (
+  max-width: 1180px
+) {
+  .ficha-nova-atributos-grid {
+    grid-template-columns:
+      repeat(
+        3,
+        minmax(0, 1fr)
+      );
+  }
+
+
+  .ficha-nova-recursos-modulo {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .ficha-nova-arquetipo-biblioteca-grid,
+  .ficha-nova-talento-biblioteca-grid {
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
+  }
+}
+
+
+@media (
+  max-width: 1100px
+) {
+  .ficha-nova-resumo-grade {
+    grid-template-columns:
+      1fr
+      220px;
+  }
+
+
+  .ficha-nova-recursos-resumo {
+    grid-column:
+      1 / -1;
+  }
+}
+
+
+@media (
+  max-width: 850px
+) {
+  .ficha-nova-layout {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .ficha-nova-menu {
+    position: static;
+
+    overflow-x: auto;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 5px;
+  }
+
+
+  .ficha-nova-menu-titulo,
+  .ficha-nova-menu-separador {
+    display: none;
+  }
+
+
+  .ficha-nova-menu nav {
+    display: flex;
+
+    gap: 5px;
+  }
+
+
+  .ficha-nova-menu-item {
+    width: auto;
+
+    flex: 0 0 auto;
+  }
+
+
+  .ficha-nova-resumo-secundario,
+  .ficha-nova-admin-grid,
+  .ficha-nova-condicoes-grid,
+  .ficha-nova-arquetipos-adquiridos-grid,
+  .ficha-nova-talentos-adquiridos-grid {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .ficha-nova-atributos-grid {
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
+  }
+
+
+  .ficha-nova-atributos-rapidos-grid {
+    grid-template-columns:
+      repeat(
+        3,
+        minmax(0, 1fr)
+      );
+  }
+}
+
+
+@media (
+  max-width: 620px
+) {
+  .ficha-nova-topo,
+  .ficha-nova-layout {
+    width:
+      calc(100% - 22px);
+  }
+
+
+  .ficha-nova-topo-avatar {
+    display: none;
+  }
+
+
+  .ficha-nova-resumo-grade {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .ficha-nova-retrato {
+    min-height: 300px;
+  }
+
+
+  .ficha-nova-recursos-resumo {
+    grid-column: auto;
+  }
+
+
+  .ficha-nova-modulo {
+    padding: 16px;
+  }
+
+
+  .ficha-nova-modulo-topo,
+  .ficha-nova-atributos-legenda,
+  .ficha-nova-atributos-grupo-topo,
+  .ficha-nova-arquetipos-area-topo,
+  .ficha-nova-talentos-area-topo,
+  .ficha-nova-arquetipo-biblioteca-topo,
+  .ficha-nova-talento-biblioteca-topo {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+
+  .ficha-nova-subnavegacao {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
+  }
+
+
+  .ficha-nova-subnavegacao-botao {
+    justify-content: center;
+  }
+
+
+  .ficha-nova-atributos-grid,
+  .ficha-nova-ritmo-grid,
+  .ficha-nova-habilidade-detalhes,
+  .ficha-nova-arquetipo-biblioteca-grid,
+  .ficha-nova-talento-biblioteca-grid {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .ficha-nova-atributos-rapidos-grid {
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
+  }
+
+
+  .ficha-nova-habilidade {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .ficha-nova-habilidade-imagem {
+    width: 100%;
+    height: 160px;
+  }
+
+
+  .ficha-nova-habilidade-titulo {
+    flex-direction: column;
+  }
+
+
+  .ficha-nova-habilidade-meta {
+    text-align: left;
+  }
+
+
+  .ficha-nova-form-grid {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .ficha-nova-campo-largo {
+    grid-column: auto;
+  }
+
+
+  .ficha-nova-passiva-propria,
+  .ficha-nova-momentum-secao,
+  .ficha-nova-condicao-card {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .ficha-nova-momentum-controles {
+    grid-template-columns:
+      repeat(
+        2,
+        1fr
+      );
+  }
+
+
+  .ficha-nova-momentum-controles label {
+    grid-column:
+      1 / -1;
+  }
+
+
+  .ficha-nova-resumo-condicoes {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .ficha-nova-talento-edicao-acoes {
+    flex-direction: column;
+  }
+
+
+  .ficha-nova-talento-edicao-acoes
+  button {
+    width: 100%;
+  }
+}

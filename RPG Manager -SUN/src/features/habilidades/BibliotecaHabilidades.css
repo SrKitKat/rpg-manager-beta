@@ -1,0 +1,1301 @@
+.biblioteca-habilidades {
+  width: 100%;
+  min-width: 0;
+  color: #f4f6f9;
+}
+
+
+.biblioteca-habilidades * {
+  box-sizing: border-box;
+}
+
+
+.biblioteca-habilidades button,
+.biblioteca-habilidades input,
+.biblioteca-habilidades select {
+  font: inherit;
+}
+
+
+.biblioteca-habilidades-etiqueta {
+  display: block;
+  margin-bottom: 5px;
+  color: #8b94a2;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+}
+
+
+/* ========================================
+   TOPO
+======================================== */
+
+.biblioteca-habilidades-topo {
+  margin-bottom: 20px;
+}
+
+
+.biblioteca-habilidades-topo h2 {
+  margin: 4px 0 6px;
+  font-size: 25px;
+}
+
+
+.biblioteca-habilidades-topo p {
+  max-width: 830px;
+  margin: 0;
+  color: #929aa8;
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+
+/* ========================================
+   FILTROS
+======================================== */
+
+.biblioteca-habilidades-filtros {
+  display: grid;
+  grid-template-columns:
+    minmax(260px, 2fr)
+    repeat(
+      5,
+      minmax(120px, 1fr)
+    );
+  gap: 10px;
+  margin-bottom: 13px;
+}
+
+
+.biblioteca-habilidades-filtros label {
+  min-width: 0;
+  display: grid;
+  gap: 6px;
+}
+
+
+.biblioteca-habilidades-filtros label > span {
+  color: #89919f;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+
+.biblioteca-habilidades-filtros input,
+.biblioteca-habilidades-filtros select,
+.biblioteca-habilidades-imagem-editor input {
+  width: 100%;
+  min-width: 0;
+  min-height: 40px;
+  border: 1px solid #343e4c;
+  border-radius: 8px;
+  outline: none;
+  background: #111720;
+  color: #f1f3f6;
+  padding: 9px 11px;
+  color-scheme: dark;
+}
+
+
+.biblioteca-habilidades-filtros input:focus,
+.biblioteca-habilidades-filtros select:focus,
+.biblioteca-habilidades-imagem-editor input:focus {
+  border-color: #b99438;
+}
+
+
+.biblioteca-habilidades-filtros input::placeholder {
+  color: #657080;
+}
+
+
+.biblioteca-habilidades-filtros option {
+  background: #111720;
+}
+
+
+.biblioteca-habilidades-contagem {
+  margin-bottom: 12px;
+  color: #7f8896;
+  font-size: 10px;
+}
+
+
+/* ========================================
+   RESULTADOS E PAGINAÇÃO
+======================================== */
+
+.biblioteca-habilidades-resultado-topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+
+.biblioteca-habilidades-resultado-info {
+  min-width: 0;
+  display: grid;
+  gap: 3px;
+}
+
+
+.biblioteca-habilidades-resultado-info > span {
+  color: #c7cdd6;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+
+.biblioteca-habilidades-resultado-info > small {
+  color: #7f8896;
+  font-size: 9px;
+}
+
+
+.biblioteca-habilidades-resultado-topo > button {
+  min-height: 35px;
+  border: 1px solid #3b4554;
+  border-radius: 8px;
+  background: #1b222c;
+  color: #dce1e8;
+  cursor: pointer;
+  padding: 7px 11px;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+
+.biblioteca-habilidades-resultado-topo > button:hover {
+  filter: brightness(1.08);
+}
+
+
+.biblioteca-habilidades-paginacao {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 11px 12px;
+  border: 1px solid #303a48;
+  border-radius: 10px;
+  background: #141a22;
+}
+
+
+.biblioteca-habilidades-paginacao-topo {
+  margin-bottom: 13px;
+}
+
+
+.biblioteca-habilidades-paginacao-rodape {
+  margin-top: 13px;
+}
+
+
+.biblioteca-habilidades-paginacao-resumo {
+  flex: 0 0 auto;
+  display: grid;
+  gap: 2px;
+}
+
+
+.biblioteca-habilidades-paginacao-resumo strong {
+  color: #d5dae1;
+  font-size: 10px;
+}
+
+
+.biblioteca-habilidades-paginacao-resumo span {
+  color: #7f8896;
+  font-size: 9px;
+}
+
+
+.biblioteca-habilidades-paginacao-controles {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 7px;
+}
+
+
+.biblioteca-habilidades-paginacao-paginas {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+
+.biblioteca-habilidades-paginacao button {
+  min-height: 34px;
+  border: 1px solid #3b4554;
+  border-radius: 8px;
+  background: #1b222c;
+  color: #dce1e8;
+  cursor: pointer;
+  padding: 7px 10px;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+
+.biblioteca-habilidades-paginacao button:hover:not(:disabled) {
+  border-color: #596577;
+  filter: brightness(1.08);
+}
+
+
+.biblioteca-habilidades-paginacao button:disabled {
+  cursor: default;
+  opacity: 0.35;
+}
+
+
+.biblioteca-habilidades-paginacao-pagina {
+  min-width: 34px;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+
+.biblioteca-habilidades-paginacao-pagina-ativa {
+  border-color: #d0a226 !important;
+  background: #eeb627 !important;
+  color: #151515 !important;
+}
+
+
+.biblioteca-habilidades-paginacao-reticencias {
+  min-width: 18px;
+  color: #737d8b;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+
+/* ========================================
+   GRID
+======================================== */
+
+.biblioteca-habilidades-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+  gap: 13px;
+}
+
+
+.biblioteca-habilidades-card {
+  min-width: 0;
+  display: grid;
+  grid-template-columns:
+    115px minmax(0, 1fr);
+  gap: 15px;
+  padding: 15px;
+  border: 1px solid #303a48;
+  border-radius: 13px;
+  background: #171d26;
+}
+
+
+.biblioteca-habilidades-card:hover {
+  border-color: #404b5b;
+}
+
+
+.biblioteca-habilidades-card-adquirida,
+.biblioteca-habilidades-card-adquirido {
+  border-color: #66562a;
+}
+
+
+/* ========================================
+   IMAGEM
+======================================== */
+
+/*
+  CARD
+
+  A miniatura possui tamanho fixo para
+  impedir imagens muito grandes de alterar
+  o tamanho do card.
+
+  Aqui usamos COVER porque o objetivo é
+  funcionar como thumbnail.
+*/
+
+.biblioteca-habilidades-card-imagem {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  height: 135px;
+  min-height: 135px;
+  max-height: 135px;
+  overflow: hidden;
+  border: 1px solid #303a48;
+  border-radius: 10px;
+  background: #10161e;
+}
+
+
+.biblioteca-habilidades-card-imagem > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+/*
+  HERO / DETALHES
+
+  O JSX atual coloca a imagem diretamente
+  dentro de .biblioteca-habilidades-hero.
+
+  Versões anteriores utilizavam uma camada
+  .biblioteca-habilidades-hero-imagem.
+
+  Mantemos suporte aos dois formatos.
+
+  A imagem de detalhe usa CONTAIN para que
+  frames do anime apareçam inteiros, sem
+  zoom exagerado ou corte da execução.
+*/
+
+.biblioteca-habilidades-hero-imagem {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  max-width: 270px;
+  height: 230px;
+  min-height: 230px;
+  max-height: 230px;
+  overflow: hidden;
+  border: 1px solid #303a48;
+  border-radius: 10px;
+  background: #10161e;
+  justify-self: start;
+  align-self: center;
+}
+
+
+.biblioteca-habilidades-hero-imagem > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+
+.biblioteca-habilidades-hero > img {
+  display: block;
+
+  width: 100%;
+  min-width: 0;
+  max-width: 270px;
+
+  height: 230px;
+  min-height: 0;
+  max-height: 230px;
+
+  object-fit: contain;
+  object-position: center;
+
+  overflow: hidden;
+
+  border:
+    1px solid
+    #303a48;
+
+  border-radius:
+    10px;
+
+  background:
+    #10161e;
+
+  justify-self:
+    start;
+
+  align-self:
+    center;
+}
+
+
+/*
+  Placeholder da estrutura atual.
+*/
+
+.biblioteca-habilidades-hero-vazio {
+  width: 100%;
+  min-width: 0;
+  max-width: 270px;
+
+  height: 230px;
+  min-height: 230px;
+  max-height: 230px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  border:
+    1px solid
+    #303a48;
+
+  border-radius:
+    10px;
+
+  background:
+    radial-gradient(
+      circle at 50% 40%,
+      rgba(255, 208, 0, 0.08),
+      transparent 55%
+    ),
+    #10161e;
+
+  color:
+    #b8bec7;
+
+  font-size:
+    42px;
+
+  justify-self:
+    start;
+
+  align-self:
+    center;
+}
+
+
+/*
+  Placeholder legado.
+*/
+
+.biblioteca-habilidades-imagem-placeholder {
+  width: 100%;
+  height: 100%;
+  min-height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b8bec7;
+  font-size: 36px;
+  background:
+    radial-gradient(
+      circle at 50% 40%,
+      rgba(255, 208, 0, 0.08),
+      transparent 55%
+    ),
+    #10161e;
+}
+
+
+/* ========================================
+   CARD
+======================================== */
+
+.biblioteca-habilidades-card-corpo {
+  min-width: 0;
+}
+
+
+.biblioteca-habilidades-badges,
+.biblioteca-habilidades-selos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+
+.biblioteca-habilidades-badges > span,
+.biblioteca-habilidades-selos > span,
+.biblioteca-habilidades-selos > strong,
+.biblioteca-habilidades-selos > em {
+  min-height: 21px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #3a4452;
+  border-radius: 999px;
+  background: #1c232e;
+  color: #b7bec8;
+  padding: 3px 8px;
+  font-size: 7px;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 0.08em;
+}
+
+
+.biblioteca-habilidades-badge-disponivel,
+.biblioteca-habilidades-selo-disponivel {
+  border-color: #756027 !important;
+  background: #272316 !important;
+  color: #e3bd54 !important;
+}
+
+
+.biblioteca-habilidades-badge-bloqueada,
+.biblioteca-habilidades-selo-bloqueado {
+  border-color: #744956 !important;
+  background: #291a20 !important;
+  color: #dc93a3 !important;
+}
+
+
+.biblioteca-habilidades-badge-oculta {
+  border-color: #4f5264 !important;
+  color: #a8a9b5 !important;
+}
+
+
+.biblioteca-habilidades-badge-adquirida {
+  border-color: #566d35 !important;
+  background: #1e291a !important;
+  color: #a6d27f !important;
+}
+
+
+.biblioteca-habilidades-badge-mecanica-pendente {
+  border-color: #75592d !important;
+  background: #271e13 !important;
+  color: #d5a85d !important;
+}
+
+
+.biblioteca-habilidades-badge-rascunho {
+  border-color: #66508b !important;
+  background: #211a2e !important;
+  color: #b9a0df !important;
+}
+
+
+.biblioteca-habilidades-card h3 {
+  margin: 0;
+  color: #f1f2f4;
+  font-size: 20px;
+}
+
+
+.biblioteca-habilidades-card-original {
+  margin: 3px 0 0;
+  color: #777f8c;
+  font-size: 11px;
+  font-style: italic;
+}
+
+
+.biblioteca-habilidades-card-meta {
+  margin: 5px 0 0;
+  color: #a3aab5;
+  font-size: 11px;
+}
+
+
+.biblioteca-habilidades-card-tipo {
+  margin: 5px 0 0;
+  color: #a3aab5;
+  font-size: 11px;
+}
+
+
+.biblioteca-habilidades-card-descricao {
+  margin: 13px 0 0;
+  color: #abb2bc;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+
+.biblioteca-habilidades-card-mecanica,
+.biblioteca-habilidades-card-custo {
+  margin-top: 14px;
+  padding-top: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-top: 1px solid #2d3745;
+}
+
+
+.biblioteca-habilidades-card-mecanica span,
+.biblioteca-habilidades-card-custo span {
+  color: #858e9c;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+
+.biblioteca-habilidades-card-mecanica strong,
+.biblioteca-habilidades-card-custo strong {
+  color: #edb932;
+}
+
+
+.biblioteca-habilidades-card-acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 13px;
+}
+
+
+/* ========================================
+   BOTÕES
+======================================== */
+
+.biblioteca-habilidades-botao-principal,
+.biblioteca-habilidades-botao-secundario,
+.biblioteca-habilidades-botao-adquirir,
+.biblioteca-habilidades-disponibilidades button {
+  min-height: 39px;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px 12px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+}
+
+
+.biblioteca-habilidades-botao-principal,
+.biblioteca-habilidades-botao-adquirir {
+  border: 1px solid #d0a226;
+  background: #eeb627;
+  color: #151515;
+}
+
+
+.biblioteca-habilidades-botao-secundario {
+  border: 1px solid #3b4554;
+  background: #1b222c;
+  color: #e8ebef;
+}
+
+
+.biblioteca-habilidades-botao-principal:hover,
+.biblioteca-habilidades-botao-secundario:hover,
+.biblioteca-habilidades-botao-adquirir:hover,
+.biblioteca-habilidades-disponibilidades button:hover {
+  filter: brightness(1.08);
+}
+
+
+/* ========================================
+   VAZIO
+======================================== */
+
+.biblioteca-habilidades-vazio {
+  padding: 16px;
+  border: 1px dashed #3a4451;
+  border-radius: 10px;
+  color: #858e9b;
+  text-align: center;
+}
+
+
+.biblioteca-habilidades-vazio-grande {
+  min-height: 190px;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 7px;
+}
+
+
+.biblioteca-habilidades-vazio-grande strong {
+  color: #c5cad1;
+}
+
+
+/* ========================================
+   DETALHES
+======================================== */
+
+.biblioteca-habilidades-detalhes-topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+
+.biblioteca-habilidades-hero {
+  display: grid;
+
+  grid-template-columns:
+    minmax(190px, 270px)
+    minmax(0, 1fr);
+
+  gap: 20px;
+
+  align-items:
+    center;
+
+  margin-bottom:
+    14px;
+
+  padding:
+    18px;
+
+  overflow:
+    hidden;
+
+  border:
+    1px solid
+    #303a48;
+
+  border-radius:
+    14px;
+
+  background:
+    #171d26;
+}
+
+
+.biblioteca-habilidades-hero-corpo,
+.biblioteca-habilidades-hero-info {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.biblioteca-habilidades-hero-corpo h2,
+.biblioteca-habilidades-hero-info h2 {
+  margin: 0;
+  font-size: clamp(27px, 4vw, 40px);
+}
+
+
+.biblioteca-habilidades-hero-corpo > p,
+.biblioteca-habilidades-hero-info > p {
+  margin: 7px 0 0;
+  color: #afb6c0;
+}
+
+
+.biblioteca-habilidades-nome-original {
+  color: #7f8794 !important;
+  font-size: 13px;
+  font-style: italic;
+}
+
+
+.biblioteca-habilidades-descricao {
+  max-width: 760px;
+  margin-top: 16px !important;
+  color: #9da5b1 !important;
+  line-height: 1.65;
+}
+
+
+/* ========================================
+   RESUMO
+======================================== */
+
+.biblioteca-habilidades-resumo-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(
+      4,
+      minmax(0, 1fr)
+    );
+  gap: 9px;
+  margin-bottom: 14px;
+}
+
+
+.biblioteca-habilidades-resumo-grid article {
+  min-width: 0;
+  padding: 14px;
+  border: 1px solid #303a48;
+  border-radius: 10px;
+  background: #171d26;
+}
+
+
+.biblioteca-habilidades-resumo-grid span {
+  display: block;
+  margin-bottom: 6px;
+  color: #818b99;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+}
+
+
+.biblioteca-habilidades-resumo-grid strong {
+  overflow-wrap: anywhere;
+}
+
+
+/* ========================================
+   BLOCOS
+======================================== */
+
+.biblioteca-habilidades-bloco {
+  margin-bottom: 14px;
+  padding: 17px;
+  border: 1px solid #303a48;
+  border-radius: 12px;
+  background: #171d26;
+}
+
+
+.biblioteca-habilidades-bloco h3 {
+  margin: 3px 0 13px;
+}
+
+
+.biblioteca-habilidades-bloco > p {
+  margin: 0;
+  color: #9ea7b3;
+  line-height: 1.65;
+}
+
+
+.biblioteca-habilidades-bloco-destaque {
+  border-color: #495a6e;
+  background: #1a222d;
+}
+
+
+/* ========================================
+   PARÂMETROS
+======================================== */
+
+.biblioteca-habilidades-parametros {
+  display: grid;
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+  gap: 9px;
+}
+
+
+.biblioteca-habilidades-parametros article {
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #303a48;
+  border-radius: 9px;
+  background: #121820;
+}
+
+
+.biblioteca-habilidades-parametros span {
+  display: block;
+  color: #8d96a3;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+
+.biblioteca-habilidades-parametros strong {
+  display: block;
+  margin-top: 5px;
+  color: #f0b932;
+  font-size: 19px;
+}
+
+
+.biblioteca-habilidades-parametros small {
+  display: block;
+  margin-top: 5px;
+  color: #6f7886;
+  font-size: 7px;
+}
+
+
+/*
+  Estrutura utilizada atualmente por
+  BarraParametroBanco.
+*/
+
+.biblioteca-habilidades-parametro {
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #303a48;
+  border-radius: 9px;
+  background: #121820;
+}
+
+
+.biblioteca-habilidades-parametro-topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+
+.biblioteca-habilidades-parametro-topo strong {
+  color: #dfe3e8;
+  font-size: 10px;
+}
+
+
+.biblioteca-habilidades-parametro-topo span {
+  color: #7e8794;
+  font-size: 7px;
+  font-weight: 800;
+  text-align: right;
+}
+
+
+.biblioteca-habilidades-barra {
+  height: 6px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #252e3a;
+}
+
+
+.biblioteca-habilidades-barra-preenchimento {
+  height: 100%;
+  border-radius: inherit;
+  background: #e0ae2c;
+}
+
+
+/* ========================================
+   PROVENIÊNCIA
+======================================== */
+
+.biblioteca-habilidades-proveniencia,
+.biblioteca-habilidades-origem-grid {
+  display: grid;
+  gap: 9px;
+}
+
+
+.biblioteca-habilidades-proveniencia > article,
+.biblioteca-habilidades-origem-grid > article {
+  padding: 13px;
+  border: 1px solid #303a48;
+  border-radius: 9px;
+  background: #121820;
+}
+
+
+.biblioteca-habilidades-proveniencia > article > span,
+.biblioteca-habilidades-origem-grid > article > span {
+  display: block;
+  margin-bottom: 8px;
+  color: #7f8996;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+}
+
+
+.biblioteca-habilidades-proveniencia > article > strong,
+.biblioteca-habilidades-origem-grid > article > strong {
+  display: block;
+}
+
+
+.biblioteca-habilidades-proveniencia > article > p,
+.biblioteca-habilidades-origem-grid > article > p {
+  margin: 4px 0 0;
+  color: #89929f;
+  font-size: 10px;
+}
+
+
+.biblioteca-habilidades-proveniencia > article > div {
+  padding: 7px 0;
+  border-bottom: 1px solid #29323f;
+}
+
+
+.biblioteca-habilidades-proveniencia > article > div:last-child {
+  border-bottom: 0;
+}
+
+
+.biblioteca-habilidades-proveniencia > article > div strong {
+  display: block;
+  color: #777f8c;
+  font-size: 8px;
+}
+
+
+.biblioteca-habilidades-proveniencia > article > div p {
+  margin: 3px 0 0;
+  color: #e4e7eb;
+  font-size: 11px;
+}
+
+
+/* ========================================
+   ADMINISTRAÇÃO
+======================================== */
+
+.biblioteca-habilidades-administracao {
+  border-color: #51482b;
+}
+
+
+.biblioteca-habilidades-disponibilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 13px;
+}
+
+
+.biblioteca-habilidades-disponibilidades button {
+  border: 1px solid #3a4553;
+  background: #171e27;
+  color: #bbc2cc;
+}
+
+
+.biblioteca-habilidades-disponibilidades button.ativo {
+  border-color: #b48e31;
+  background: #292315;
+  color: #e9bf53;
+}
+
+
+.biblioteca-habilidades-admin-separador {
+  height: 1px;
+  margin: 18px 0;
+  background: #303947;
+}
+
+
+.biblioteca-habilidades-imagem-editor {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1fr)
+    auto;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+
+.biblioteca-habilidades-admin-acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+
+/* ========================================
+   ADQUIRIR
+======================================== */
+
+.biblioteca-habilidades-adquirir-fixo {
+  margin-top: 16px;
+  padding-top: 15px;
+  border-top: 1px solid #303a48;
+}
+
+
+.biblioteca-habilidades-adquirir-fixo
+.biblioteca-habilidades-botao-adquirir {
+  width: 100%;
+  min-height: 48px;
+}
+
+
+/* ========================================
+   RESPONSIVO
+======================================== */
+
+@media (max-width: 1150px) {
+
+  .biblioteca-habilidades-filtros {
+    grid-template-columns:
+      repeat(
+        3,
+        minmax(0, 1fr)
+      );
+  }
+
+
+  .biblioteca-habilidades-busca {
+    grid-column:
+      1 / -1;
+  }
+
+}
+
+
+@media (max-width: 900px) {
+
+  .biblioteca-habilidades-paginacao {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+
+  .biblioteca-habilidades-paginacao-controles {
+    justify-content: space-between;
+  }
+
+
+  .biblioteca-habilidades-paginacao-paginas {
+    flex: 1 1 auto;
+  }
+
+
+  .biblioteca-habilidades-grid {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .biblioteca-habilidades-resumo-grid {
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
+  }
+
+
+  .biblioteca-habilidades-parametros {
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
+  }
+
+}
+
+
+@media (max-width: 680px) {
+
+  .biblioteca-habilidades-resultado-topo {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+
+  .biblioteca-habilidades-resultado-topo > button {
+    width: 100%;
+  }
+
+
+  .biblioteca-habilidades-paginacao-controles {
+    display: grid;
+    grid-template-columns:
+      1fr
+      1fr;
+  }
+
+
+  .biblioteca-habilidades-paginacao-paginas {
+    grid-column:
+      1 / -1;
+    grid-row:
+      1;
+  }
+
+
+  .biblioteca-habilidades-paginacao-navegacao {
+    width: 100%;
+  }
+
+
+  .biblioteca-habilidades-filtros {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .biblioteca-habilidades-busca {
+    grid-column:
+      auto;
+  }
+
+
+  .biblioteca-habilidades-card {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .biblioteca-habilidades-card-imagem {
+    height: 190px;
+    min-height: 190px;
+    max-height: 190px;
+  }
+
+
+  .biblioteca-habilidades-hero {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .biblioteca-habilidades-hero > img,
+  .biblioteca-habilidades-hero-imagem,
+  .biblioteca-habilidades-hero-vazio {
+    width: 100%;
+    max-width: 100%;
+
+    height: 210px;
+    min-height: 210px;
+    max-height: 210px;
+
+    justify-self: stretch;
+  }
+
+
+  .biblioteca-habilidades-resumo-grid,
+  .biblioteca-habilidades-parametros {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .biblioteca-habilidades-detalhes-topo {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+
+  .biblioteca-habilidades-detalhes-topo button {
+    width: 100%;
+  }
+
+
+  .biblioteca-habilidades-imagem-editor {
+    grid-template-columns:
+      1fr;
+  }
+
+}

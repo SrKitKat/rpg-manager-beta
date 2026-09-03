@@ -1,0 +1,18 @@
+# Dependencias e saidas locais
+node_modules/
+dist/
+.vercel/
+
+# Ferramentas, dados de trabalho e documentacao
+scripts/
+dados/
+documentacao/
+Microsoft/
+*.mjs
+*.zip
+IMAGENS_HISSATSU_CURADORIA.json
+
+# Midias de curadoria que nao sao usadas pela aplicacao
+public/assets/hissatsu/candidatos-visuais/
+public/assets/hissatsu/fontes-video/
+public/assets/hissatsu/propostas/

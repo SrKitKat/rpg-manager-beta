@@ -1,0 +1,659 @@
+.editor-banco {
+  width: 100%;
+  min-width: 0;
+  color: #f4f6fa;
+}
+
+.editor-banco * {
+  box-sizing: border-box;
+}
+
+.editor-banco button,
+.editor-banco input,
+.editor-banco select,
+.editor-banco textarea {
+  font: inherit;
+}
+
+.editor-banco button:disabled {
+  cursor: not-allowed;
+  opacity: 0.42;
+  filter: none;
+}
+
+
+/* ========================================
+   TOPO
+======================================== */
+
+.editor-banco-topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.editor-banco-topo-acoes,
+.editor-banco-rodape-acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.editor-banco-voltar,
+.editor-banco-rascunho,
+.editor-banco-publicar,
+.editor-banco-remover,
+.editor-banco-adicionar {
+  min-height: 40px;
+  border-radius: 8px;
+  padding: 9px 13px;
+  cursor: pointer;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.editor-banco-voltar {
+  border: 1px solid #3a4555;
+  background: #1b222d;
+  color: #eef2f7;
+}
+
+.editor-banco-rascunho {
+  border: 1px solid #665a37;
+  background: #292516;
+  color: #e8c66c;
+}
+
+.editor-banco-publicar {
+  border: 1px solid #d9a91e;
+  background: #f3b91d;
+  color: #151515;
+}
+
+.editor-banco-remover {
+  border: 1px solid #704448;
+  background: #27191c;
+  color: #e59b9f;
+}
+
+.editor-banco-adicionar {
+  border: 1px solid #3a4555;
+  background: #1b222d;
+  color: #f0bd31;
+}
+
+.editor-banco-voltar:hover:not(:disabled),
+.editor-banco-rascunho:hover:not(:disabled),
+.editor-banco-publicar:hover:not(:disabled),
+.editor-banco-remover:hover:not(:disabled),
+.editor-banco-adicionar:hover:not(:disabled) {
+  filter: brightness(1.08);
+}
+
+
+/* ========================================
+   IDENTIDADE
+======================================== */
+
+.editor-banco-identidade {
+  display: grid;
+  grid-template-columns:
+    auto
+    minmax(0, 1fr)
+    auto;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 13px;
+  padding: 18px;
+  border: 1px solid #36404f;
+  border-radius: 13px;
+  background: #171d26;
+}
+
+.editor-banco-identidade-icone {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #3b4655;
+  border-radius: 12px;
+  background: #111720;
+  font-size: 30px;
+}
+
+.editor-banco-identidade span {
+  display: block;
+  color: #8792a4;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+}
+
+.editor-banco-identidade h2 {
+  margin: 4px 0 3px;
+}
+
+.editor-banco-identidade p {
+  margin: 0;
+  color: #9ca6b5;
+}
+
+.editor-banco-nome-original {
+  margin-bottom: 4px !important;
+  color: #d7b65d !important;
+  font-size: 11px;
+  font-style: italic;
+}
+
+.editor-banco-status {
+  display: grid;
+  justify-items: end;
+  gap: 6px;
+}
+
+.editor-banco-status span,
+.editor-banco-status strong {
+  border-radius: 999px;
+  padding: 5px 9px;
+  font-size: 9px;
+  letter-spacing: 0.06em;
+}
+
+.editor-banco-status span {
+  border: 1px solid #665a37;
+  background: #292516;
+  color: #e8c66c;
+}
+
+.editor-banco-status strong {
+  border: 1px solid #426048;
+  background: #17251c;
+  color: #8fc89a;
+}
+
+
+/* ========================================
+   AVISO
+======================================== */
+
+.editor-banco-aviso {
+  display: flex;
+  gap: 11px;
+  margin-bottom: 14px;
+  padding: 13px 15px;
+  border: 1px solid #3a4656;
+  border-radius: 10px;
+  background: #151c25;
+  color: #aab3c0;
+}
+
+.editor-banco-aviso > span {
+  color: #e5b534;
+  font-weight: 900;
+}
+
+.editor-banco-aviso p {
+  margin: 0;
+  line-height: 1.55;
+}
+
+
+/* ========================================
+   BLOCOS
+======================================== */
+
+.editor-banco-bloco {
+  margin-bottom: 14px;
+  padding: 18px;
+  border: 1px solid #303a49;
+  border-radius: 12px;
+  background: #171d26;
+}
+
+.editor-banco-bloco > header {
+  margin-bottom: 16px;
+}
+
+.editor-banco-bloco > header > span,
+.editor-banco-bloco-topo > div > span,
+.editor-banco-grid label > span,
+.editor-banco-adicionar-requisito > span {
+  display: block;
+  color: #8792a4;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.editor-banco-bloco h3 {
+  margin: 4px 0 5px;
+}
+
+.editor-banco-bloco header p {
+  max-width: 760px;
+  margin: 0;
+  color: #929cab;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.editor-banco-bloco-topo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.editor-banco-bloco-topo > strong {
+  color: #dfb13d;
+  white-space: nowrap;
+}
+
+
+/* ========================================
+   CAMPOS
+======================================== */
+
+.editor-banco-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+  gap: 12px;
+}
+
+.editor-banco-grid label,
+.editor-banco-adicionar-requisito,
+.editor-banco-textarea {
+  display: grid;
+  gap: 7px;
+}
+
+.editor-banco-campo-largo {
+  grid-column: 1 / -1;
+}
+
+.editor-banco input,
+.editor-banco select,
+.editor-banco textarea {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #364252;
+  border-radius: 8px;
+  background: #111720;
+  color: #eef2f7;
+  outline: none;
+}
+
+.editor-banco input,
+.editor-banco select {
+  height: 42px;
+  padding: 8px 11px;
+}
+
+.editor-banco textarea {
+  min-height: 100px;
+  resize: vertical;
+  padding: 11px;
+  line-height: 1.5;
+}
+
+.editor-banco input:focus,
+.editor-banco select:focus,
+.editor-banco textarea:focus {
+  border-color: #cda22d;
+}
+
+.editor-banco input::placeholder,
+.editor-banco textarea::placeholder {
+  color: #657183;
+}
+
+.editor-banco select {
+  color-scheme: dark;
+}
+
+
+/* ========================================
+   HERANÇA / EXCEÇÕES
+======================================== */
+
+.editor-banco-campo-herdado {
+  display: grid;
+  gap: 9px;
+  max-width: 420px;
+  padding: 14px;
+  border: 1px solid #303b49;
+  border-radius: 10px;
+  background: #131922;
+}
+
+.editor-banco-campo-herdado-topo,
+.editor-banco-parametro-herdado-topo,
+.editor-banco-parametro-herdado-rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.editor-banco-origem {
+  display: inline-flex;
+  width: fit-content;
+  border: 1px solid #3e5064;
+  border-radius: 999px;
+  padding: 4px 7px;
+  background: #17212c;
+  color: #8fa3ba;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.editor-banco-origem-personalizado {
+  border-color: #80671f;
+  background: #282314;
+  color: #e9c653;
+}
+
+.editor-banco-restaurar {
+  border: 0;
+  background: transparent;
+  color: #d7b65d;
+  cursor: pointer;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.editor-banco-restaurar:hover {
+  text-decoration: underline;
+}
+
+.editor-banco-parametros-herdados {
+  align-items: stretch;
+}
+
+.editor-banco-parametro-herdado {
+  display: grid;
+  align-content: start;
+  gap: 8px;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #303b49;
+  border-radius: 9px;
+  background: #131922;
+}
+
+.editor-banco-parametro-personalizado {
+  border-color: #695b2e;
+  background: #1d1c17;
+}
+
+.editor-banco-parametro-herdado-topo > span {
+  color: #aeb7c3;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.editor-banco-parametro-herdado-topo > small {
+  color: #728096;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+}
+
+.editor-banco-parametro-personalizado
+.editor-banco-parametro-herdado-topo > small {
+  color: #e0b94d;
+}
+
+.editor-banco-parametro-herdado-rodape {
+  color: #778396;
+  font-size: 9px;
+}
+
+.editor-banco-parametro-herdado-rodape button {
+  border: 0;
+  background: transparent;
+  color: #d7b65d;
+  cursor: pointer;
+  font-size: 9px;
+}
+
+.editor-banco-parametro-herdado-rodape button:hover {
+  text-decoration: underline;
+}
+
+.editor-banco-parametros {
+  display: grid;
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+  gap: 10px;
+}
+
+
+/* ========================================
+   REQUISITOS
+======================================== */
+
+.editor-banco-requisitos {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 13px;
+}
+
+.editor-banco-requisito {
+  display: grid;
+  grid-template-columns:
+    minmax(120px, 1fr)
+    120px
+    40px;
+  align-items: center;
+  gap: 8px;
+  padding: 9px;
+  border: 1px solid #303a48;
+  border-radius: 8px;
+  background: #131922;
+}
+
+.editor-banco-requisito strong {
+  font-size: 11px;
+}
+
+.editor-banco-requisito button,
+.editor-banco-narrativo button {
+  height: 38px;
+  border: 1px solid #5a3a40;
+  border-radius: 7px;
+  background: #25181b;
+  color: #d9979d;
+  cursor: pointer;
+}
+
+.editor-banco-adicionar-requisito {
+  max-width: 360px;
+}
+
+.editor-banco-narrativos {
+  display: grid;
+  gap: 8px;
+}
+
+.editor-banco-narrativo {
+  display: grid;
+  grid-template-columns:
+    30px
+    minmax(0, 1fr)
+    40px;
+  align-items: center;
+  gap: 8px;
+}
+
+.editor-banco-narrativo > span {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #242d39;
+  color: #9ea8b7;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+
+/* ========================================
+   ESTADOS
+======================================== */
+
+.editor-banco-vazio {
+  padding: 15px;
+  border: 1px dashed #3a4554;
+  border-radius: 9px;
+  color: #8994a4;
+  text-align: center;
+  font-size: 11px;
+}
+
+.editor-banco-resumo-alteracoes {
+  display: grid;
+  gap: 7px;
+  margin-top: 16px;
+  padding: 15px;
+  border: 1px solid #384555;
+  border-radius: 10px;
+  background: #141b24;
+}
+
+.editor-banco-resumo-alteracoes span {
+  display: block;
+  margin-bottom: 4px;
+  color: #7f8a9b;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.editor-banco-resumo-alteracoes strong {
+  color: #e8edf4;
+  font-size: 12px;
+}
+
+.editor-banco-resumo-alteracoes p {
+  margin: 0;
+  color: #8995a6;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+
+/* ========================================
+   RODAPÉ
+======================================== */
+
+.editor-banco-rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-top: 18px;
+  padding-top: 17px;
+  border-top: 1px solid #303a49;
+}
+
+
+/* ========================================
+   RESPONSIVO
+======================================== */
+
+@media (max-width: 900px) {
+
+  .editor-banco-parametros {
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
+  }
+
+}
+
+
+@media (max-width: 700px) {
+
+  .editor-banco-topo,
+  .editor-banco-rodape,
+  .editor-banco-bloco-topo {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .editor-banco-identidade {
+    grid-template-columns:
+      auto
+      minmax(0, 1fr);
+  }
+
+  .editor-banco-status {
+    grid-column: 1 / -1;
+    justify-items: start;
+  }
+
+  .editor-banco-grid,
+  .editor-banco-parametros {
+    grid-template-columns: 1fr;
+  }
+
+  .editor-banco-campo-largo {
+    grid-column: auto;
+  }
+
+  .editor-banco-requisito {
+    grid-template-columns:
+      minmax(0, 1fr)
+      100px
+      40px;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .editor-banco-identidade {
+    grid-template-columns: 1fr;
+  }
+
+  .editor-banco-identidade-icone {
+    width: 54px;
+    height: 54px;
+  }
+
+  .editor-banco-requisito {
+    grid-template-columns:
+      1fr
+      40px;
+  }
+
+  .editor-banco-requisito strong {
+    grid-column: 1 / -1;
+  }
+
+  .editor-banco-narrativo {
+    grid-template-columns:
+      28px
+      minmax(0, 1fr)
+      40px;
+  }
+
+}

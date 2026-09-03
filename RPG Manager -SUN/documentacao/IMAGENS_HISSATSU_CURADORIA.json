@@ -1,0 +1,1216 @@
+{
+  "versao": 2,
+  "descricao": "Curadoria visual persistente do Banco de Hissatsu. Versão 2: decisões atualizadas após revisão visual do lote gerado em 2026-08-16; decisões humanas devem sobreviver a novas execuções do catalogador automático.",
+  "estadoPadrao": "revisar",
+  "estadosPermitidos": [
+    "aprovada",
+    "revisar",
+    "rejeitada"
+  ],
+  "regras": {
+    "aprovada": {
+      "manterImagemAtual": true,
+      "permitirBuscaAutomatica": false,
+      "bloquearSubstituicaoAutomatica": true
+    },
+    "revisar": {
+      "manterImagemAtual": true,
+      "permitirBuscaAutomatica": true,
+      "bloquearSubstituicaoAutomatica": false
+    },
+    "rejeitada": {
+      "manterImagemAtual": false,
+      "permitirBuscaAutomatica": true,
+      "bloquearSubstituicaoAutomatica": false
+    }
+  },
+  "registros": {
+    "fire-tornado": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/fire-tornado.webp",
+      "candidatoAtual": "",
+      "observacao": "Referência visual já validada manualmente. Não substituir automaticamente."
+    },
+    "dragon-crash": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/ie1/dragon-crash.png",
+      "candidatoAtual": "",
+      "observacao": "Imagem local do piloto validada manualmente. Não substituir automaticamente."
+    },
+    "god-hand": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/ie1/god-hand.png",
+      "candidatoAtual": "",
+      "observacao": "Imagem local do piloto validada manualmente. Não substituir automaticamente."
+    },
+    "the-wall": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/the-wall.webp",
+      "candidatoAtual": "File:(AT) The Wall.png",
+      "observacao": "Efeito da Hissatsu está claramente representado."
+    },
+    "inazuma-otoshi": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/inazuma-otoshi.webp",
+      "candidatoAtual": "File:(IE) Inazuma Otoshi 6.png",
+      "observacao": "Execução da técnica claramente representada."
+    },
+    "the-tower": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/the-tower.webp",
+      "candidatoAtual": "File:(IE) The Tower V2 7.png",
+      "observacao": "Efeito principal da Hissatsu claramente visível."
+    },
+    "dragon-tornado": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/dragon-tornado.webp",
+      "candidatoAtual": "File:(IE) Dragon Tornado 10.png",
+      "observacao": "Frame forte e reconhecível da execução."
+    },
+    "zigzag-spark": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/zigzag-spark.webp",
+      "candidatoAtual": "File:(IE) Zigzag Spark V2 8.png",
+      "observacao": "A ação e o efeito da técnica aparecem claramente."
+    },
+    "dash-storm": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/dash-storm.webp",
+      "candidatoAtual": "File:(IE) Dash Storm V2 4.png",
+      "observacao": "Referência visual forte da Hissatsu."
+    },
+    "wormhole": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/wormhole.webp",
+      "candidatoAtual": "File:(IE) Wormhole 5.png",
+      "observacao": "O efeito característico da técnica está claramente visível."
+    },
+    "full-power-shield": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/full-power-shield.webp",
+      "candidatoAtual": "File:(IE) Full Power Shield 1.png",
+      "observacao": "Boa representação da execução da defesa."
+    },
+    "double-rocket": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/double-rocket.webp",
+      "candidatoAtual": "File:(IE) Double Rocket 9.png",
+      "observacao": "Ação da técnica claramente identificável."
+    },
+    "triple-defense": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/triple-defense.webp",
+      "candidatoAtual": "File:Triple Defense.png",
+      "observacao": "Efeito e contexto da defesa estão bem representados."
+    },
+    "illusion-ball": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/illusion-ball.webp",
+      "candidatoAtual": "File:(IE) Shin Illusion Ball 5.png",
+      "observacao": "Revisada visualmente no lote atual. A imagem representa de forma suficientemente clara a execução ou o efeito da Hissatsu; não substituir automaticamente."
+    },
+    "death-zone": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/death-zone.webp",
+      "candidatoAtual": "File:(AT) Death Zone 6.png",
+      "observacao": "Relacionada à técnica, mas não representa o ápice visual desejado.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(AT) Death Zone 1.png",
+          "motivo": "Os jogadores aparecem correndo, sem o efeito característico da Death Zone em evidência."
+        },
+        {
+          "tituloArquivo": "File:(AT) Death Zone 4.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/death-zone/death-zone__8f3bb1d78e.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T01:10:20.899Z"
+        },
+        {
+          "tituloArquivo": "File:(AT) Death Zone 5.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/death-zone/death-zone__f13e20b5c1.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T01:10:20.899Z"
+        }
+      ],
+      "classificacaoVisual": "execucao-clara",
+      "ultimaDecisaoVisual": {
+        "acao": "selecionar-candidato",
+        "origem": "candidatos-visuais-v1",
+        "tituloArquivo": "File:(AT) Death Zone 6.png",
+        "urlOrigem": "/assets/hissatsu/candidatos-visuais/death-zone/death-zone__98a6e38e8d.webp",
+        "urlReferencia": "/assets/hissatsu/referencia/death-zone.webp",
+        "motivo": "Mostra claramente os três jogadores formando e executando a técnica com a bola. Não possui overlay de nome, mas comunica muito bem a Hissatsu.",
+        "aplicadaEm": "2026-08-17T01:10:20.832Z"
+      }
+    },
+    "the-phoenix": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/the-phoenix.webp",
+      "candidatoAtual": "File:(IE) The Phoenix 6.png",
+      "observacao": "Buscar um momento em que a Fênix e o efeito da Hissatsu estejam mais evidentes.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) The Phoenix 1.png",
+          "motivo": "A cena mostra os jogadores correndo, mas a Fênix/efeito principal da técnica não aparece."
+        },
+        {
+          "tituloArquivo": "File:(IE) The Phoenix 4.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/the-phoenix/the-phoenix__8cbf447871.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T01:10:20.905Z"
+        },
+        {
+          "tituloArquivo": "File:(IE) The Phoenix 5.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/the-phoenix/the-phoenix__37b29d217a.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T01:10:20.906Z"
+        }
+      ],
+      "classificacaoVisual": "execucao-clara",
+      "ultimaDecisaoVisual": {
+        "acao": "selecionar-candidato",
+        "origem": "candidatos-visuais-v1",
+        "tituloArquivo": "File:(IE) The Phoenix 6.png",
+        "urlOrigem": "/assets/hissatsu/candidatos-visuais/the-phoenix/the-phoenix__388b40f42b.webp",
+        "urlReferencia": "/assets/hissatsu/referencia/the-phoenix.webp",
+        "motivo": "Efeito da fênix grande e imediatamente reconhecível, tornando a técnica visualmente muito fácil de entender.",
+        "aplicadaEm": "2026-08-17T01:10:20.832Z"
+      }
+    },
+    "heavens-time": {
+      "estado": "revisar",
+      "imagemAtual": "/assets/hissatsu/referencia/heavens-time.webp",
+      "candidatoAtual": "File:(IE) Heaven's Time 2.png",
+      "observacao": "O frame continua excessivamente centrado no personagem e não apresenta de forma suficientemente clara o efeito característico de Heaven's Time.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Heaven's Time 8.png",
+          "motivo": "O frame é um close do personagem e não representa adequadamente o efeito da técnica."
+        },
+        {
+          "tituloArquivo": "File:(IE) Heaven's Time 9.png",
+          "motivo": "O frame continua excessivamente centrado no personagem e não apresenta de forma suficientemente clara o efeito característico de Heaven's Time."
+        },
+        {
+          "tituloArquivo": "File:(IE) Heaven's Time 5.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/heavens-time/heavens-time__65aabcdd11.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T01:10:20.909Z"
+        },
+        {
+          "tituloArquivo": "File:(IE) Heaven's Time 4.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/heavens-time/heavens-time__9bb2504427.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T01:10:20.909Z"
+        },
+        {
+          "tituloArquivo": "File:(IE) Heaven's Time 3.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/heavens-time/heavens-time__a4ae7599d3.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.186Z"
+        },
+        {
+          "tituloArquivo": "File:(IE) Heaven's Time 1.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/heavens-time/heavens-time__6e57a5dd23.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.186Z"
+        }
+      ],
+      "classificacaoVisual": "fallback-compreensivel",
+      "ultimaDecisaoVisual": {
+        "acao": "selecionar-candidato",
+        "origem": "candidatos-visuais-v1",
+        "tituloArquivo": "File:(IE) Heaven's Time 2.png",
+        "urlOrigem": "/assets/hissatsu/candidatos-visuais/heavens-time/heavens-time__fc889d7a1f.webp",
+        "urlReferencia": "/assets/hissatsu/referencia/heavens-time.webp",
+        "motivo": "O nome japonês aparece na cena e a técnica é identificável, mas o enquadramento ainda não alcança o padrão visual ideal. Promover como fallback e continuar buscando uma referência melhor.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      }
+    },
+    "grenade-shot": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/grenade-shot.webp",
+      "candidatoAtual": "File:(IE) Grenade Shot 2.png",
+      "observacao": "Revisada visualmente no lote atual. A imagem representa de forma suficientemente clara a execução ou o efeito da Hissatsu; não substituir automaticamente."
+    },
+    "inazuma-1gou": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/inazuma-1gou.webp",
+      "candidatoAtual": "File:(IE) Inazuma 1gou 2.png",
+      "observacao": "Revisada visualmente no lote atual. A imagem representa de forma suficientemente clara a execução ou o efeito da Hissatsu; não substituir automaticamente."
+    },
+    "dash-accel": {
+      "estado": "revisar",
+      "imagemAtual": "/assets/hissatsu/referencia/dash-accel.webp",
+      "candidatoAtual": "File:(IE) Dash Accel 2.png",
+      "observacao": "Buscar um frame com manifestação mais clara do efeito.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Dash Accel 1.png",
+          "motivo": "A imagem mostra uma disputa entre jogadores, mas não evidencia o efeito característico de aceleração."
+        }
+      ]
+    },
+    "power-shield": {
+      "estado": "rejeitada",
+      "imagemAtual": "/assets/hissatsu/referencia/power-shield.webp",
+      "candidatoAtual": "File:(IE) Power Shield 1.png",
+      "observacao": "A cena mostra principalmente o personagem em movimento e não apresenta claramente o escudo defensivo da Hissatsu.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Power Shield 2.png",
+          "motivo": "O frame é um close do pé e não mostra de forma clara o escudo/efeito completo da defesa."
+        },
+        {
+          "tituloArquivo": "File:(IE) Power Shield 1.png",
+          "motivo": "A cena mostra principalmente o personagem em movimento e não apresenta claramente o escudo defensivo da Hissatsu."
+        }
+      ]
+    },
+    "shoot-pocket": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/shoot-pocket.webp",
+      "candidatoAtual": "File:(IE) Shoot Pocket 2.png",
+      "observacao": "Revisada visualmente no lote atual. A imagem representa de forma suficientemente clara a execução ou o efeito da Hissatsu; não substituir automaticamente."
+    },
+    "boost-glider": {
+      "estado": "revisar",
+      "imagemAtual": "/assets/hissatsu/referencia/boost-glider.webp",
+      "candidatoAtual": "File:(IE) Boost Glider 2.png",
+      "observacao": "Referência de jogo. Manter temporariamente, mas procurar cena de anime antes de considerar definitiva.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Boost Glider 1.png",
+          "motivo": "A proposta é uma captura de jogo com HUD; manter a imagem atual e continuar procurando uma referência de anime."
+        }
+      ]
+    },
+    "wild-claw": {
+      "estado": "revisar",
+      "imagemAtual": "/assets/hissatsu/referencia/wild-claw.webp",
+      "candidatoAtual": "File:Wild Claw (dub).png",
+      "observacao": "Referência de jogo. Preferir anime se houver alternativa adequada."
+    },
+    "kamikakushi": {
+      "estado": "revisar",
+      "imagemAtual": "/assets/hissatsu/referencia/kamikakushi.webp",
+      "candidatoAtual": "File:Kamikakushi.png",
+      "observacao": "Referência de jogo. Pode servir como fallback, mas não deve ser considerada definitiva enquanto houver opção de anime.",
+      "classificacaoVisual": "sem-candidato",
+      "ultimaDecisaoVisual": {
+        "acao": "buscar-novamente",
+        "origem": "candidatos-visuais-v1",
+        "motivo": "Nenhuma alternativa elegível foi encontrada neste lote. Manter a referência atual em revisão e buscar novamente.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      }
+    },
+    "beast-fang": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/beast-fang.webp",
+      "candidatoAtual": "File:(IE) Beast Fang 3.png",
+      "observacao": "O efeito das garras/presas da técnica está claramente visível diante do goleiro, representando bem a Hissatsu.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Beast Fang 1.png",
+          "motivo": "Retrato do personagem sem representação suficiente do efeito da técnica."
+        },
+        {
+          "tituloArquivo": "File:(IE) Beast Fang 2.png",
+          "motivo": "A nova candidata continua sendo principalmente uma pose do personagem, sem o efeito da Beast Fang em evidência."
+        }
+      ]
+    },
+    "black-hole": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/black-hole.webp",
+      "candidatoAtual": "File:(IE) Black Hole 2.png",
+      "observacao": "A nova candidata mostra claramente a manifestação do Black Hole durante a defesa; aprovada e travada."
+    },
+    "divine-arrow": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/divine-arrow.webp",
+      "candidatoAtual": "File:(IE) Divine Arrow 5.png",
+      "observacao": "Há ação com a bola, mas a manifestação visual característica de Divine Arrow não aparece de forma suficientemente clara.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Divine Arrow 1.png",
+          "motivo": "Não mostra adequadamente a execução ou o efeito da técnica."
+        },
+        {
+          "tituloArquivo": "File:(IE) Divine Arrow 2.png",
+          "motivo": "A nova candidata mostra principalmente as pernas/personagem e não a manifestação característica da técnica."
+        },
+        {
+          "tituloArquivo": "File:(IE) Divine Arrow 3.png",
+          "motivo": "Há ação com a bola, mas a manifestação visual característica de Divine Arrow não aparece de forma suficientemente clara."
+        },
+        {
+          "tituloArquivo": "File:(IE) Divine Arrow 6.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/divine-arrow/divine-arrow__e20df8f7c7.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.228Z"
+        },
+        {
+          "tituloArquivo": "File:(IE) Divine Arrow 7.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/divine-arrow/divine-arrow__204d37df63.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.228Z"
+        }
+      ],
+      "classificacaoVisual": "ideal",
+      "ultimaDecisaoVisual": {
+        "acao": "selecionar-candidato",
+        "origem": "candidatos-visuais-v1",
+        "tituloArquivo": "File:(IE) Divine Arrow 5.png",
+        "urlOrigem": "/assets/hissatsu/candidatos-visuais/divine-arrow/divine-arrow__04f38c1937.webp",
+        "urlReferencia": "/assets/hissatsu/referencia/divine-arrow.webp",
+        "motivo": "Execução clara da técnica com nome japonês visível na própria cena. A candidata resolve adequadamente a rejeição anterior.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      }
+    },
+    "koutei-penguin-2gou": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/koutei-penguin-2gou.webp",
+      "candidatoAtual": "File:(AT) Koutei Penguin 2gou 3.png",
+      "observacao": "Os pinguins, elemento característico da Hissatsu, estão claramente representados e dominam visualmente a cena.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(AT) Koutei Penguin 2gou 1.png",
+          "motivo": "Não representa visualmente o elemento característico da Hissatsu."
+        },
+        {
+          "tituloArquivo": "File:(AT) Koutei Penguin 2gou 2.png",
+          "motivo": "A nova candidata mostra os personagens correndo, sem os pinguins nem o golpe no momento característico."
+        }
+      ]
+    },
+    "the-galaxy": {
+      "estado": "revisar",
+      "imagemAtual": "/assets/hissatsu/referencia/the-galaxy.webp",
+      "candidatoAtual": "File:113 The Galaxy.png",
+      "observacao": "A nova candidata representa a técnica, mas é uma captura de jogo com HUD; manter em revisão e procurar preferência de anime.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(SP-KT) The Galaxy.png",
+          "motivo": "Arte/conceito não corresponde ao padrão visual de frame da execução."
+        }
+      ]
+    },
+    "seigi-no-tekken": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/seigi-no-tekken.webp",
+      "candidatoAtual": "File:(IE) Seigi no Tekken G5 10.png",
+      "observacao": "A nova candidata mostra claramente o grande efeito luminoso da técnica em execução; aprovada e travada."
+    },
+    "mugen-the-hand": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/mugen-the-hand.webp",
+      "candidatoAtual": "File:(IE) Mugen The Hand G5 8.png",
+      "observacao": "A grande mão dourada aparece de forma clara e reconhecível durante a execução da Hissatsu.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE (043)) Mugen The Hand's concept in Daisuke's notebook.png",
+          "motivo": "Conceito/desenho, não execução real da Hissatsu."
+        },
+        {
+          "tituloArquivo": "File:(IE) Mugen The Hand G5 9.png",
+          "motivo": "A nova candidata mostra o goleiro segurando a bola, sem a mão gigante/efeito característico em evidência."
+        }
+      ]
+    },
+    "gigant-wall": {
+      "estado": "rejeitada",
+      "imagemAtual": "/assets/hissatsu/referencia/gigant-wall.webp",
+      "candidatoAtual": "File:(IE) Gigant Wall 3.png",
+      "observacao": "O frame mostra o goleiro diante do chute, mas não exibe de forma suficientemente clara o efeito característico do Gigant Wall.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Gigant Wall 1.png",
+          "motivo": "O efeito principal da Hissatsu não está representado."
+        },
+        {
+          "tituloArquivo": "File:(IE) Gigant Wall 2.png",
+          "motivo": "A nova candidata continua centrada no personagem e não mostra o Gigant Wall de forma suficientemente clara."
+        },
+        {
+          "tituloArquivo": "File:(IE) Gigant Wall 3.png",
+          "motivo": "O frame mostra o goleiro diante do chute, mas não exibe de forma suficientemente clara o efeito característico do Gigant Wall."
+        }
+      ]
+    },
+    "rolling-kick": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/rolling-kick.webp",
+      "candidatoAtual": "File:(IE) Rolling Kick 4.png",
+      "observacao": "A imagem mostra claramente a execução do chute giratório, com personagem, movimento e efeito visual da técnica.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Rolling Kick 5.png",
+          "motivo": "O frame mostra praticamente apenas o campo em movimento, sem a execução da técnica claramente identificável."
+        }
+      ]
+    },
+    "god-knows": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/god-knows.webp",
+      "candidatoAtual": "File:(IE) Shin God Knows 9.png",
+      "observacao": "A proposta mostra o efeito luminoso/alada da técnica de forma clara e reconhecível."
+    },
+    "shippuu-dash": {
+      "estado": "aprovada",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(GO) Shippuu Dash 1.png",
+          "motivo": "A proposta é principalmente um close do personagem com a bola e não mostra claramente o efeito de velocidade da técnica."
+        },
+        {
+          "tituloArquivo": "File:(GO) Shippuu Dash 3.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/shippuu-dash/shippuu-dash__eac74533c2.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T01:10:20.863Z"
+        },
+        {
+          "tituloArquivo": "File:(GO) Shippuu Dash 5.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/shippuu-dash/shippuu-dash__af54892710.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T01:10:20.863Z"
+        }
+      ],
+      "imagemAtual": "/assets/hissatsu/referencia/shippuu-dash.webp",
+      "candidatoAtual": "File:(GO) Shippuu Dash 4.png",
+      "classificacaoVisual": "ideal",
+      "ultimaDecisaoVisual": {
+        "acao": "selecionar-candidato",
+        "origem": "candidatos-visuais-v1",
+        "tituloArquivo": "File:(GO) Shippuu Dash 4.png",
+        "urlOrigem": "/assets/hissatsu/candidatos-visuais/shippuu-dash/shippuu-dash__4a5f7a1bb0.webp",
+        "urlReferencia": "/assets/hissatsu/referencia/shippuu-dash.webp",
+        "motivo": "Execução clara da técnica, ação facilmente compreensível e nome japonês visível na própria cena.",
+        "aplicadaEm": "2026-08-17T01:10:20.832Z"
+      }
+    },
+    "majin-the-hand": {
+      "estado": "aprovada",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(GO) Majin The Hand 8.png",
+          "motivo": "A cena mostra o goleiro com a bola, mas não apresenta a grande mão característica da Hissatsu."
+        },
+        {
+          "tituloArquivo": "File:(GO) Majin The Hand 6.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/majin-the-hand/majin-the-hand__8388273ac1.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T01:10:20.894Z"
+        },
+        {
+          "tituloArquivo": "File:(GO) Majin The Hand 4.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/majin-the-hand/majin-the-hand__e776b5aff7.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T01:10:20.894Z"
+        }
+      ],
+      "imagemAtual": "/assets/hissatsu/referencia/majin-the-hand.webp",
+      "candidatoAtual": "File:(GO) Majin The Hand 5.png",
+      "classificacaoVisual": "ideal",
+      "ultimaDecisaoVisual": {
+        "acao": "selecionar-candidato",
+        "origem": "candidatos-visuais-v1",
+        "tituloArquivo": "File:(GO) Majin The Hand 5.png",
+        "urlOrigem": "/assets/hissatsu/candidatos-visuais/majin-the-hand/majin-the-hand__9443070de6.webp",
+        "urlReferencia": "/assets/hissatsu/referencia/majin-the-hand.webp",
+        "motivo": "Manifestação da técnica muito clara, goleiro e gol contextualizados e nome japonês visível.",
+        "aplicadaEm": "2026-08-17T01:10:20.832Z"
+      }
+    },
+    "nekketsu-punch": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/nekketsu-punch.webp",
+      "candidatoAtual": "File:(IE) Nekketsu Punch 4.png",
+      "observacao": "A execução do soco e o impacto visual aparecem claramente na cena."
+    },
+    "mugen-no-kabe": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/mugen-no-kabe.webp",
+      "candidatoAtual": "File:(IE) Shin Mugen no Kabe 6.png",
+      "observacao": "A grande parede defensiva está visível e domina a composição, representando bem a Hissatsu."
+    },
+    "spiral-shot": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/spiral-shot.webp",
+      "candidatoAtual": "File:(IE) Spiral Shot 6.png",
+      "observacao": "A proposta mostra o chute acrobático em espiral durante a execução."
+    },
+    "spinning-shoot": {
+      "estado": "aprovada",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Spinning Shoot 5.png",
+          "motivo": "A proposta mostra quase somente a bola luminosa, sem contexto suficiente do usuário ou da execução."
+        },
+        {
+          "tituloArquivo": "File:(IE) Spinning Shoot 2.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/spinning-shoot/spinning-shoot__2de58e9b69.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T01:10:20.912Z"
+        },
+        {
+          "tituloArquivo": "File:(IE) Spinning Shoot 1.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/spinning-shoot/spinning-shoot__d1102fbc14.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T01:10:20.912Z"
+        }
+      ],
+      "imagemAtual": "/assets/hissatsu/referencia/spinning-shoot.webp",
+      "candidatoAtual": "File:(IE) Spinning Shoot 3.png",
+      "classificacaoVisual": "ideal",
+      "ultimaDecisaoVisual": {
+        "acao": "selecionar-candidato",
+        "origem": "candidatos-visuais-v1",
+        "tituloArquivo": "File:(IE) Spinning Shoot 3.png",
+        "urlOrigem": "/assets/hissatsu/candidatos-visuais/spinning-shoot/spinning-shoot__521143e012.webp",
+        "urlReferencia": "/assets/hissatsu/referencia/spinning-shoot.webp",
+        "motivo": "Execução e movimento da técnica são claros e o nome japonês aparece na própria cena.",
+        "aplicadaEm": "2026-08-17T01:10:20.832Z"
+      }
+    },
+    "snake-shot": {
+      "estado": "aprovada",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Snake Shot 3.png",
+          "motivo": "A cena mostra um chute comum e não evidencia o efeito/traçado característico de Snake Shot."
+        },
+        {
+          "tituloArquivo": "File:(IE) Snake Shot 1.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/snake-shot/snake-shot__a47c63bd95.webp",
+          "motivo": "Close de personagem com pouca leitura da execução da Hissatsu.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T01:10:20.912Z"
+        },
+        {
+          "tituloArquivo": "File:(IE) Snake Shot 6.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/snake-shot/snake-shot__93ff0c8df6.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.190Z"
+        },
+        {
+          "tituloArquivo": "File:Snake Shot (dub).png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/snake-shot/snake-shot__668be7d539.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.190Z"
+        }
+      ],
+      "candidatoPreferidoProvisorio": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/snake-shot/snake-shot__7ea2e6fd5b.webp",
+        "tituloArquivo": "File:(IE) Snake Shot 5.png",
+        "ordemOriginal": 2
+      },
+      "alternativasMantidas": [
+        {
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/snake-shot/snake-shot__93ff0c8df6.webp",
+          "tituloArquivo": "File:(IE) Snake Shot 6.png",
+          "ordemOriginal": 3,
+          "motivo": "Mostra melhor o efeito e trajetória da bola, embora não tenha a apresentação textual desejada."
+        }
+      ],
+      "classificacaoVisual": "ideal",
+      "ultimaDecisaoVisual": {
+        "acao": "selecionar-candidato",
+        "origem": "candidatos-visuais-v1",
+        "tituloArquivo": "File:(IE) Snake Shot 5.png",
+        "urlOrigem": "/assets/hissatsu/candidatos-visuais/snake-shot/snake-shot__7ea2e6fd5b.webp",
+        "urlReferencia": "/assets/hissatsu/referencia/snake-shot.webp",
+        "motivo": "Execução clara da técnica com nome japonês visível na própria cena. A nova revisão confirmou que é suficientemente forte para aprovação definitiva.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      },
+      "imagemAtual": "/assets/hissatsu/referencia/snake-shot.webp",
+      "candidatoAtual": "File:(IE) Snake Shot 5.png"
+    },
+    "condor-dive": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/condor-dive.webp",
+      "candidatoAtual": "File:(IE) Condor Dive 5.png",
+      "observacao": "A postura acrobática do mergulho/chute está claramente representada."
+    },
+    "phantom-shoot": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/phantom-shoot.webp",
+      "candidatoAtual": "File:(IE) Phantom Shoot 7.png",
+      "observacao": "Os projéteis/efeitos roxos característicos aparecem claramente durante a ação."
+    },
+    "tarzan-kick": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/tarzan-kick.webp",
+      "candidatoAtual": "File:(IE) Tarzan Kick 3.png",
+      "observacao": "O chute e o efeito luminoso da bola estão claramente visíveis."
+    },
+    "hyakuretsu-shot": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/hyakuretsu-shot.webp",
+      "candidatoAtual": "File:(AT) Hyakuretsu Shot 2.png",
+      "observacao": "A cena mostra a execução ofensiva com impacto e movimento suficientemente claros."
+    },
+    "cross-drive": {
+      "estado": "aprovada",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Cross Drive 2.png",
+          "motivo": "A proposta mostra basicamente a bola e um rastro, sem o usuário e sem contexto suficiente da execução."
+        },
+        {
+          "tituloArquivo": "File:(IE) Cross Drive 5.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/cross-drive/cross-drive__3f187909df.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.214Z"
+        },
+        {
+          "tituloArquivo": "File:(IE-YT (12)) Cross Drive.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/cross-drive/cross-drive__954ecd34cd.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.214Z"
+        }
+      ],
+      "imagemAtual": "/assets/hissatsu/referencia/cross-drive.webp",
+      "candidatoAtual": "File:(IE) Cross Drive 4.png",
+      "classificacaoVisual": "ideal",
+      "ultimaDecisaoVisual": {
+        "acao": "selecionar-candidato",
+        "origem": "candidatos-visuais-v1",
+        "tituloArquivo": "File:(IE) Cross Drive 4.png",
+        "urlOrigem": "/assets/hissatsu/candidatos-visuais/cross-drive/cross-drive__d15ba5f5f3.webp",
+        "urlReferencia": "/assets/hissatsu/referencia/cross-drive.webp",
+        "motivo": "Mostra a técnica claramente em execução, com efeito forte e nome japonês visível. É uma melhoria substancial sobre a referência anterior.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      }
+    },
+    "kung-fu-head": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/kung-fu-head.webp",
+      "candidatoAtual": "File:(IE) Kung Fu Head 2.png",
+      "observacao": "A ação acrobática e o efeito circular da técnica aparecem de forma reconhecível."
+    },
+    "patriot-shoot": {
+      "estado": "revisar",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(AT) Patriot Shoot 2.png",
+          "motivo": "A imagem mostra o personagem correndo, mas não o chute ou efeito característico da técnica."
+        }
+      ],
+      "classificacaoVisual": "buscar-melhor",
+      "ultimaDecisaoVisual": {
+        "acao": "buscar-novamente",
+        "origem": "candidatos-visuais-v1",
+        "motivo": "As alternativas deste lote mostram apenas partes pouco representativas da execução e não justificam substituir a referência atual. Buscar novamente.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      }
+    },
+    "dark-tornado": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/dark-tornado.webp",
+      "candidatoAtual": "File:(IE) Shin Dark Tornado 9.png",
+      "observacao": "O efeito escuro/turbilhonado ao redor da execução está claramente visível."
+    },
+    "dokonjou-bat": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/dokonjou-bat.webp",
+      "candidatoAtual": "File:(IE) Dokonjou Bat 5.png",
+      "observacao": "A cena mostra a execução do golpe com movimento e enquadramento adequados."
+    },
+    "tsuchi-daruma": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/tsuchi-daruma.webp",
+      "candidatoAtual": "File:(IE) Tsuchi Daruma 2.png",
+      "observacao": "A movimentação característica junto ao solo e o efeito da técnica estão visíveis."
+    },
+    "freeze-shot": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/freeze-shot.webp",
+      "candidatoAtual": "File:(IE) Freeze Shot 6.png",
+      "observacao": "A bola e o efeito congelante/vórtice aparecem de forma clara e reconhecível."
+    },
+    "run-ball-run": {
+      "estado": "revisar",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Run Ball Run 2.png",
+          "motivo": "A proposta parece uma pose com a bola e não evidencia de forma clara a execução da Hissatsu."
+        }
+      ],
+      "imagemAtual": "/assets/hissatsu/referencia/run-ball-run.webp",
+      "candidatoAtual": "File:(IE) Run Ball Run 4.png",
+      "classificacaoVisual": "fallback-compreensivel",
+      "ultimaDecisaoVisual": {
+        "acao": "selecionar-candidato",
+        "origem": "candidatos-visuais-v1",
+        "tituloArquivo": "File:(IE) Run Ball Run 4.png",
+        "urlOrigem": "/assets/hissatsu/candidatos-visuais/run-ball-run/run-ball-run__2dded8082b.webp",
+        "urlReferencia": "/assets/hissatsu/referencia/run-ball-run.webp",
+        "motivo": "O efeito da técnica é compreensível e serve como referência funcional, mas o frame ainda não é forte o bastante para aprovação definitiva.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      }
+    },
+    "shine-drive": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/shine-drive.webp",
+      "candidatoAtual": "File:(IE) Shine Drive 2.png",
+      "observacao": "A execução apresenta o brilho dourado característico envolvendo jogador e bola."
+    },
+    "twin-boost": {
+      "estado": "aprovada",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(AT) Twin Boost 2.png",
+          "motivo": "A proposta mostra apenas um jogador e não representa adequadamente a natureza combinada da técnica."
+        },
+        {
+          "tituloArquivo": "File:(AT) Twin Boost 4.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/twin-boost/twin-boost__91932c9132.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.225Z"
+        },
+        {
+          "tituloArquivo": "File:(AT) Twin Boost 5.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/twin-boost/twin-boost__1aaa32c6a7.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.225Z"
+        }
+      ],
+      "imagemAtual": "/assets/hissatsu/referencia/twin-boost.webp",
+      "candidatoAtual": "File:(AT) Twin Boost 6.png",
+      "classificacaoVisual": "execucao-clara",
+      "ultimaDecisaoVisual": {
+        "acao": "selecionar-candidato",
+        "origem": "candidatos-visuais-v1",
+        "tituloArquivo": "File:(AT) Twin Boost 6.png",
+        "urlOrigem": "/assets/hissatsu/candidatos-visuais/twin-boost/twin-boost__f428d6eebd.webp",
+        "urlReferencia": "/assets/hissatsu/referencia/twin-boost.webp",
+        "motivo": "É a alternativa que melhor comunica a ação conjunta da técnica e o impacto do movimento.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      }
+    },
+    "inazuma-break": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/inazuma-break.webp",
+      "candidatoAtual": "File:(InaDan) Inazuma Break 2.png",
+      "observacao": "A proposta mostra a execução com aura/energia claramente visível."
+    },
+    "bunshin-shoot": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/bunshin-shoot.webp",
+      "candidatoAtual": "File:(IE) Bunshin Shoot 2.png",
+      "observacao": "As cópias do usuário, elemento característico da técnica, aparecem claramente."
+    },
+    "honoo-no-kazamidori": {
+      "estado": "aprovada",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Honoo no Kazamidori 2.png",
+          "motivo": "A cena não mostra de forma clara o pássaro de fogo, elemento visual característico da técnica."
+        },
+        {
+          "tituloArquivo": "File:(IE) Honoo no Kazamidori 4.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/honoo-no-kazamidori/honoo-no-kazamidori__446c5e6897.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.245Z"
+        },
+        {
+          "tituloArquivo": "File:(IE) Honoo no Kazamidori 6.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/honoo-no-kazamidori/honoo-no-kazamidori__02afadc640.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.245Z"
+        }
+      ],
+      "imagemAtual": "/assets/hissatsu/referencia/honoo-no-kazamidori.webp",
+      "candidatoAtual": "File:(IE) Honoo no Kazamidori 5.png",
+      "classificacaoVisual": "ideal",
+      "ultimaDecisaoVisual": {
+        "acao": "selecionar-candidato",
+        "origem": "candidatos-visuais-v1",
+        "tituloArquivo": "File:(IE) Honoo no Kazamidori 5.png",
+        "urlOrigem": "/assets/hissatsu/candidatos-visuais/honoo-no-kazamidori/honoo-no-kazamidori__02503d4c33.webp",
+        "urlReferencia": "/assets/hissatsu/referencia/honoo-no-kazamidori.webp",
+        "motivo": "Efeito da técnica muito claro, composição forte e nome japonês visível na cena.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      }
+    },
+    "triangle-z": {
+      "estado": "aprovada",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(AT) Triangle Z 1.png",
+          "motivo": "A proposta mostra apenas pernas e bola, sem a formação/efeito característico de Triangle Z."
+        },
+        {
+          "tituloArquivo": "File:(AT) Triangle Z 3.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/triangle-z/triangle-z__219ef80005.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.250Z"
+        },
+        {
+          "tituloArquivo": "File:(AT) Triangle Z 5.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/triangle-z/triangle-z__15dd3e3c92.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.250Z"
+        }
+      ],
+      "imagemAtual": "/assets/hissatsu/referencia/triangle-z.webp",
+      "candidatoAtual": "File:(AT) Triangle Z 4.png",
+      "classificacaoVisual": "execucao-clara",
+      "ultimaDecisaoVisual": {
+        "acao": "selecionar-candidato",
+        "origem": "candidatos-visuais-v1",
+        "tituloArquivo": "File:(AT) Triangle Z 4.png",
+        "urlOrigem": "/assets/hissatsu/candidatos-visuais/triangle-z/triangle-z__b0bf7a998b.webp",
+        "urlReferencia": "/assets/hissatsu/referencia/triangle-z.webp",
+        "motivo": "É a alternativa mais funcional do lote para comunicar a ação da técnica e o contato decisivo com a bola.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      }
+    },
+    "reflect-buster": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/reflect-buster.webp",
+      "candidatoAtual": "File:(IE) Reflect Buster V2 6.png",
+      "observacao": "O disparo refletido/feixe da técnica está claramente representado."
+    },
+    "bakunetsu-screw": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/bakunetsu-screw.webp",
+      "candidatoAtual": "File:(IE) Shin Bakunetsu Screw 10.png",
+      "observacao": "O efeito de fogo em espiral da técnica aparece de forma forte e reconhecível."
+    },
+    "tamanori-pierrot": {
+      "estado": "revisar",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Tamanori Pierrot 2.png",
+          "motivo": "O usuário aparece muito pequeno e distante; a execução da técnica fica visualmente fraca."
+        }
+      ]
+    },
+    "tatsumaki-senpuu": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/tatsumaki-senpuu.webp",
+      "candidatoAtual": "File:(IE) Tatsumaki Senpuu 2.png",
+      "observacao": "O movimento giratório ao redor da bola está claramente representado."
+    },
+    "monkey-turn": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/monkey-turn.webp",
+      "candidatoAtual": "File:(IE) Monkey Turn 3.png",
+      "observacao": "A proposta mostra a manobra acrobática com a bola em pleno movimento."
+    },
+    "moonsault": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/moonsault.webp",
+      "candidatoAtual": "File:(IE) Moonsault 1.png",
+      "observacao": "A execução acrobática do moonsault com a bola está claramente visível."
+    },
+    "judge-through": {
+      "estado": "revisar",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(AT) Judge Through 2.png",
+          "motivo": "A cena parece uma disputa comum entre jogadores e não mostra um efeito distintivo da técnica."
+        }
+      ]
+    },
+    "super-armadillo": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/super-armadillo.webp",
+      "candidatoAtual": "File:(IE) Super Armadillo 2.png",
+      "observacao": "A ação de bloqueio/tackle com impacto no solo está bem representada."
+    },
+    "heat-tackle": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/heat-tackle.webp",
+      "candidatoAtual": "File:(IE) Heat Tackle Kai 2.png",
+      "observacao": "O tackle em chamas, elemento visual principal da técnica, está claramente visível."
+    },
+    "gorimuchuu": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/gorimuchuu.webp",
+      "candidatoAtual": "File:(IE) Gorimuchuu 6.png",
+      "observacao": "A cena mostra o efeito de impacto/poeira da técnica diante do gol de forma suficientemente clara."
+    },
+    "zanzou": {
+      "estado": "revisar",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Zanzou 2.png",
+          "motivo": "A proposta não evidencia claramente o efeito de pós-imagem/ilusão característico da técnica."
+        }
+      ]
+    },
+    "mogura-feint": {
+      "estado": "revisar",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Mogura Feint 2.png",
+          "motivo": "A cena mostra um salto com a bola, mas não representa claramente o efeito característico do drible."
+        }
+      ]
+    },
+    "bunshin-feint": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/bunshin-feint.webp",
+      "candidatoAtual": "File:(IE) Bunshin Feint 2.png",
+      "observacao": "As múltiplas cópias durante o drible representam claramente o efeito da técnica."
+    },
+    "killer-blade": {
+      "estado": "revisar",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:Killer Blade 7.png",
+          "motivo": "A proposta é uma imagem 3D/de jogo; apesar do efeito visível, preferimos uma referência de anime antes de aprovar."
+        }
+      ]
+    },
+    "toughness-block": {
+      "estado": "revisar",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Toughness Block 2.png",
+          "motivo": "A imagem mostra principalmente o personagem diante do gol e não a execução/efeito do bloqueio."
+        }
+      ]
+    },
+    "yugamu-kuukan": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/yugamu-kuukan.webp",
+      "candidatoAtual": "File:(IE) Yugamu Kuukan 4.png",
+      "observacao": "A distorção espacial roxa característica aparece claramente ao redor do usuário."
+    },
+    "makiwari-chop": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/makiwari-chop.webp",
+      "candidatoAtual": "File:(IE) Makiwari Chop 2.png",
+      "observacao": "O golpe de mão e o impacto luminoso da técnica estão bem representados."
+    },
+    "ice-block": {
+      "estado": "revisar",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Ice Block 5.png",
+          "motivo": "O goleiro aparece em posição defensiva, mas o bloco/efeito de gelo não está visível."
+        }
+      ]
+    },
+    "drill-smasher": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/drill-smasher.webp",
+      "candidatoAtual": "File:(AT) Drill Smasher 2.png",
+      "observacao": "O grande vórtice em forma de broca domina a cena e representa claramente a defesa."
+    },
+    "procyon-net": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/procyon-net.webp",
+      "candidatoAtual": "File:(IE) Procyon Net 7.png",
+      "observacao": "A rede/estrutura geométrica de energia aparece claramente ao redor da bola."
+    },
+    "burnout": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/burnout.webp",
+      "candidatoAtual": "File:(IE) Burnout 2.png",
+      "observacao": "Os efeitos de fogo ao redor do goleiro tornam a técnica clara e reconhecível."
+    },
+    "jikuu-no-kabe": {
+      "estado": "revisar",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Jikuu no Kabe 8.png",
+          "motivo": "O enquadramento é um close de personagem e bola; a parede/distorção espaço-temporal não aparece claramente."
+        }
+      ]
+    },
+    "rocket-kobushi": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/rocket-kobushi.webp",
+      "candidatoAtual": "File:(IE) Rocket Kobushi 4.png",
+      "observacao": "O soco impulsionado e o rastro de energia aparecem claramente durante a defesa."
+    },
+    "hanafubuki": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/hanafubuki.webp",
+      "candidatoAtual": "File:(IE) Hanafubuki 3.png",
+      "observacao": "As pétalas e a ação com a bola representam adequadamente o efeito característico."
+    },
+    "tsumuji": {
+      "estado": "revisar",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Tsumuji 2.png",
+          "motivo": "A proposta mostra quase somente o gol e o redemoinho, sem usuário ou contexto suficiente da execução."
+        }
+      ]
+    },
+    "goal-zurashi": {
+      "estado": "revisar",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Goal Zurashi 2.png",
+          "motivo": "O enquadramento é muito fechado no gol/personagem e não representa claramente a técnica em ação."
+        }
+      ]
+    },
+    "bakuretsu-punch": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/bakuretsu-punch.webp",
+      "candidatoAtual": "File:(IE) Bakuretsu Punch 5.png",
+      "observacao": "O goleiro aparece socando a bola com forte efeito luminoso, representando bem a técnica."
+    },
+    "safety-protect": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/safety-protect.webp",
+      "candidatoAtual": "File:(IE) Safety Protect 6.png",
+      "observacao": "A grande barreira azul está claramente visível e representa diretamente a técnica defensiva."
+    },
+    "kaenhousha": {
+      "estado": "revisar",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Kaenhousha 3.png",
+          "motivo": "A proposta é principalmente um close do personagem e não mostra o efeito de chama/execução da técnica."
+        }
+      ]
+    },
+    "chabudai-gaeshi": {
+      "estado": "revisar",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Chabudai Gaeshi 2.png",
+          "motivo": "A cena mostra o goleiro em preparação, mas o efeito característico da técnica não aparece."
+        }
+      ]
+    },
+    "tsunami-wall": {
+      "estado": "revisar",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Tsunami Wall 1.jpg",
+          "motivo": "A proposta não mostra a grande onda/parede característica da técnica; a execução fica pouco reconhecível."
+        }
+      ]
+    },
+    "dual-smash": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/dual-smash.webp",
+      "candidatoAtual": "File:(IE) Dual Smash 2.png",
+      "observacao": "O disparo/impacto de energia está claramente representado durante a execução."
+    },
+    "suisei-shoot": {
+      "estado": "revisar",
+      "classificacaoVisual": "sem-candidato",
+      "ultimaDecisaoVisual": {
+        "acao": "buscar-novamente",
+        "origem": "candidatos-visuais-v1",
+        "motivo": "O segundo lote também não encontrou alternativa elegível. Continuar a busca sem promover imagem inadequada.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      }
+    },
+    "psycho-shot": {
+      "estado": "revisar",
+      "classificacaoVisual": "sem-candidato",
+      "ultimaDecisaoVisual": {
+        "acao": "buscar-novamente",
+        "origem": "candidatos-visuais-v1",
+        "motivo": "Nenhuma alternativa elegível foi encontrada neste lote. Manter em revisão e procurar uma cena que represente melhor a execução.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      }
+    },
+    "dynamite-shoot": {
+      "estado": "revisar",
+      "classificacaoVisual": "buscar-melhor",
+      "ultimaDecisaoVisual": {
+        "acao": "buscar-novamente",
+        "origem": "candidatos-visuais-v1",
+        "motivo": "A única candidata encontrada é visualmente fraca para o padrão definido e não deve substituir a referência atual. Buscar novamente.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      }
+    },
+    "meteor-attack": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/meteor-attack.webp",
+      "candidatoAtual": "File:Meteor Attack 1.png",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:Meteor Attack 2.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/meteor-attack/meteor-attack__fad7a3aaf4.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.209Z"
+        },
+        {
+          "tituloArquivo": "File:Meteor Attack 3.png",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/meteor-attack/meteor-attack__f87b367745.webp",
+          "motivo": "Outra candidata foi escolhida como melhor referência visual neste lote.",
+          "origem": "candidatos-visuais-v1",
+          "rejeitadoEm": "2026-08-17T02:51:31.209Z"
+        }
+      ],
+      "classificacaoVisual": "execucao-clara",
+      "ultimaDecisaoVisual": {
+        "acao": "selecionar-candidato",
+        "origem": "candidatos-visuais-v1",
+        "tituloArquivo": "File:Meteor Attack 1.png",
+        "urlOrigem": "/assets/hissatsu/candidatos-visuais/meteor-attack/meteor-attack__6e9a2f5126.webp",
+        "urlReferencia": "/assets/hissatsu/referencia/meteor-attack.webp",
+        "motivo": "A ação da técnica é compreensível e o enquadramento é o mais forte entre as alternativas encontradas.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      }
+    },
+    "hawk-shot": {
+      "estado": "revisar",
+      "classificacaoVisual": "sem-candidato",
+      "ultimaDecisaoVisual": {
+        "acao": "buscar-novamente",
+        "origem": "candidatos-visuais-v1",
+        "motivo": "Nenhuma alternativa elegível foi encontrada neste lote. Manter em revisão e procurar novamente.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      }
+    },
+    "corodra-shoot": {
+      "estado": "aprovada",
+      "imagemAtual": "/assets/hissatsu/referencia/corodra-shoot.webp",
+      "candidatoAtual": "File:Corodra Shoot.jpg",
+      "candidatosRejeitados": [],
+      "classificacaoVisual": "execucao-clara",
+      "ultimaDecisaoVisual": {
+        "acao": "selecionar-candidato",
+        "origem": "candidatos-visuais-v1",
+        "tituloArquivo": "File:Corodra Shoot.jpg",
+        "urlOrigem": "/assets/hissatsu/candidatos-visuais/corodra-shoot/corodra-shoot__66a4f106bc.webp",
+        "urlReferencia": "/assets/hissatsu/referencia/corodra-shoot.webp",
+        "motivo": "Embora não seja uma referência perfeita, comunica de forma suficientemente clara a técnica e é melhor do que permanecer sem imagem utilizável.",
+        "aplicadaEm": "2026-08-17T02:51:31.180Z"
+      }
+    }
+  },
+  "atualizadoEm": "2026-08-17T02:51:31.180Z"
+}

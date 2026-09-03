@@ -1,0 +1,238 @@
+{
+  "versao": 1,
+  "geradoEm": "2026-08-16T22:41:11.529Z",
+  "total": 23,
+  "descricao": "Vídeos legados que estavam armazenados com extensão de imagem. Foram preservados como MP4 para possível extração futura de frames.",
+  "arquivos": [
+    {
+      "id": "aurora-curtain",
+      "origemAnterior": "/assets/hissatsu/referencia/aurora-curtain.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/aurora-curtain.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 5231279,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "bunshin-block",
+      "origemAnterior": "/assets/hissatsu/referencia/bunshin-block.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/bunshin-block.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 7272045,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "corodra-shoot",
+      "origemAnterior": "/assets/hissatsu/referencia/corodra-shoot.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/corodra-shoot.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 5545985,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "counterstrike",
+      "origemAnterior": "/assets/hissatsu/referencia/counterstrike.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/counterstrike.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 5476958,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "dokonjou-catch",
+      "origemAnterior": "/assets/hissatsu/referencia/dokonjou-catch.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/dokonjou-catch.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 5510202,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "dokugiri-no-jutsu",
+      "origemAnterior": "/assets/hissatsu/referencia/dokugiri-no-jutsu.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/dokugiri-no-jutsu.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 3659548,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "dynamite-shoot",
+      "origemAnterior": "/assets/hissatsu/referencia/dynamite-shoot.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/dynamite-shoot.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 3824234,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "god-hand-triple",
+      "origemAnterior": "/assets/hissatsu/referencia/god-hand-triple.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/god-hand-triple.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 8558417,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "hawk-shot",
+      "origemAnterior": "/assets/hissatsu/referencia/hawk-shot.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/hawk-shot.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 4685106,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "jigoku-guruma",
+      "origemAnterior": "/assets/hissatsu/referencia/jigoku-guruma.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/jigoku-guruma.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 3464895,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "kamaitachi",
+      "origemAnterior": "/assets/hissatsu/referencia/kamaitachi.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/kamaitachi.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 3996376,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "kogarashi",
+      "origemAnterior": "/assets/hissatsu/referencia/kogarashi.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/kogarashi.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 4813102,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "magic",
+      "origemAnterior": "/assets/hissatsu/referencia/magic.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/magic.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 3594782,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "meteor-attack",
+      "origemAnterior": "/assets/hissatsu/referencia/meteor-attack.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/meteor-attack.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 4876056,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "nekketsu-head",
+      "origemAnterior": "/assets/hissatsu/referencia/nekketsu-head.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/nekketsu-head.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 5042960,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "noroi",
+      "origemAnterior": "/assets/hissatsu/referencia/noroi.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/noroi.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 2813647,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "pressure-punch",
+      "origemAnterior": "/assets/hissatsu/referencia/pressure-punch.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/pressure-punch.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 4407175,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "psycho-shot",
+      "origemAnterior": "/assets/hissatsu/referencia/psycho-shot.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/psycho-shot.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 5554911,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "slash-nail",
+      "origemAnterior": "/assets/hissatsu/referencia/slash-nail.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/slash-nail.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 6013633,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "suisei-shoot",
+      "origemAnterior": "/assets/hissatsu/referencia/suisei-shoot.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/suisei-shoot.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 4604022,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "super-scan",
+      "origemAnterior": "/assets/hissatsu/referencia/super-scan.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/super-scan.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 3832435,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "swan-dive",
+      "origemAnterior": "/assets/hissatsu/referencia/swan-dive.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/swan-dive.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 5884408,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    },
+    {
+      "id": "tornado-catch",
+      "origemAnterior": "/assets/hissatsu/referencia/tornado-catch.jpg",
+      "destinoVideo": "/assets/hissatsu/fontes-video/legado/tornado-catch.mp4",
+      "extensaoAnterior": ".jpg",
+      "formatoReal": "video/mp4",
+      "marcaPrincipal": "mp42",
+      "tamanhoBytes": 7029695,
+      "observacao": "Arquivo possuía extensão de imagem, mas assinatura interna de vídeo MP4. Preservado como fonte de vídeo para futura extração de frame."
+    }
+  ]
+}

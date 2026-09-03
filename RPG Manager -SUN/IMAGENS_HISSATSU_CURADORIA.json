@@ -1,0 +1,302 @@
+{
+  "versao": 3,
+  "descricao": "Curadoria visual histórica consolidada. Registros listados aqui representam decisões humanas que não devem ser esquecidas. Hissatsu não listadas continuam seguindo o estado automático do Portão de Qualidade.",
+  "registros": {
+    "bakunetsu-screw": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "bakuretsu-punch": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "beast-fang": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "black-hole": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "bunshin-feint": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "bunshin-shoot": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "burnout": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "condor-dive": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "dark-tornado": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "dash-storm": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "death-zone": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "dokonjou-bat": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "double-rocket": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "dragon-crash": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "dragon-tornado": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "drill-smasher": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "dual-smash": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "fire-tornado": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "freeze-shot": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "full-power-shield": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "god-hand": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "god-knows": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "gorimuchuu": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "grenade-shot": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "hanafubuki": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "heat-tackle": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "hyakuretsu-shot": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "illusion-ball": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "inazuma-1gou": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "inazuma-break": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "inazuma-otoshi": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "koutei-penguin-2gou": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "kung-fu-head": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "majin-the-hand": {
+      "estado": "aprovada",
+      "qualidade": "A"
+    },
+    "makiwari-chop": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "monkey-turn": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "moonsault": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "mugen-no-kabe": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "mugen-the-hand": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "nekketsu-punch": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "phantom-shoot": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "procyon-net": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "reflect-buster": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "rocket-kobushi": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "rolling-kick": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "safety-protect": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "seigi-no-tekken": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "shine-drive": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "shippuu-dash": {
+      "estado": "aprovada",
+      "qualidade": "A"
+    },
+    "shoot-pocket": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "spinning-shoot": {
+      "estado": "aprovada",
+      "qualidade": "A"
+    },
+    "spiral-shot": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "super-armadillo": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "tarzan-kick": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "tatsumaki-senpuu": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "the-phoenix": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "the-tower": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "the-wall": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "triple-defense": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "tsuchi-daruma": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "wormhole": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "yugamu-kuukan": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "zigzag-spark": {
+      "estado": "aprovada",
+      "qualidade": "B"
+    },
+    "divine-arrow": {
+      "estado": "rejeitada",
+      "qualidade": "D",
+      "candidatoAtual": "File:(IE) Divine Arrow 2.png",
+      "observacao": "A referência atual foi reprovada na revisão visual. Não usar como fallback; procurar outra imagem, priorizando cena do anime com a Hissatsu claramente em execução.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Divine Arrow 1.png",
+          "motivo": "Não mostra adequadamente a execução ou o efeito da técnica."
+        },
+        {
+          "tituloArquivo": "File:(IE) Divine Arrow 2.png",
+          "motivo": "A nova candidata mostra principalmente as pernas/personagem e não a manifestação característica da técnica."
+        }
+      ]
+    },
+    "gigant-wall": {
+      "estado": "rejeitada",
+      "qualidade": "D",
+      "candidatoAtual": "File:(IE) Gigant Wall 2.png",
+      "observacao": "A referência atual foi reprovada na revisão visual. Não usar como fallback; procurar outra imagem, priorizando cena do anime com a Hissatsu claramente em execução.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Gigant Wall 1.png",
+          "motivo": "O efeito principal da Hissatsu não está representado."
+        },
+        {
+          "tituloArquivo": "File:(IE) Gigant Wall 2.png",
+          "motivo": "A nova candidata continua centrada no personagem e não mostra o Gigant Wall de forma suficientemente clara."
+        }
+      ]
+    },
+    "power-shield": {
+      "estado": "rejeitada",
+      "qualidade": "D",
+      "candidatoAtual": "File:(IE) Power Shield 2.png",
+      "observacao": "A referência atual foi reprovada na revisão visual. Não usar como fallback; procurar outra imagem, priorizando cena do anime com a Hissatsu claramente em execução.",
+      "candidatosRejeitados": [
+        {
+          "tituloArquivo": "File:(IE) Power Shield 2.png",
+          "motivo": "O frame é um close do pé e não mostra de forma clara o escudo/efeito completo da defesa."
+        }
+      ]
+    }
+  }
+}

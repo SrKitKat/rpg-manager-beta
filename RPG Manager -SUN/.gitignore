@@ -1,0 +1,72 @@
+# Dependencias
+node_modules/
+
+# Builds e artefatos gerados
+dist/
+dist-ssr/
+.next/
+out/
+coverage/
+.vercel-build-test/
+*.tsbuildinfo
+
+# Vercel e caches de ferramentas
+.vercel/
+.cache/
+.turbo/
+.vite/
+
+# Variaveis de ambiente e segredos
+.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# Chaves, certificados e arquivos de credenciais
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.crt
+*.cer
+credentials*.json
+service-account*.json
+secrets*.json
+
+# Logs
+logs/
+*.log
+.dev-server*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Backups e pacotes gerados localmente
+*.zip
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# Editor e sistema operacional
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Cache acidental do PowerShell
+Microsoft/

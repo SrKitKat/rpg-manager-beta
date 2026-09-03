@@ -1,0 +1,377 @@
+{
+  "versao": 1,
+  "lote": "candidatos-visuais-lote-50-v2",
+  "descricao": "Decisões humanas acumuladas da curadoria visual de múltiplos candidatos. As decisões anteriores já aplicadas são preservadas; as novas decisões deste lote ficam pendentes até a execução do aplicador.",
+  "politicaVisual": {
+    "prioridade1": "Técnica claramente em execução, preferencialmente com nome ou kanji visível.",
+    "prioridade2": "Técnica claramente em execução e efeito visual compreensível, mesmo sem texto.",
+    "prioridade3": "Fallback visual claro e compreensível.",
+    "evitar": [
+      "close de personagem sem execução clara",
+      "preparação sem efeito",
+      "recorte ambíguo",
+      "imagem genérica",
+      "HUD excessivo quando existir opção melhor"
+    ]
+  },
+  "decisoes": [
+    {
+      "id": "shippuu-dash",
+      "nome": "Deslize Veloz",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "aprovada",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/shippuu-dash/shippuu-dash__4a5f7a1bb0.webp",
+        "tituloArquivo": "File:(GO) Shippuu Dash 4.png",
+        "ordemOriginal": 2
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "ideal",
+      "motivo": "Execução clara da técnica, ação facilmente compreensível e nome japonês visível na própria cena.",
+      "aplicadaEm": "2026-08-17T01:10:20.832Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "majin-the-hand",
+      "nome": "Mão Demoníaca",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "aprovada",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/majin-the-hand/majin-the-hand__9443070de6.webp",
+        "tituloArquivo": "File:(GO) Majin The Hand 5.png",
+        "ordemOriginal": 2
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "ideal",
+      "motivo": "Manifestação da técnica muito clara, goleiro e gol contextualizados e nome japonês visível.",
+      "aplicadaEm": "2026-08-17T01:10:20.832Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "death-zone",
+      "nome": "Death Zone",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "aprovada",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/death-zone/death-zone__98a6e38e8d.webp",
+        "tituloArquivo": "File:(AT) Death Zone 6.png",
+        "ordemOriginal": 3
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "execucao-clara",
+      "motivo": "Mostra claramente os três jogadores formando e executando a técnica com a bola. Não possui overlay de nome, mas comunica muito bem a Hissatsu.",
+      "aplicadaEm": "2026-08-17T01:10:20.832Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "the-phoenix",
+      "nome": "The Phoenix",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "aprovada",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/the-phoenix/the-phoenix__388b40f42b.webp",
+        "tituloArquivo": "File:(IE) The Phoenix 6.png",
+        "ordemOriginal": 3
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "execucao-clara",
+      "motivo": "Efeito da fênix grande e imediatamente reconhecível, tornando a técnica visualmente muito fácil de entender.",
+      "aplicadaEm": "2026-08-17T01:10:20.832Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "heavens-time",
+      "nome": "Heaven's Time",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "revisar",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/heavens-time/heavens-time__070f82a6cd.webp",
+        "tituloArquivo": "File:(IE) Heaven's Time 6.png",
+        "ordemOriginal": 1
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "fallback-compreensivel",
+      "motivo": "A paralisação e o contexto da técnica são compreensíveis, mas a imagem ainda não alcança o padrão visual ideal. Deve continuar disponível para futura melhoria.",
+      "aplicadaEm": "2026-08-17T01:10:20.832Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "spinning-shoot",
+      "nome": "Spinning Shoot",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "aprovada",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/spinning-shoot/spinning-shoot__521143e012.webp",
+        "tituloArquivo": "File:(IE) Spinning Shoot 3.png",
+        "ordemOriginal": 1
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "ideal",
+      "motivo": "Execução e movimento da técnica são claros e o nome japonês aparece na própria cena.",
+      "aplicadaEm": "2026-08-17T01:10:20.832Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "snake-shot",
+      "nome": "Snake Shot",
+      "acao": "manter-revisao",
+      "estadoDepois": "revisar",
+      "candidatoPreferidoProvisorio": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/snake-shot/snake-shot__7ea2e6fd5b.webp",
+        "tituloArquivo": "File:(IE) Snake Shot 5.png",
+        "ordemOriginal": 2
+      },
+      "candidatosRejeitadosNesteLote": [
+        {
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/snake-shot/snake-shot__a47c63bd95.webp",
+          "tituloArquivo": "File:(IE) Snake Shot 1.png",
+          "ordemOriginal": 1,
+          "motivo": "Close de personagem com pouca leitura da execução da Hissatsu."
+        }
+      ],
+      "candidatosMantidosComoAlternativa": [
+        {
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/snake-shot/snake-shot__93ff0c8df6.webp",
+          "tituloArquivo": "File:(IE) Snake Shot 6.png",
+          "ordemOriginal": 3,
+          "motivo": "Mostra melhor o efeito e trajetória da bola, embora não tenha a apresentação textual desejada."
+        }
+      ],
+      "classificacaoVisual": "buscar-melhor",
+      "motivo": "A candidata 2 possui nome japonês e execução, enquanto a candidata 3 comunica melhor o efeito. Nenhuma reúne ainda todas as qualidades desejadas.",
+      "aplicadaEm": "2026-08-17T01:10:20.832Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "suisei-shoot",
+      "nome": "Suisei Shoot",
+      "acao": "buscar-novamente",
+      "estadoDepois": "revisar",
+      "classificacaoVisual": "sem-candidato",
+      "motivo": "Nenhuma alternativa foi encontrada no primeiro lote de múltiplos candidatos.",
+      "aplicadaEm": "2026-08-17T01:10:20.832Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "heavens-time",
+      "nome": "Heaven's Time",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "revisar",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/heavens-time/heavens-time__fc889d7a1f.webp",
+        "tituloArquivo": "File:(IE) Heaven's Time 2.png",
+        "ordemOriginal": 2
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "fallback-compreensivel",
+      "motivo": "O nome japonês aparece na cena e a técnica é identificável, mas o enquadramento ainda não alcança o padrão visual ideal. Promover como fallback e continuar buscando uma referência melhor.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "snake-shot",
+      "nome": "Snake Shot",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "aprovada",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/snake-shot/snake-shot__7ea2e6fd5b.webp",
+        "tituloArquivo": "File:(IE) Snake Shot 5.png",
+        "ordemOriginal": 1
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "ideal",
+      "motivo": "Execução clara da técnica com nome japonês visível na própria cena. A nova revisão confirmou que é suficientemente forte para aprovação definitiva.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "suisei-shoot",
+      "nome": "Suisei Shoot",
+      "acao": "buscar-novamente",
+      "estadoDepois": "revisar",
+      "classificacaoVisual": "sem-candidato",
+      "motivo": "O segundo lote também não encontrou alternativa elegível. Continuar a busca sem promover imagem inadequada.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "kamikakushi",
+      "nome": "Kamikakushi",
+      "acao": "buscar-novamente",
+      "estadoDepois": "revisar",
+      "classificacaoVisual": "sem-candidato",
+      "motivo": "Nenhuma alternativa elegível foi encontrada neste lote. Manter a referência atual em revisão e buscar novamente.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "psycho-shot",
+      "nome": "Psycho Shot",
+      "acao": "buscar-novamente",
+      "estadoDepois": "revisar",
+      "classificacaoVisual": "sem-candidato",
+      "motivo": "Nenhuma alternativa elegível foi encontrada neste lote. Manter em revisão e procurar uma cena que represente melhor a execução.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "dynamite-shoot",
+      "nome": "Dynamite Shoot",
+      "acao": "buscar-novamente",
+      "estadoDepois": "revisar",
+      "classificacaoVisual": "buscar-melhor",
+      "motivo": "A única candidata encontrada é visualmente fraca para o padrão definido e não deve substituir a referência atual. Buscar novamente.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "meteor-attack",
+      "nome": "Meteor Attack",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "aprovada",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/meteor-attack/meteor-attack__6e9a2f5126.webp",
+        "tituloArquivo": "File:Meteor Attack 1.png",
+        "ordemOriginal": 1
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "execucao-clara",
+      "motivo": "A ação da técnica é compreensível e o enquadramento é o mais forte entre as alternativas encontradas.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "cross-drive",
+      "nome": "Cross Drive",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "aprovada",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/cross-drive/cross-drive__d15ba5f5f3.webp",
+        "tituloArquivo": "File:(IE) Cross Drive 4.png",
+        "ordemOriginal": 1
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "ideal",
+      "motivo": "Mostra a técnica claramente em execução, com efeito forte e nome japonês visível. É uma melhoria substancial sobre a referência anterior.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "patriot-shoot",
+      "nome": "Patriot Shoot",
+      "acao": "buscar-novamente",
+      "estadoDepois": "revisar",
+      "classificacaoVisual": "buscar-melhor",
+      "motivo": "As alternativas deste lote mostram apenas partes pouco representativas da execução e não justificam substituir a referência atual. Buscar novamente.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "hawk-shot",
+      "nome": "Hawk Shot",
+      "acao": "buscar-novamente",
+      "estadoDepois": "revisar",
+      "classificacaoVisual": "sem-candidato",
+      "motivo": "Nenhuma alternativa elegível foi encontrada neste lote. Manter em revisão e procurar novamente.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "run-ball-run",
+      "nome": "Run Ball Run",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "revisar",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/run-ball-run/run-ball-run__2dded8082b.webp",
+        "tituloArquivo": "File:(IE) Run Ball Run 4.png",
+        "ordemOriginal": 1
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "fallback-compreensivel",
+      "motivo": "O efeito da técnica é compreensível e serve como referência funcional, mas o frame ainda não é forte o bastante para aprovação definitiva.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "corodra-shoot",
+      "nome": "Corodra Shoot",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "aprovada",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/corodra-shoot/corodra-shoot__66a4f106bc.webp",
+        "tituloArquivo": "File:Corodra Shoot.jpg",
+        "ordemOriginal": 1
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "execucao-clara",
+      "motivo": "Embora não seja uma referência perfeita, comunica de forma suficientemente clara a técnica e é melhor do que permanecer sem imagem utilizável.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "twin-boost",
+      "nome": "Twin Boost",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "aprovada",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/twin-boost/twin-boost__f428d6eebd.webp",
+        "tituloArquivo": "File:(AT) Twin Boost 6.png",
+        "ordemOriginal": 3
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "execucao-clara",
+      "motivo": "É a alternativa que melhor comunica a ação conjunta da técnica e o impacto do movimento.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "divine-arrow",
+      "nome": "Divine Arrow",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "aprovada",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/divine-arrow/divine-arrow__04f38c1937.webp",
+        "tituloArquivo": "File:(IE) Divine Arrow 5.png",
+        "ordemOriginal": 1
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "ideal",
+      "motivo": "Execução clara da técnica com nome japonês visível na própria cena. A candidata resolve adequadamente a rejeição anterior.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "honoo-no-kazamidori",
+      "nome": "Honoo no Kazamidori",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "aprovada",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/honoo-no-kazamidori/honoo-no-kazamidori__02503d4c33.webp",
+        "tituloArquivo": "File:(IE) Honoo no Kazamidori 5.png",
+        "ordemOriginal": 2
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "ideal",
+      "motivo": "Efeito da técnica muito claro, composição forte e nome japonês visível na cena.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    },
+    {
+      "id": "triangle-z",
+      "nome": "Triangle Z",
+      "acao": "selecionar-candidato",
+      "estadoDepois": "aprovada",
+      "candidatoSelecionado": {
+        "urlLocal": "/assets/hissatsu/candidatos-visuais/triangle-z/triangle-z__b0bf7a998b.webp",
+        "tituloArquivo": "File:(AT) Triangle Z 4.png",
+        "ordemOriginal": 2
+      },
+      "rejeitarDemaisCandidatosDoLote": true,
+      "classificacaoVisual": "execucao-clara",
+      "motivo": "É a alternativa mais funcional do lote para comunicar a ação da técnica e o contato decisivo com a bola.",
+      "aplicadaEm": "2026-08-17T02:51:31.180Z",
+      "statusAplicacao": "aplicada"
+    }
+  ],
+  "ultimaAplicacaoEm": "2026-08-17T02:51:31.180Z"
+}

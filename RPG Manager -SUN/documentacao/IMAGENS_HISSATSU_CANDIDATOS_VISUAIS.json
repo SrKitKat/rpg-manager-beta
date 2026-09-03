@@ -1,0 +1,1194 @@
+{
+  "versao": 1,
+  "geradoEm": "2026-08-17T01:27:14.606Z",
+  "descricao": "Camada isolada de alternativas visuais. Não altera manifesto, lote final, propostas atuais ou curadoria.",
+  "politicaVisualAlvo": [
+    "execucao-clara-com-nome-ou-kanji-quando-disponivel",
+    "execucao-clara-sem-overlay",
+    "fallback-compreensivel"
+  ],
+  "limitacaoAtual": "A versão 1.0 ainda classifica apenas por metadados; não analisa semanticamente os pixels nem executa OCR.",
+  "totalBanco": 115,
+  "processados": 50,
+  "hissatsuNaoAprovadas": 16,
+  "totalCandidatos": 30,
+  "resultados": [
+    {
+      "id": "fire-tornado",
+      "nome": "Furacão de Fogo",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "dragon-crash",
+      "nome": "Impacto Dragão",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "god-knows",
+      "nome": "Asas Celestiais",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "shippuu-dash",
+      "nome": "Deslize Veloz",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "illusion-ball",
+      "nome": "Bola Ilusória",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "the-wall",
+      "nome": "O Muro",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "god-hand",
+      "nome": "Mão Fantasma",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "majin-the-hand",
+      "nome": "Mão Demoníaca",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "inazuma-otoshi",
+      "nome": "Inazuma Otoshi",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "death-zone",
+      "nome": "Death Zone",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "the-phoenix",
+      "nome": "The Phoenix",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "heavens-time",
+      "nome": "Heaven's Time",
+      "estadoCuradoria": "revisar",
+      "ignorada": false,
+      "paginaWiki": "Heaven's Time",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Heaven's_Time",
+      "propostaAtual": {
+        "tituloArquivo": "File:(IE) Heaven's Time 7.png",
+        "urlLocal": "/assets/hissatsu/propostas/heavens-time.webp"
+      },
+      "motivo": "Candidatos isolados gerados para avaliação visual.",
+      "candidatos": [
+        {
+          "ordem": 1,
+          "tituloArquivo": "File:(IE) Heaven's Time 3.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/6/68/%28IE%29_Heaven%27s_Time_3.png/revision/latest?cb=20190113142255",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/heavens-time/heavens-time__a4ae7599d3.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1280,
+          "altura": 720,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 79928,
+          "relacaoNome": {
+            "nome": "Heaven's Time",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 2,
+          "tituloArquivo": "File:(IE) Heaven's Time 2.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/0/00/%28IE%29_Heaven%27s_Time_2.png/revision/latest?cb=20190113142255",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/heavens-time/heavens-time__fc889d7a1f.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1280,
+          "altura": 720,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 152936,
+          "relacaoNome": {
+            "nome": "Heaven's Time",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 3,
+          "tituloArquivo": "File:(IE) Heaven's Time 1.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/1/10/%28IE%29_Heaven%27s_Time_1.png/revision/latest?cb=20190113142255",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/heavens-time/heavens-time__6e57a5dd23.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1280,
+          "altura": 720,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 126530,
+          "relacaoNome": {
+            "nome": "Heaven's Time",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-tower",
+      "nome": "The Tower",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "nekketsu-punch",
+      "nome": "Nekketsu Punch",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "mugen-no-kabe",
+      "nome": "Mugen no Kabe",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "rolling-kick",
+      "nome": "Rolling Kick",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "spiral-shot",
+      "nome": "Spiral Shot",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "spinning-shoot",
+      "nome": "Spinning Shoot",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "snake-shot",
+      "nome": "Snake Shot",
+      "estadoCuradoria": "revisar",
+      "ignorada": false,
+      "paginaWiki": "Snake Shot",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Snake_Shot",
+      "propostaAtual": {
+        "tituloArquivo": "File:(IE) Snake Shot 2.png",
+        "urlLocal": "/assets/hissatsu/propostas/snake-shot.webp"
+      },
+      "motivo": "Candidatos isolados gerados para avaliação visual.",
+      "candidatos": [
+        {
+          "ordem": 1,
+          "tituloArquivo": "File:(IE) Snake Shot 5.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/8/84/%28IE%29_Snake_Shot_5.png/revision/latest?cb=20240423110831",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/snake-shot/snake-shot__7ea2e6fd5b.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1280,
+          "altura": 720,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 85702,
+          "relacaoNome": {
+            "nome": "Snake Shot",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 2,
+          "tituloArquivo": "File:(IE) Snake Shot 6.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/7/7d/%28IE%29_Snake_Shot_6.png/revision/latest?cb=20240423110833",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/snake-shot/snake-shot__93ff0c8df6.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1280,
+          "altura": 720,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 85356,
+          "relacaoNome": {
+            "nome": "Snake Shot",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 3,
+          "tituloArquivo": "File:Snake Shot (dub).png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/d/db/Snake_Shot_%28dub%29.png/revision/latest?cb=20250427182018",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/snake-shot/snake-shot__668be7d539.webp",
+          "pontosMetadados": 107,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 854,
+          "altura": 468,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 50422,
+          "relacaoNome": {
+            "nome": "Snake Shot",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "suisei-shoot",
+      "nome": "Suisei Shoot",
+      "estadoCuradoria": "revisar",
+      "ignorada": false,
+      "paginaWiki": "Suisei Shoot",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Suisei_Shoot",
+      "propostaAtual": null,
+      "motivo": "Nenhuma alternativa elegível foi baixada.",
+      "candidatos": []
+    },
+    {
+      "id": "grenade-shot",
+      "nome": "Grenade Shot",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "kamikakushi",
+      "nome": "Kamikakushi",
+      "estadoCuradoria": "revisar",
+      "ignorada": false,
+      "paginaWiki": "Kamikakushi",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Kamikakushi",
+      "propostaAtual": null,
+      "motivo": "Nenhuma alternativa elegível foi baixada.",
+      "candidatos": []
+    },
+    {
+      "id": "condor-dive",
+      "nome": "Condor Dive",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "phantom-shoot",
+      "nome": "Phantom Shoot",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "psycho-shot",
+      "nome": "Psycho Shot",
+      "estadoCuradoria": "revisar",
+      "ignorada": false,
+      "paginaWiki": "Psycho Shot",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Psycho_Shot",
+      "propostaAtual": null,
+      "motivo": "Nenhuma alternativa elegível foi baixada.",
+      "candidatos": []
+    },
+    {
+      "id": "dynamite-shoot",
+      "nome": "Dynamite Shoot",
+      "estadoCuradoria": "revisar",
+      "ignorada": false,
+      "paginaWiki": "Dynamite Shoot",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Dynamite_Shoot",
+      "propostaAtual": null,
+      "motivo": "Candidatos isolados gerados para avaliação visual.",
+      "candidatos": [
+        {
+          "ordem": 1,
+          "tituloArquivo": "File:(IE-YT (10)) Dynamite Shoot.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/cc/%28IE-YT_%2810%29%29_Dynamite_Shoot.png/revision/latest?cb=20241214220820",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/dynamite-shoot/dynamite-shoot__7d5dd37916.webp",
+          "pontosMetadados": 107,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 724,
+          "altura": 790,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 238846,
+          "relacaoNome": {
+            "nome": "Dynamite Shoot",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "tarzan-kick",
+      "nome": "Tarzan Kick",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "meteor-attack",
+      "nome": "Meteor Attack",
+      "estadoCuradoria": "revisar",
+      "ignorada": false,
+      "paginaWiki": "Meteor Attack",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Meteor_Attack",
+      "propostaAtual": null,
+      "motivo": "Candidatos isolados gerados para avaliação visual.",
+      "candidatos": [
+        {
+          "ordem": 1,
+          "tituloArquivo": "File:Meteor Attack 1.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/a/a1/Meteor_Attack_1.png/revision/latest?cb=20130627150530",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/meteor-attack/meteor-attack__6e9a2f5126.webp",
+          "pontosMetadados": 107,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 413,
+          "altura": 327,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 41234,
+          "relacaoNome": {
+            "nome": "Meteor Attack",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 2,
+          "tituloArquivo": "File:Meteor Attack 2.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/8/8c/Meteor_Attack_2.png/revision/latest?cb=20130627150530",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/meteor-attack/meteor-attack__fad7a3aaf4.webp",
+          "pontosMetadados": 107,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 413,
+          "altura": 326,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 26584,
+          "relacaoNome": {
+            "nome": "Meteor Attack",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 3,
+          "tituloArquivo": "File:Meteor Attack 3.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/a/af/Meteor_Attack_3.png/revision/latest?cb=20130627150531",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/meteor-attack/meteor-attack__f87b367745.webp",
+          "pontosMetadados": 107,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 412,
+          "altura": 326,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 42764,
+          "relacaoNome": {
+            "nome": "Meteor Attack",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "hyakuretsu-shot",
+      "nome": "Hyakuretsu Shot",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "cross-drive",
+      "nome": "Cross Drive",
+      "estadoCuradoria": "revisar",
+      "ignorada": false,
+      "paginaWiki": "Cross Drive",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Cross_Drive",
+      "propostaAtual": {
+        "tituloArquivo": "File:(IE) Cross Drive 3.png",
+        "urlLocal": "/assets/hissatsu/propostas/cross-drive.webp"
+      },
+      "motivo": "Candidatos isolados gerados para avaliação visual.",
+      "candidatos": [
+        {
+          "ordem": 1,
+          "tituloArquivo": "File:(IE) Cross Drive 4.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/4/4e/%28IE%29_Cross_Drive_4.png/revision/latest?cb=20240518222644",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/cross-drive/cross-drive__d15ba5f5f3.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1280,
+          "altura": 720,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 87026,
+          "relacaoNome": {
+            "nome": "Cross Drive",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 2,
+          "tituloArquivo": "File:(IE) Cross Drive 5.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/5/56/%28IE%29_Cross_Drive_5.png/revision/latest?cb=20240518222648",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/cross-drive/cross-drive__3f187909df.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1280,
+          "altura": 720,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 82172,
+          "relacaoNome": {
+            "nome": "Cross Drive",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 3,
+          "tituloArquivo": "File:(IE-YT (12)) Cross Drive.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/0/04/%28IE-YT_%2812%29%29_Cross_Drive.png/revision/latest?cb=20241215130620",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/cross-drive/cross-drive__954ecd34cd.webp",
+          "pontosMetadados": 107,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 725,
+          "altura": 574,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 109164,
+          "relacaoNome": {
+            "nome": "Cross Drive",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "kung-fu-head",
+      "nome": "Kung Fu Head",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "patriot-shoot",
+      "nome": "Patriot Shoot",
+      "estadoCuradoria": "revisar",
+      "ignorada": false,
+      "paginaWiki": "Patriot Shoot",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Patriot_Shoot",
+      "propostaAtual": {
+        "tituloArquivo": "File:(AT) Patriot Shoot 3.png",
+        "urlLocal": "/assets/hissatsu/propostas/patriot-shoot.webp"
+      },
+      "motivo": "Candidatos isolados gerados para avaliação visual.",
+      "candidatos": [
+        {
+          "ordem": 1,
+          "tituloArquivo": "File:(AT) Patriot Shoot 4.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/7/78/%28AT%29_Patriot_Shoot_4.png/revision/latest?cb=20180528191507",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/patriot-shoot/patriot-shoot__15e32b3f5d.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1366,
+          "altura": 768,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 132604,
+          "relacaoNome": {
+            "nome": "Patriot Shoot",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 2,
+          "tituloArquivo": "File:(AT) Patriot Shoot 5.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/c/cf/%28AT%29_Patriot_Shoot_5.png/revision/latest?cb=20180528191508",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/patriot-shoot/patriot-shoot__0eb0d1c334.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1366,
+          "altura": 768,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 113398,
+          "relacaoNome": {
+            "nome": "Patriot Shoot",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 3,
+          "tituloArquivo": "File:(AT) Patriot Shoot 6.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/6/68/%28AT%29_Patriot_Shoot_6.png/revision/latest?cb=20180528191508",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/patriot-shoot/patriot-shoot__47b81a7093.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1366,
+          "altura": 768,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 97064,
+          "relacaoNome": {
+            "nome": "Patriot Shoot",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "hawk-shot",
+      "nome": "Hawk Shot",
+      "estadoCuradoria": "revisar",
+      "ignorada": false,
+      "paginaWiki": "Hawk Shot",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Hawk_Shot",
+      "propostaAtual": null,
+      "motivo": "Nenhuma alternativa elegível foi baixada.",
+      "candidatos": []
+    },
+    {
+      "id": "dark-tornado",
+      "nome": "Dark Tornado",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "dokonjou-bat",
+      "nome": "Dokonjou Bat",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "tsuchi-daruma",
+      "nome": "Tsuchi Daruma",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "freeze-shot",
+      "nome": "Freeze Shot",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "run-ball-run",
+      "nome": "Run Ball Run",
+      "estadoCuradoria": "revisar",
+      "ignorada": false,
+      "paginaWiki": "Run Ball Run",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Run_Ball_Run",
+      "propostaAtual": {
+        "tituloArquivo": "File:(IE) Run Ball Run 3.png",
+        "urlLocal": "/assets/hissatsu/propostas/run-ball-run.webp"
+      },
+      "motivo": "Candidatos isolados gerados para avaliação visual.",
+      "candidatos": [
+        {
+          "ordem": 1,
+          "tituloArquivo": "File:(IE) Run Ball Run 4.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/b/b9/%28IE%29_Run_Ball_Run_4.png/revision/latest?cb=20240530095532",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/run-ball-run/run-ball-run__2dded8082b.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1280,
+          "altura": 720,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 96952,
+          "relacaoNome": {
+            "nome": "Run Ball Run",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 3,
+            "palavrasEncontradas": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "corodra-shoot",
+      "nome": "Corodra Shoot",
+      "estadoCuradoria": "revisar",
+      "ignorada": false,
+      "paginaWiki": "Corodra Shoot",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Corodra_Shoot",
+      "propostaAtual": null,
+      "motivo": "Candidatos isolados gerados para avaliação visual.",
+      "candidatos": [
+        {
+          "ordem": 1,
+          "tituloArquivo": "File:Corodra Shoot.jpg",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/4/4b/Corodra_Shoot.jpg/revision/latest?cb=20191007172825",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/corodra-shoot/corodra-shoot__66a4f106bc.webp",
+          "pontosMetadados": 107,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 454,
+          "altura": 338,
+          "mimeOriginal": "image/jpeg",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 32254,
+          "relacaoNome": {
+            "nome": "Corodra Shoot",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "shine-drive",
+      "nome": "Shine Drive",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "twin-boost",
+      "nome": "Twin Boost",
+      "estadoCuradoria": "revisar",
+      "ignorada": false,
+      "paginaWiki": "Twin Boost",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Twin_Boost",
+      "propostaAtual": {
+        "tituloArquivo": "File:(AT) Twin Boost 3.png",
+        "urlLocal": "/assets/hissatsu/propostas/twin-boost.webp"
+      },
+      "motivo": "Candidatos isolados gerados para avaliação visual.",
+      "candidatos": [
+        {
+          "ordem": 1,
+          "tituloArquivo": "File:(AT) Twin Boost 4.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/e8/%28AT%29_Twin_Boost_4.png/revision/latest?cb=20180610095219",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/twin-boost/twin-boost__91932c9132.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1366,
+          "altura": 768,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 121922,
+          "relacaoNome": {
+            "nome": "Twin Boost",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 2,
+          "tituloArquivo": "File:(AT) Twin Boost 5.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/1/18/%28AT%29_Twin_Boost_5.png/revision/latest?cb=20180610095220",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/twin-boost/twin-boost__1aaa32c6a7.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1366,
+          "altura": 768,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 129208,
+          "relacaoNome": {
+            "nome": "Twin Boost",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 3,
+          "tituloArquivo": "File:(AT) Twin Boost 6.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/9/9c/%28AT%29_Twin_Boost_6.png/revision/latest?cb=20180610095220",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/twin-boost/twin-boost__f428d6eebd.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1366,
+          "altura": 768,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 174012,
+          "relacaoNome": {
+            "nome": "Twin Boost",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "inazuma-break",
+      "nome": "Inazuma Break",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "inazuma-1gou",
+      "nome": "Inazuma 1gou",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "bunshin-shoot",
+      "nome": "Bunshin Shoot",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "dragon-tornado",
+      "nome": "Dragon Tornado",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "divine-arrow",
+      "nome": "Divine Arrow",
+      "estadoCuradoria": "rejeitada",
+      "ignorada": false,
+      "paginaWiki": "Divine Arrow",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Divine_Arrow",
+      "propostaAtual": {
+        "tituloArquivo": "File:(IE) Divine Arrow 4.png",
+        "urlLocal": "/assets/hissatsu/propostas/divine-arrow.webp"
+      },
+      "motivo": "Candidatos isolados gerados para avaliação visual.",
+      "candidatos": [
+        {
+          "ordem": 1,
+          "tituloArquivo": "File:(IE) Divine Arrow 5.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/e/ec/%28IE%29_Divine_Arrow_5.png/revision/latest?cb=20180317115615",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/divine-arrow/divine-arrow__04f38c1937.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1366,
+          "altura": 768,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 113272,
+          "relacaoNome": {
+            "nome": "Divine Arrow",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 2,
+          "tituloArquivo": "File:(IE) Divine Arrow 6.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/d/d0/%28IE%29_Divine_Arrow_6.png/revision/latest?cb=20180317115808",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/divine-arrow/divine-arrow__e20df8f7c7.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1366,
+          "altura": 768,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 109568,
+          "relacaoNome": {
+            "nome": "Divine Arrow",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 3,
+          "tituloArquivo": "File:(IE) Divine Arrow 7.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/0/0f/%28IE%29_Divine_Arrow_7.png/revision/latest?cb=20180317120026",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/divine-arrow/divine-arrow__204d37df63.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1366,
+          "altura": 768,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 125834,
+          "relacaoNome": {
+            "nome": "Divine Arrow",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "koutei-penguin-2gou",
+      "nome": "Koutei Penguin 2gou",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    },
+    {
+      "id": "honoo-no-kazamidori",
+      "nome": "Honoo no Kazamidori",
+      "estadoCuradoria": "revisar",
+      "ignorada": false,
+      "paginaWiki": "Honoo no Kazamidori",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Honoo_no_Kazamidori",
+      "propostaAtual": {
+        "tituloArquivo": "File:(IE) Honoo no Kazamidori 3.png",
+        "urlLocal": "/assets/hissatsu/propostas/honoo-no-kazamidori.webp"
+      },
+      "motivo": "Candidatos isolados gerados para avaliação visual.",
+      "candidatos": [
+        {
+          "ordem": 1,
+          "tituloArquivo": "File:(IE) Honoo no Kazamidori 4.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/7/7d/%28IE%29_Honoo_no_Kazamidori_4.png/revision/latest?cb=20240530102046",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/honoo-no-kazamidori/honoo-no-kazamidori__446c5e6897.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1280,
+          "altura": 720,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 97852,
+          "relacaoNome": {
+            "nome": "Honoo no Kazamidori",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 2,
+          "tituloArquivo": "File:(IE) Honoo no Kazamidori 5.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/1/1d/%28IE%29_Honoo_no_Kazamidori_5.png/revision/latest?cb=20240530102049",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/honoo-no-kazamidori/honoo-no-kazamidori__02503d4c33.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1280,
+          "altura": 720,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 133866,
+          "relacaoNome": {
+            "nome": "Honoo no Kazamidori",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        },
+        {
+          "ordem": 3,
+          "tituloArquivo": "File:(IE) Honoo no Kazamidori 6.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/8/80/%28IE%29_Honoo_no_Kazamidori_6.png/revision/latest?cb=20240530102055",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/honoo-no-kazamidori/honoo-no-kazamidori__02afadc640.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1280,
+          "altura": 720,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 122366,
+          "relacaoNome": {
+            "nome": "Honoo no Kazamidori",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 2,
+            "palavrasEncontradas": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "triangle-z",
+      "nome": "Triangle Z",
+      "estadoCuradoria": "revisar",
+      "ignorada": false,
+      "paginaWiki": "Triangle Z",
+      "fonteUrl": "https://inazuma-eleven.fandom.com/wiki/Triangle_Z",
+      "propostaAtual": {
+        "tituloArquivo": "File:(AT) Triangle Z 2.png",
+        "urlLocal": "/assets/hissatsu/propostas/triangle-z.webp"
+      },
+      "motivo": "Candidatos isolados gerados para avaliação visual.",
+      "candidatos": [
+        {
+          "ordem": 1,
+          "tituloArquivo": "File:(AT) Triangle Z 3.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/2/24/%28AT%29_Triangle_Z_3.png/revision/latest?cb=20180512083956",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/triangle-z/triangle-z__219ef80005.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1366,
+          "altura": 768,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 390252,
+          "relacaoNome": {
+            "nome": "Triangle Z",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 1,
+            "palavrasEncontradas": 1
+          }
+        },
+        {
+          "ordem": 2,
+          "tituloArquivo": "File:(AT) Triangle Z 4.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/1/1a/%28AT%29_Triangle_Z_4.png/revision/latest?cb=20180512083957",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/triangle-z/triangle-z__b0bf7a998b.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1366,
+          "altura": 768,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 89202,
+          "relacaoNome": {
+            "nome": "Triangle Z",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 1,
+            "palavrasEncontradas": 1
+          }
+        },
+        {
+          "ordem": 3,
+          "tituloArquivo": "File:(AT) Triangle Z 5.png",
+          "urlRemota": "https://static.wikia.nocookie.net/inazuma-eleven/images/4/4c/%28AT%29_Triangle_Z_5.png/revision/latest?cb=20180512083958",
+          "urlLocal": "/assets/hissatsu/candidatos-visuais/triangle-z/triangle-z__15dd3e3c92.webp",
+          "pontosMetadados": 112,
+          "indicadorMetadados": "medio",
+          "indicioAnime": false,
+          "indicioJogo": false,
+          "largura": 1366,
+          "altura": 768,
+          "mimeOriginal": "image/png",
+          "formatoReal": "webp",
+          "mimeReal": "image/webp",
+          "bytes": 99228,
+          "relacaoNome": {
+            "nome": "Triangle Z",
+            "fraseCompleta": true,
+            "cobertura": 1,
+            "totalPalavras": 1,
+            "palavrasEncontradas": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "reflect-buster",
+      "nome": "Reflect Buster",
+      "estadoCuradoria": "aprovada",
+      "ignorada": true,
+      "motivo": "Imagem já aprovada; nenhuma alternativa automática foi buscada.",
+      "candidatos": []
+    }
+  ]
+}

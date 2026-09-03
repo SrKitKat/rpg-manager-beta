@@ -1,0 +1,91 @@
+{
+  "geradoEm": "2026-09-02T05:19:44.195Z",
+  "fonteFactual": "LEVEL-5 — Inazuma Eleven: Player Codex / Inazugle",
+  "antes": {
+    "total": 315,
+    "idsUnicos": 315
+  },
+  "depois": {
+    "total": 903,
+    "idsUnicos": 903,
+    "tipos": {
+      "chute": 369,
+      "drible": 167,
+      "bloqueio": 176,
+      "defesa_goleiro": 191
+    },
+    "nomeadasPublicamente": 895,
+    "segredosOficiais": 8,
+    "ptBRVerificados": 8,
+    "inglesVerificados": 895,
+    "japonesVerificados": 895,
+    "japonesRomanizadoVerificados": 18,
+    "imagensAprovadas": 63,
+    "imagensRevisar": 596,
+    "imagensPlaceholder": 236
+  },
+  "diagnosticoCatalogo": [
+    {
+      "categoria": "Shot",
+      "esperado": 369,
+      "nomesVisiveis": 366,
+      "segredosOficiais": 3,
+      "totalEn": 369,
+      "totalJp": 369,
+      "porPaginaEn": 200,
+      "porPaginaJp": 200
+    },
+    {
+      "categoria": "Offence",
+      "esperado": 167,
+      "nomesVisiveis": 167,
+      "segredosOficiais": 0,
+      "totalEn": 167,
+      "totalJp": 167,
+      "porPaginaEn": 200,
+      "porPaginaJp": 200
+    },
+    {
+      "categoria": "Defence",
+      "esperado": 176,
+      "nomesVisiveis": 174,
+      "segredosOficiais": 2,
+      "totalEn": 176,
+      "totalJp": 176,
+      "porPaginaEn": 200,
+      "porPaginaJp": 200
+    },
+    {
+      "categoria": "Goalkeep",
+      "esperado": 191,
+      "nomesVisiveis": 188,
+      "segredosOficiais": 3,
+      "totalEn": 191,
+      "totalJp": 191,
+      "porPaginaEn": 200,
+      "porPaginaJp": 200
+    }
+  ],
+  "legadosNaoMapeados": [
+    {
+      "id": "bull-attack",
+      "nomes": [
+        "Bull Attack"
+      ]
+    },
+    {
+      "id": "horizon",
+      "nomes": [
+        "Horizon"
+      ]
+    }
+  ],
+  "observacoes": [
+    "Os totais oficiais incluem entradas que a própria LEVEL-5 ainda mostra como ???.",
+    "Slots secretos recebem ID estável e status oculta; nenhum nome é inventado.",
+    "Nomes repetidos são permitidos porque podem representar registros oficiais distintos.",
+    "IDs continuam obrigatoriamente únicos.",
+    "PT-BR e romanização só mantêm status verificado quando já eram verificados.",
+    "Imagens automáticas ficam C/revisar e nunca são autoaprovadas."
+  ]
+}
