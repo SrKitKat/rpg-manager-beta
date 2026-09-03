@@ -18,24 +18,29 @@ Deno.serve(async request => {
 
     const url = Deno.env.get("SUPABASE_URL");
     const anonKey = Deno.env.get("SUPABASE_ANON_KEY");
-    const serviceKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY");
-    if (!url || !anonKey || !serviceKey) throw new Error("Ambiente incompleto");
+    if (!url || !anonKey) throw new Error("Ambiente incompleto");
 
-    const admin = createClient(url, serviceKey, { auth: { persistSession: false, autoRefreshToken: false } });
-    const { data: profile } = await admin.from("profiles").select("id").eq("username_normalized", nome).maybeSingle();
-    if (!profile?.id) return invalido();
-    const { data: userData, error: userError } = await admin.auth.admin.getUserById(profile.id);
-    if (userError || !userData.user?.email) return invalido();
-
+    // O cadastro usa exatamente este e-mail técnico para o username normalizado.
+    // Ele nunca é exibido ao usuário e evita expor a service role no fluxo de login.
+    const internalEmail = `${nome}@accounts.rpg-manager.invalid`;
     const auth = createClient(url, anonKey, { auth: { persistSession: false, autoRefreshToken: false } });
-    const { data, error } = await auth.auth.signInWithPassword({ email: userData.user.email, password });
-    if (error || !data.session) return invalido();
+    const { data, error } = await auth.auth.signInWithPassword({ email: internalEmail, password });
+    if (error || !data.session) {
+      console.error("Falha no login por username", {
+        username: nome,
+        status: error?.status,
+        code: error?.code,
+        message: error?.message
+      });
+      return invalido();
+    }
 
     return new Response(JSON.stringify({ session: {
       access_token: data.session.access_token,
       refresh_token: data.session.refresh_token
     }}), { headers });
-  } catch {
+  } catch (error) {
+    console.error("Erro inesperado no login por username", error);
     return invalido();
   }
 });
